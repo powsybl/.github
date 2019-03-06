@@ -11,14 +11,16 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs and Suggesting Enhancements](#reporting-bugs-and-suggesting-enhancements)
   * [Contributing Code](#contributing-code)
+  * [Tools to contribute](#tools-to-contribute)
+    * [Basic Maven Usage](#basic-maven-usage)
+    * [Advanced Maven Usage](#advanced-maven-usage)
+    * [IDEs](#ides)
+      * [Intellij IDEA](#intellij-idea)
+      * [Eclipse IDE](#eclipse-ide)
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
   * [Java Styleguide](#java-styleguide)
-  * [Documentation Styleguide](#documentation-styleguide)
-
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
 
 ## Code of Conduct
 
