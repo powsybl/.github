@@ -24,3 +24,4 @@
 
 * **Other information** (e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, links for us to have context, eg. stackoverflow, gitter, etc)
 
+(if a question doesn't apply, you can delete it)
