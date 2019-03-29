@@ -213,8 +213,6 @@ PowSyBl commiters are currently:
 - Miora Ralambotiana (https://github.com/MioRtia)
 - Luis Zamarreno (https://github.com/zamarrenolm)
 
-
-
 #### Contributors
 
 Contributors are community members who either have no desire to become committers, or have not yet been given the opportunity.
