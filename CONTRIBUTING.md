@@ -22,6 +22,12 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
   * [Git Commit Messages](#git-commit-messages)
   * [Java Styleguide](#java-styleguide)
 
+[Project Governance](#project-governance)
+  * [Project Owner](#project-owner)
+  * [Commiters](#commiters)
+  * [Contributors](#contributors)
+
+
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [powsybl.ddl@rte-france.com](mailto:powsybl.ddl@rte-france.com).
@@ -187,3 +193,28 @@ public class IdentifierNetworkPredicate implements NetworkPredicate {
     }
 }
 ```
+
+## Project Governance
+
+#### Project Owner
+
+PowSyBl is part of the LF Energy Foundation, a project of The Linux Foundation that supports open source innovation projects within the energy and electricity sectors.
+
+#### Commiters
+
+Committers are contributors who have made several valuable contributions to the project and are now relied upon to both write code directly to the repository and screen the contributions of others. In many cases they are programmers but it is also possible that they contribute in a different role. Typically, a committer will focus on a specific aspect of the project, and will bring a level of expertise and understanding that earns them the respect of the community and the project owner. They constitute together the Technical Steering Commitee, which is responsible for all technical oversight of the open source PowSyBl Project.
+
+PowSyBl commiters are currently:
+- Mathieu Bague (https://github.com/mathbagu)
+- Jon Harper (https://github.com/jonenst)
+- Geoffroy Jamgotchian (https://github.com/geofjamg)
+- Sylvain Leclerc (https://github.com/sylvlecl)
+- Sébastien Murgey (https://github.com/murgeyseb)
+- Miora Ralambotiana (https://github.com/MioRtia)
+- Luis Zamarreno (https://github.com/zamarrenolm)
+
+#### Contributors
+
+Contributors are community members who either have no desire to become committers, or have not yet been given the opportunity.
+
+Anyone can become a contributor. There is no expectation of commitment to the project, no specific skill requirements and no selection process. To become a contributor, a community member simply has to perform one or more actions that are beneficial to the project.
