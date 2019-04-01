@@ -27,6 +27,7 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 [Project Governance](#project-governance)
   * [Project Owner](#project-owner)
   * [Committers](#committers)
+  * [Technical Steering Committee](#technical-steering-committee)
   * [Contributors](#contributors)
 
 
