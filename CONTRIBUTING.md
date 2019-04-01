@@ -27,7 +27,6 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 [Project Governance](#project-governance)
   * [Project Owner](#project-owner)
   * [Committers](#committers)
-  * [Technical Steering Committee](#technical-steering-committee)
   * [Contributors](#contributors)
 
 
@@ -233,7 +232,6 @@ Committers are contributors who have made several valuable contributions to the 
 The Technical Steering Committee (TSC) is composed of voting members elected by the active Committers as described in the project’s Technical Charter.
 
 PowSyBl TSC voting members are:
-
 - Mathieu Bague (https://github.com/mathbagu)
 - Jon Harper (https://github.com/jonenst)
 - Geoffroy Jamgotchian (https://github.com/geofjamg)
