@@ -30,6 +30,14 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
   * [Technical Steering Committee](#technical-steering-committee)
   * [Contributors](#contributors)
 
+[Roadmap](#roadmap)
+  * [Documentation](#documentation)
+  * [Converters](#converters)
+  * [Grid Modeling](#grid-modeling)
+  * [Simulators](#simulators)
+  * [Data management](#data-management)
+  * [Vizualisation](#data-management)
+  * [High level services](#high-level-services)
 
 ## Code of Conduct
 
@@ -55,6 +63,20 @@ $ git commit -s -m 'This is my commit message'
 
 Note that a check will be performed during the integration, indicating whether or not commits in a Pull Request do not contain a valid ````Signed-off-by```` line.
 
+The ````Signed-off-by```` line at the end of the commit message can be written automatically. You just have to configure the ```` .gitconfig```` file with the following alias :
+````
+[alias]
+    ci = commit -s
+````
+and instead of
+````
+$ git commit -m "This is my message"
+````
+you just have to write
+````
+$ git ci -m "This is my message"
+````
+Note that most of IDEs can be configured in order to add a ````Signed-off-by```` line at the end of the commit message (Intellij IDEA and Eclipse IDE for example, do not hesitate to ask us).
 
 ## How Can I Contribute?
 
@@ -239,6 +261,7 @@ PowSyBl TSC voting members are:
 - Sylvain Leclerc (https://github.com/sylvlecl)
 - Sébastien Murgey (https://github.com/murgeyseb)
 - Miora Ralambotiana (https://github.com/MioRtia)
+- Anne Tilloy (https://github.com/annetill)
 - Luis Zamarreno (https://github.com/zamarrenolm)
 
 #### Contributors
@@ -246,3 +269,65 @@ PowSyBl TSC voting members are:
 Contributors include anyone in the technical community that contributes code, documentation, or other technical artifacts to the Project.
 
 Anyone can become a contributor. There is no expectation of commitment to the project, no specific skill requirements and no selection process. To become a contributor, a community member simply has to perform one or more actions that are beneficial to the project.
+
+## Roadmap
+
+### Documentation
+- Functional documentation;
+- User stories;
+- More and more tutorials.
+
+### Converters
+
+#### CGMES
+&rarr; Importer
+- End of basic importer;
+- Diagram layout (DL) profile management;
+- Geographical location (GL) profile management;
+- Generation and Load Shit Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management;
+- Merging.
+
+&larr; Exporter
+- Incremental export;
+- Full export.
+
+#### XIIDM
+&rarr; Importer
+- Extensions management in separate files;
+- Incremental import of extensions;
+- C++ implementation.
+
+&larr; Exporter
+- Extensions management in separate files;
+- Incremental export of extensions;
+- C++ implementation.
+
+
+#### UCTE
+&larr; Exporter
+- to be done.
+
+#### JSON
+&rarr; Importer
+- to be done.
+
+### Grid Modeling
+- Decreasing compatibility management;  
+- HVDC modeling improvement;
+- DC network modeling;
+- Battery modeling.
+
+### Simulators
+- Integration of Dynawo;
+
+### Data management
+- Web services implementation in order to access to data;
+
+### Vizualisation
+- Voltage level view: necessity of having a clear and interactive image of voltage levels;
+- Substation view: necessity of having a clear image of substations;
+- Improvement of the graphical charter of electro-technical components.
+
+### High level services
+- Services packaging;
+- Containers adding.
