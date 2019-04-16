@@ -326,10 +326,9 @@ Anyone can become a contributor. There is no expectation of commitment to the pr
 - Web services implementation in order to access to data;
 
 ### Vizualisation
-- Voltage level view: necessity of having a clear and interactive image of voltage levels;
-- Substation view: necessity of having a clear image of substations;
+- Voltage level view: display clean, pretty and interactive drawings of voltage levels;
+- Substation view: display clean, pretty and interactive drawings of substations;
 - Improvement of the graphical charter of electro-technical components.
 
 ### High level services
-- Services packaging;
-- Containers adding.
+- Package and distribute computation services based on spring, as docker images;
