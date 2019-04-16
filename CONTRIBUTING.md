@@ -264,6 +264,8 @@ PowSyBl TSC voting members are:
 - Anne Tilloy (https://github.com/annetill)
 - Luis Zamarreno (https://github.com/zamarrenolm)
 
+Some committers are specialized in some field: please refer to [the maintainers table](MAINTAINERS.md) before submitting a pull request. 
+
 #### Contributors
 
 Contributors include anyone in the technical community that contributes code, documentation, or other technical artifacts to the Project.
