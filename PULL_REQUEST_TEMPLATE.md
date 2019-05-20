@@ -2,9 +2,7 @@
 - [ ] The commit message follows our guidelines
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been added / updated (for bug fixes / features)
-- [ ] This PR breaks an API or depreciate an API
-- [ ] The *Breaking Change* or *Deprecated* label has been added
-- [ ] The migration guide has been updated
+
 
 **Does this PR already have an issue describing the problem ?** *If so, link to this issue using `'#XXX'` and skip the rest*
 
@@ -22,8 +20,9 @@
 
 
 
-**Does this PR introduce a breaking change?** *(What changes might users need to make in their application due to this PR?)*
-
+**Does this PR introduce a breaking change or deprecate an API?** *If yes, check the following:*
+- [ ] The *Breaking Change* or *Deprecated* label has been added
+- [ ] The migration guide has been updated in the github wiki *(What changes might users need to make in their application due to this PR?)*
 
 
 **Other information**:
