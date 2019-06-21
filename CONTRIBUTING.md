@@ -9,6 +9,9 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 [Code of Conduct](#code-of-conduct)
 
 [License and developer Certificate of Origin](#license-and-developer-certificate-of-origin)
+  * [License](#licence)
+  * [Copyright](#Copyright)
+  * [Developer Certificate of Origin](#developer-certificate-of-origins)
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs and Suggesting Enhancements](#reporting-bugs-and-suggesting-enhancements)
@@ -264,71 +267,10 @@ PowSyBl TSC voting members are:
 - Anne Tilloy (https://github.com/annetill)
 - Luis Zamarreno (https://github.com/zamarrenolm)
 
-Some committers are specialized in some field: please refer to [the maintainers table](MAINTAINERS.md) before submitting a pull request. 
+Some committers are specialized in some field: please refer to [the maintainers table](MAINTAINERS.md) before submitting a pull request.
 
 #### Contributors
 
 Contributors include anyone in the technical community that contributes code, documentation, or other technical artifacts to the Project.
 
 Anyone can become a contributor. There is no expectation of commitment to the project, no specific skill requirements and no selection process. To become a contributor, a community member simply has to perform one or more actions that are beneficial to the project.
-
-## Roadmap
-
-### Documentation
-- Functional documentation;
-- User stories;
-- More and more tutorials.
-
-### Converters
-
-#### CGMES
-&rarr; Importer
-- End of basic importer;
-- Diagram layout (DL) profile management;
-- Geographical location (GL) profile management;
-- Generation and Load Shit Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management;
-- Merging.
-
-&larr; Exporter
-- Incremental export;
-- Full export.
-
-#### XIIDM
-&rarr; Importer
-- Extensions management in separate files;
-- Incremental import of extensions;
-- C++ implementation.
-
-&larr; Exporter
-- Extensions management in separate files;
-- Incremental export of extensions;
-- C++ implementation.
-
-
-#### UCTE
-&larr; Exporter
-- to be done.
-
-#### JSON
-&rarr; Importer
-- to be done.
-
-### Grid Modeling
-- Decreasing compatibility management;  
-- HVDC modeling improvement;
-- DC network modeling;
-- Battery modeling.
-
-### Simulators
-- Integration of Dynawo;
-
-### Data management
-- Web services implementation in order to access to data;
-
-### Vizualisation
-- Voltage level view: display clean, pretty and interactive drawings of voltage levels;
-- Substation view: display clean, pretty and interactive drawings of substations;
-- Improvement of the graphical charter of electro-technical components.
-
-### High level services
-- Package and distribute computation services based on spring, as docker images;
