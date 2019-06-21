@@ -33,15 +33,6 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
   * [Technical Steering Committee](#technical-steering-committee)
   * [Contributors](#contributors)
 
-[Roadmap](#roadmap)
-  * [Documentation](#documentation)
-  * [Converters](#converters)
-  * [Grid Modeling](#grid-modeling)
-  * [Simulators](#simulators)
-  * [Data management](#data-management)
-  * [Vizualisation](#data-management)
-  * [High level services](#high-level-services)
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [powsybl.ddl@rte-france.com](mailto:powsybl.ddl@rte-france.com).
