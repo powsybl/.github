@@ -9,7 +9,7 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 [Code of Conduct](#code-of-conduct)
 
 [License and developer Certificate of Origin](#license-and-developer-certificate-of-origin)
-  * [License](#licence)
+  * [License](#license)
   * [Copyright](#Copyright)
   * [Developer Certificate of Origin](#developer-certificate-of-origins)
 
@@ -35,7 +35,7 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [powsybl.ddl@rte-france.com](mailto:powsybl.ddl@rte-france.com).
+This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the developpers of the PowSyBl community [powsybl-dev@lists.lfenergy.org](mailto:powsybl-dev@lists.lfenergy.org).
 
 ## License and developer Certificate of Origin
 
@@ -238,7 +238,7 @@ public class IdentifierNetworkPredicate implements NetworkPredicate {
 
 #### Project Owner
 
-PowSyBl is part of the LF Energy Foundation, a project of The Linux Foundation that supports open source innovation projects within the energy and electricity sectors.
+PowSyBl is part of the [LF Energy Foundation](https://www.lfenergy.org/), a project of The Linux Foundation that supports open source innovation projects within the energy and electricity sectors.
 
 #### Committers
 
