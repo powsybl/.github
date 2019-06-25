@@ -9,9 +9,6 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 [Code of Conduct](#code-of-conduct)
 
 [License and developer Certificate of Origin](#license-and-developer-certificate-of-origin)
-  * [License](#license)
-  * [Copyright](#Copyright)
-  * [Developer Certificate of Origin](#developer-certificate-of-origins)
 
 [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs and Suggesting Enhancements](#reporting-bugs-and-suggesting-enhancements)
