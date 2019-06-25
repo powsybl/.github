@@ -64,6 +64,7 @@
 
 ## Simulators
 - Integration of [Dynawo](https://dynawo.github.io/)
+- Improving our simple load-flow used for experimental purposes
 
 ## Data management
 - Web services implementation in order to manage data stored in the Application File System (AFS)
