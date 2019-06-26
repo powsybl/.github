@@ -32,7 +32,7 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the developpers of the PowSyBl community [powsybl-dev@lists.lfenergy.org](mailto:powsybl-dev@lists.lfenergy.org).
+This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the members of the PowSyBl team [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org).
 
 ## License and developer Certificate of Origin
 
