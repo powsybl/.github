@@ -6,7 +6,7 @@
   * [Grid Modeling](#grid-modeling)
   * [Simulators](#simulators)
   * [Data management](#data-management)
-  * [Vizualisation](#data-management)
+  * [Viewing](#viewing)
   * [High level services](#high-level-services)
 
 
@@ -14,7 +14,7 @@
 - Functional documentation
 - User stories
 - More and more tutorials
-- A new web-site
+- A new website
 
 ## Demonstrator
 - Create web-based demos packaged as docker images to show the world what is PowSyBl
@@ -30,8 +30,8 @@
 - Merging
 
 &larr; Exporter
-- Incremental export : when the exported network comes originally from an input file in CIM-CGMES format, this export is used
-- Full export : otherwise this functionality is used
+- Incremental export: Export back to a CIM-CGMES file, a network imported from a CIM-CGMES file
+- Full export: Export to a CIM-CGMES file, a network imported from any supported format
 
 ### XIIDM
 &rarr; Importer
@@ -55,12 +55,12 @@
 
 ## Grid Modeling
 - Backward compatibility management
-- Three windings transformers modeling improvement : validation in progress
+- Three windings transformers modeling improvement: validation in progress
 - HVDC modeling improvement
 - DC network modeling
-- Battery modeling : done !
+- Battery modeling: done !
 - Merging view when several networks are merged
-- A listener that records events occuring on the network
+- A listener that records events occurring on the network
 
 ## Simulators
 - Integration of [Dynawo](https://dynawo.github.io/)
@@ -69,7 +69,7 @@
 ## Data management
 - Web services implementation in order to manage data stored in the Application File System (AFS)
 
-## Vizualisation
+## Viewing
 - Voltage level view: display clean, pretty and interactive drawings of voltage levels
 - Substation view: display clean, pretty and interactive drawings of substations
 - Improvement of the graphical charter of electro-technical components
