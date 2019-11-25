@@ -259,14 +259,14 @@ PowSyBl TSC voting members are:
 #### Voting
 While the Powsybl organization aims to operate as a consensus based community, a TSC vote can be required to move the Organization forward. The voting members of the TSC will vote on a one vote per voting member basis. The simple majority is needed to approve proposals. A good way to vote is to create a poll [here](https://lists.lfenergy.org/g/powsybl-tsc/addpoll).
 
-#### Responsabilities
-The Powsybl organization contains several repositories. We have at least a committer in charge by repository. By "in charge", we mean:
+#### Responsibilities
+The Powsybl project comprehends several repositories. There is at least one committer in charge of each repository. By "in charge", we mean:
 -	Best effort to review the pull request,
 -	Best effort to resolve issues,
 -	Building and publishing the releases, including writing the release notes and informing the community,
 -	In case of impossibility, the committer in charge has to ask the TSC through the list [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org) to find another committer to review the pull request, resolve the issue or build and publish the release.  
 
-Please refer to our [maintainers file](MAINTAINERS.md) to have more details about our work division.
+Please refer to our [maintainers file](MAINTAINERS.md) for more details about our work division.
 
 #### Contributors
 
