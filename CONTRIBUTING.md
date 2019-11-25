@@ -32,7 +32,7 @@ The following is a set of guidelines for contributing to PowSyBl, which are host
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the Technical Steering Committee of the PowSyBl [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-dev@lists.lfenergy.org).
+This project and everyone participating in it is governed by the [PowSyBl Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the Technical Steering Committee of the PowSyBl [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org).
 
 ## License and developer Certificate of Origin
 
@@ -77,7 +77,7 @@ Bugs and enhancement suggestions are tracked as [GitHub issues](https://guides.g
 
 Before creating bug reports or suggesting enhancement, please **perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Apowsybl)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one..
 
-You can also contact the team directly to talk about your ideas at [powsybl.ddl@rte-france.com](mailto:powsybl.ddl@rte-france.com) or chat on [Spectrum](https://spectrum.chat/powsybl).
+You can also contact the team directly to talk about your ideas at [powsybl-dev@lists.lfenergy.org](mailto:powsybl-dev@lists.lfenergy.org) or chat on [Spectrum](https://spectrum.chat/powsybl).
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
@@ -243,8 +243,9 @@ Committers are contributors who have made several valuable contributions to the 
 
 #### Technical Steering Committee
 
-The Technical Steering Committee (TSC) is composed of voting members elected by the active Committers as described in the project’s Technical Charter.
+The Technical Steering Committee (TSC) is composed of voting members elected by the active committers as described in the project’s Technical Charter. The TSC is responsible for the technical direction of the Powsybl organization.
 
+#### Members
 PowSyBl TSC voting members are:
 - Mathieu Bague (https://github.com/mathbagu)
 - Jon Harper (https://github.com/jonenst)
@@ -255,7 +256,17 @@ PowSyBl TSC voting members are:
 - Anne Tilloy (https://github.com/annetill)
 - Luis Zamarreno (https://github.com/zamarrenolm)
 
-Some committers are specialized in some field: please refer to [the maintainers table](MAINTAINERS.md) before submitting a pull request.
+#### Voting
+While the Powsybl organization aims to operate as a consensus based community, a TSC vote can be required to move the Organization forward. The voting members of the TSC will vote on a one vote per voting member basis. The simple majority is needed to approve proposals. A good way to vote is to create a poll [here](https://lists.lfenergy.org/g/powsybl-tsc/addpoll).
+
+#### Responsabilities
+The Powsybl organization contains several repositories. We have at least a committer in charge by repository. By "in charge", we mean:
+-	Best effort to review the pull request,
+-	Best effort to resolve issues,
+-	Building and publishing the releases, including writing the release notes and informing the community,
+-	In case of impossibility, the committer in charge has to ask the TSC through the list [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org) to find another committer to review the pull request, resolve the issue or build and publish the release.  
+
+Please refer to our [maintainers file](MAINTAINERS.md) to have more details about our work division.
 
 #### Contributors
 

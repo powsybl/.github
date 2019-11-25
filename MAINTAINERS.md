@@ -1,14 +1,52 @@
-Please find hereunder the maintainers of PowSyBl project. Note that some maintainers are specialized in particular modules. If your pull request concerns these modules, please ask preferably a revue from these maintainers.
+Please find hereunder our work division:
 
-Maintainer | GitHub profile |  Specialized in | Understands very well  
---- |- | - | -
-Mathieu Bague | https://github.com/mathbagu | everything | everything
-Chamseddine Benhamed | https://github.com/ChamseddineBhd | | IIDM, AFS
-Jon Harper | https://github.com/jonenst | technical revues | technical revues
-Abdelsalem Hedhili | https://github.com/AbdelHedhili | | IIDM, UCTE gateway 
-Geoffroy Jamgotchian | https://github.com/geofjamg | everything | everything
-Sylvain Leclerc | https://github.com/sylvlecl | loadflow, loadflow validation, security analysis, action simulator, math, computation and IIDM | AFS, spring
-Sébastien Murgey | https://github.com/murgeyseb | IIDM, sensitivity computation, contingencies | GSE
-Miora Ralambotiana | https://github.com/MioRtia | CGMES gateway, documentation | all gateways, tutorials
-Anne Tilloy | https://github.com/annetill | documentation | tutorials, Windows aspects
-Luis Zamarreno | https://github.com/zamarrenolm | CGMES gateway and IIDM | everything linked to electrotechnics
+**.github**
+- Review: [annetill](https://github.com/annetill)
+
+**powsybl.github.io**
+- Review: all committers
+
+**powsybl-core**
+- Review: [mathbagu](https://github.com/mathbagu), [MioRtia](https://github.com/MioRtia), [zamarrenolm](https://github.com/zamarrenolm) and [annetill](https://github.com/annetill)
+- Release: [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia)
+
+**powsybl-open-loadflow**
+- Review: [geofjamg](https://github.com/geofjamg)
+
+**powsybl-dynawo**
+- Review: [mathbagu](https://github.com/mathbagu)
+
+**powsybl-math-native**
+- Review: [geofjamg](https://github.com/geofjamg) and [mathbagu](https://github.com/mathbagu)
+- Release: [geofjamg](https://github.com/geofjamg) and [mathbagu](https://github.com/mathbagu)
+
+**powsybl-tutorials**
+- Review: [annetill](https://github.com/annetill)
+
+**powsybl-afs**
+(coming soon)
+-	Review: [pl-buiquang](https://github.com/pl-buiquang) and [geofjamg](https://github.com/geofjamg)
+-	Release: [pl-buiquang](https://github.com/pl-buiquang) (release notes) and [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia) (release upload)
+
+**powsybl-hpc**
+-	Review: [sylvlecl](https://github.com/sylvlecl) (Slurm) and [geofjamg](https://github.com/geofjamg) (MPI)
+-	Release: [sylvlecl](https://github.com/sylvlecl)
+
+**powsybl-gse**
+-	Review:[pl-buiquang](https://github.com/pl-buiquang) and [geofjamg](https://github.com/geofjamg)
+-	Release: [pl-buiquang](https://github.com/pl-buiquang) (release notes) and [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia) (release upload)
+
+**powsybl-single-line-diagram**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-network-store**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-single-line-diagram-server**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-incubator**
+- Review: all committers
