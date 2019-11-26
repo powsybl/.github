@@ -12,9 +12,11 @@ Please find hereunder our work division:
 
 **powsybl-open-loadflow**
 - Review: [geofjamg](https://github.com/geofjamg)
+- Release: [geofjamg](https://github.com/geofjamg) and [mathbagu](https://github.com/mathbagu)
 
 **powsybl-dynawo**
 - Review: [mathbagu](https://github.com/mathbagu)
+- Release: [mathbagu](https://github.com/mathbagu)
 
 **powsybl-math-native**
 - Review: [geofjamg](https://github.com/geofjamg) and [mathbagu](https://github.com/mathbagu)
@@ -25,16 +27,16 @@ Please find hereunder our work division:
 
 **powsybl-afs**
 (coming soon)
--	Review: [pl-buiquang](https://github.com/pl-buiquang) and [geofjamg](https://github.com/geofjamg)
--	Release: [pl-buiquang](https://github.com/pl-buiquang) (release notes) and [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia) (release upload)
+- Review: [pl-buiquang](https://github.com/pl-buiquang) and [geofjamg](https://github.com/geofjamg)
+- Release: [pl-buiquang](https://github.com/pl-buiquang) (release notes) and [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia) (release upload)
 
 **powsybl-hpc**
--	Review: [sylvlecl](https://github.com/sylvlecl) (Slurm) and [geofjamg](https://github.com/geofjamg) (MPI)
--	Release: [sylvlecl](https://github.com/sylvlecl)
+- Review: [sylvlecl](https://github.com/sylvlecl) (Slurm) and [geofjamg](https://github.com/geofjamg) (MPI)
+- Release: [sylvlecl](https://github.com/sylvlecl)
 
 **powsybl-gse**
--	Review:[pl-buiquang](https://github.com/pl-buiquang) and [geofjamg](https://github.com/geofjamg)
--	Release: [pl-buiquang](https://github.com/pl-buiquang) (release notes) and [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia) (release upload)
+- Review: [pl-buiquang](https://github.com/pl-buiquang) and [geofjamg](https://github.com/geofjamg)
+- Release: [pl-buiquang](https://github.com/pl-buiquang) (release notes) and [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia) (release upload)
 
 **powsybl-single-line-diagram**
 - Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
