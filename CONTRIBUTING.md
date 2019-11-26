@@ -231,6 +231,12 @@ public class IdentifierNetworkPredicate implements NetworkPredicate {
 }
 ```
 
+### English convention
+
+The convention for all PowSyBl documents, including the website, is to write American English.
+A list of spelling differences between British and American English is available 
+[here](https://www.britishcouncilfoundation.id/en/english/articles/british-and-american-english) for example.
+
 ## Project Governance
 
 #### Project Owner
