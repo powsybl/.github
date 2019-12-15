@@ -11,7 +11,6 @@ Please find hereunder our work division:
 - Release: [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia)
 
 **powsybl-open-loadflow**
-
 - Review: [geofjamg](https://github.com/geofjamg)
 - Release: [geofjamg](https://github.com/geofjamg) and [mathbagu](https://github.com/mathbagu)
 
