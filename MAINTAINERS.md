@@ -54,5 +54,25 @@ Please find hereunder our work division:
 - Review: [murgeyseb](https://github.com/murgeyseb)
 - Release: [murgeyseb](https://github.com/murgeyseb)
 
+**powsybl-case-server**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-geo-data**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-network-conversion-server**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-network-map-server**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
+**powsybl-study-server**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
 **powsybl-incubator**
 - Review: all committers
