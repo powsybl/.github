@@ -18,6 +18,10 @@ Please find hereunder our work division:
 - Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
 - Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
 
+**powsybl-cgmes-gl**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
 **powsybl-core**
 - Review: [mathbagu](https://github.com/mathbagu), [MioRtia](https://github.com/MioRtia), [zamarrenolm](https://github.com/zamarrenolm) and [annetill](https://github.com/annetill)
 - Release: [mathbagu](https://github.com/mathbagu) or [MioRtia](https://github.com/MioRtia)
