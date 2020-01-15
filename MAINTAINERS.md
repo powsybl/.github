@@ -74,5 +74,9 @@ Please find hereunder our work division:
 - Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
 - Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
 
+**powsybl-cgmes-gl**
+- Review: [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+- Release (coming soon): [geofjamg](https://github.com/geofjamg) and [jonenst](https://github.com/jonenst)
+
 **powsybl-incubator**
 - Review: all committers
