@@ -30,7 +30,7 @@ We have started to create a web-based demonstrator packaged as [docker images](h
 
 ### CIM-CGMES
 &rarr; Importer
-- End of basic importer (operational limits and HVDC conversions improvement and voltage remote regulations)
+- End of basic importer (operational limits and HVDC conversions improvement)
 - Diagram layout (DL) profile management
 - Geographical location (GL) profile management
 - Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management
@@ -65,18 +65,19 @@ The backward compatibility management has been done last year. We have now a str
 - HVDC modeling improvement
 - Operational limits modeling
 - Linear and non linear shunt compensators
-- Extenstions for automatic generation control, for monitoring
+- Extenstions for automatic generation control and for monitoring
 - DC network modeling (maybe for 2021)
 - Merging view when several networks are merged.
 - A listener that records events occurring on the network has been implemented. We have planned to functionally validate it.
 
 ## Simulators
 - Integration of [Dynawo](https://dynawo.github.io/): work in progress.
-- Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md);
+- Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md).
 
 ## Data management
 - A persistent implementation of the network core model (IIDM)
 - A persistent implementation of the triple store
+- Persistent implementation of the extensions
 
 ## Viewing
 - Voltage level view: display clean, pretty and interactive drawings of voltage levels
@@ -88,4 +89,4 @@ The backward compatibility management has been done last year. We have now a str
 - Package and distribute computation services based on spring, as docker images
 
 ## Functional tests
-We plan to validate a CIM-CGMES based workflow, focusing on the functional validation, the computation time and the memory management. The CIM-CGMES workflow consists in import networks (also called Individual Grid Model), run a power flow, merge the newtorks (topologicaly at least), run a power flow on the merged network (also called Common Grid Model), apply modifications and export the updated network(s).
+We plan to validate a CIM-CGMES based workflow, focusing on the functional validation, the computation time and the memory management. The CIM-CGMES workflow consists in importing networks (also called Individual Grid Model), running a power flow, merging the newtorks (topologicaly at least), running a power flow on the merged network (also called Common Grid Model), applying modifications and exporting the updated network(s).
