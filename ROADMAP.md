@@ -78,12 +78,18 @@ The backward compatibility management has been done last year. We have now a str
 - A persistent implementation of the network core model (IIDM)
 - A persistent implementation of the triple store
 - Persistent implementation of the extensions
+- A permissions and quotas management in the AFS
+- A log collector in the AFS
 
 ## Viewing
 - Voltage level view: display clean, pretty and interactive drawings of voltage levels
 - Substation view: display clean, pretty and interactive drawings of substations
 - Improvement of the graphical charter of electro-technical components
-- A geographical view of the network
+- A geographical web view of the network
+
+## Grid Study Environment
+- A nice view of dependant objects
+- Provide the new features of AFS in the Grid Study Environment
 
 ## High level services
 - Package and distribute computation services based on spring, as docker images
