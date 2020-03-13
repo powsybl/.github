@@ -18,7 +18,7 @@
 - A more logical plan for the website
 
 ## Demonstrator
-We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is. It will be available for everyone to experiment (the URL is coming soon !), with some great features:
+We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is: https://demo.powsybl.org/study-app/. It is available for everyone to experiment, with some great features:
 - Import networks (we are working on TSOs part of the European network)
 - Display networks on a map using CIM-CGMES Geographical Location (GL) profile
 - Display substations (single line diagram) using CIM-CGMES Diagram Layout (DL) profile
