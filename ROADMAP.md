@@ -17,7 +17,7 @@
 - More and more user stories
 - More and more tutorials
 
-## Demonstrator
+## Demonstator Grid Suite
 We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is: https://demo.powsybl.org/study-app/. It is available for everyone to experiment, with some great features:
 - Import networks (we are working on TSOs part of the European network)
 - Display networks on a map using CIM-CGMES Geographical Location (GL) profile
@@ -25,6 +25,7 @@ We have started to create a web-based demonstrator packaged as [docker images](h
 - Apply simple modifications to the network topology (tap changes, setpoints changes, status of switches)
 - Run power flows and display the calculation results
 - Run security analyses and display violations on the network map and in a synthetic table
+
 The demonstrator will be available at the end of 2020.
 
 ## Converters
@@ -32,28 +33,26 @@ The demonstrator will be available at the end of 2020.
 ### CIM-CGMES
 &rarr; Importer
 - End of basic importer of static information (operational limits to be completed): end of 2020.
-- Diagram layout (DL) profile management: done.
-- Geographical location (GL) profile management: done.
 - Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management: 2021.
 - Merging through the read-only merging view of the network: available as beta feature.
-- Improvement of HVDC modelling: the ENTSO-E WG implementation guide for DC part is not available.
+- Improvement of HVDC modelling: the ENTSO-E WG implementation guide for DC part is not available, will start just after.
 
-Pending subjects: short circuit and operation stereotypes, Dynamics profile. 
+Pending subjects: short circuit and operation stereotypes, dynamics profile. 
 
 &larr; Exporter
-- Incremental export: Export back to a CIM-CGMES file, a network imported from a CIM-CGMES file. 
+- Incremental export: export back to a CIM-CGMES file, a network that has been imported from a CIM-CGMES file. 
     - The export of the SV (only bus/branch) and the SSH profiles are available as beta features. The SV export of node/breaker topology will be available at the end of 2020.
     - TP and EQ exports: 2021.
-- Full export: Export to a CIM-CGMES file, a network imported from any supported format: 2021.
+- Full export: export to a CIM-CGMES file, a network imported from any supported format: 2021.
 
 ### XIIDM
 &rarr; Importer
-- Version management (backward and forward compatibility): done.
 - Current IIDM version for the Java implementation: 1.3
 - Current IIDM version for the C++ implementation: 1.2
 
 &larr; Exporter
-- Done!
+- Current IIDM version for the Java implementation: 1.3
+- Current IIDM version for the C++ implementation: 1.2
 
 ### UCTE
 &larr; Exporter
@@ -68,11 +67,9 @@ Pending subjects: short circuit and operation stereotypes, Dynamics profile.
 
 ## Grid modeling
 The backward compatibility management is robust. We have now a strong basis to change the core network model:
-- Three windings transformers modeling improvement: done.
 - HVDC modeling improvement: 2021.
 - Operational limits modeling: work in progress, expected end of 2020.
-- Linear and non linear shunt compensators: done.
-- Extenstions for automatic generation control and for monitoring: work in progress.
+- Extenstions for monitoring: work in progress.
 - DC network modeling (maybe for 2021).
 - Merging view when several networks are merged: we need to improve the boundary modelling in order to support hybrid merging.
 
@@ -82,11 +79,12 @@ The backward compatibility management is robust. We have now a strong basis to c
     - Support modifications on the network by the simulator.
     - Support of curves. 
 - Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md).
-    - A perfomant security analysis: work in progress.
+    - A perfomant security analysis: work in progress. Support of remedial actions in discussion.
     - Increase support of regulations: end of 2020, shunts regulation for 2021.
+    - Sensitivity computations: 2021.
    
 ## Py-powsybl
-Integration of the powsybl library in python, soltuion based on JPype. We have planned to build a prototype before the end of 2021.
+Integration of the powsybl library in python, solution based on JPype. We have planned to build a prototype before the end of 2021.
 
     
 ## Data management
