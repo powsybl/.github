@@ -12,10 +12,10 @@
 
 
 ## Documentation
+- [Expected contributions](https://github.com/powsybl/powsybl.github.io/blob/master/pages/todo/expected-contributions.md) for next months
 - Improve our functional documentation
 - More and more user stories
 - More and more tutorials
-- A more logical plan for the website
 
 ## Demonstrator
 We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is: https://demo.powsybl.org/study-app/. It is available for everyone to experiment, with some great features:
@@ -25,29 +25,35 @@ We have started to create a web-based demonstrator packaged as [docker images](h
 - Apply simple modifications to the network topology (tap changes, setpoints changes, status of switches)
 - Run power flows and display the calculation results
 - Run security analyses and display violations on the network map and in a synthetic table
+The demonstrator will be available at the end of 2020.
 
 ## Converters
 
 ### CIM-CGMES
 &rarr; Importer
-- End of basic importer (operational limits and HVDC conversions improvement)
-- Diagram layout (DL) profile management
-- Geographical location (GL) profile management
-- Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management
-- Merging through the merging view
+- End of basic importer of static information (operational limits to be completed): end of 2020.
+- Diagram layout (DL) profile management: done.
+- Geographical location (GL) profile management: done.
+- Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management: 2021.
+- Merging through the read-only merging view of the network: available as beta feature.
+- Improvement of HVDC modelling: the ENTSO-E WG implementation guide for DC part is not available.
+
+Pending subjects: short circuit and operation stereotypes, Dynamics profile. 
 
 &larr; Exporter
-- Incremental export: Export back to a CIM-CGMES file, a network imported from a CIM-CGMES file.
-- Full export: Export to a CIM-CGMES file, a network imported from any supported format.
+- Incremental export: Export back to a CIM-CGMES file, a network imported from a CIM-CGMES file. 
+    - The export of the SV (only bus/branch) and the SSH profiles are available as beta features. The SV export of node/breaker topology will be available at the end of 2020.
+    - TP and EQ exports: 2021.
+- Full export: Export to a CIM-CGMES file, a network imported from any supported format: 2021.
 
 ### XIIDM
 &rarr; Importer
-- Version management (backward and forward compatibility).
-- The C++ implementation is almost finished and will be in open source in February 2020. Then, we have planned to work on version management.
+- Version management (backward and forward compatibility): done.
+- Current IIDM version for the Java implementation: 1.3
+- Current IIDM version for the C++ implementation: 1.2
 
 &larr; Exporter
-- Version management.
-- C++ implementation is almost finished and will be in open source in February 2020. Then, we have planned to work on version management.
+- Done!
 
 ### UCTE
 &larr; Exporter
@@ -61,23 +67,30 @@ We have started to create a web-based demonstrator packaged as [docker images](h
 - to be done
 
 ## Grid modeling
-The backward compatibility management has been done last year. We have now a strong basis to change the core network model:
-- Three windings transformers modeling improvement: almost done.
-- HVDC modeling improvement
-- Operational limits modeling
-- Linear and non linear shunt compensators
-- Extenstions for automatic generation control and for monitoring
-- DC network modeling (maybe for 2021)
-- Merging view when several networks are merged.
-- A listener that records events occurring on the network has been implemented. We have planned to functionally validate it.
+The backward compatibility management is robust. We have now a strong basis to change the core network model:
+- Three windings transformers modeling improvement: done.
+- HVDC modeling improvement: 2021.
+- Operational limits modeling: work in progress, expected end of 2020.
+- Linear and non linear shunt compensators: done.
+- Extenstions for automatic generation control and for monitoring: work in progress.
+- DC network modeling (maybe for 2021).
+- Merging view when several networks are merged: we need to improve the boundary modelling in order to support hybrid merging.
 
 ## Simulators
-- Integration of [Dynawo](https://dynawo.github.io): work in progress.
+- Integration of [Dynawo](https://dynawo.github.io): feature available on a IEEE14 network.
+    - Support more and more dynawo models.
+    - Support modifications on the network by the simulator.
+    - Support of curves. 
 - Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md).
+    - A perfomant security analysis: work in progress.
+    - Increase support of regulations: end of 2020, shunts regulation for 2021.
+   
+## Py-powsybl
+Integration of the powsybl library in python, soltuion based on JPype. We have planned to build a prototype before the end of 2021.
 
+    
 ## Data management
 - A persistent implementation of the network core model (IIDM) based on [Apache Cassandra](http://cassandra.apache.org)
-- A persistent implementation of the triple store
 - A Persistent implementation of the extensions
 - A permissions and quotas management in the AFS
 - A log collector in the AFS
@@ -86,11 +99,10 @@ The backward compatibility management has been done last year. We have now a str
 - Voltage level view: display clean, pretty and interactive drawings of voltage levels
 - Substation view: display clean, pretty and interactive drawings of substations
 - Improvement of the graphical charter of electro-technical components
-- A geographical web view of the network
+- A geographical web view of the network: done
 
 ## Grid Study Environment
-- A nice view of dependencies between objects
-- Provide the new features of AFS in the Grid Study Environment
+Archived.
 
 ## High level services
 - Package and distribute computation services based on spring, as docker images
