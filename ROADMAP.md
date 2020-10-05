@@ -17,7 +17,7 @@
 - More and more user stories
 - More and more tutorials
 
-## Demonstator
+## Demonstrator
 We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is: https://demo.powsybl.org/study-app/. It is available for everyone to experiment, with some great features:
 - Import networks (we are working on TSOs part of the European network)
 - Display networks on a map using CIM-CGMES Geographical Location (GL) profile
@@ -67,7 +67,7 @@ Pending subjects: short circuit (waiting for an engine) and operation stereotype
 
 ## Grid modeling
 The backward compatibility management is robust. We have now a strong basis to change the core network model:
-- HVDC modeling improvement: 2021.
+- HVDC modelling improvement: 2021.
 - Operational limits modeling: work in progress, expected end of 2020.
 - Extenstions for monitoring: work in progress.
 - DC network modeling (maybe for 2021).
