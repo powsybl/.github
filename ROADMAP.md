@@ -17,7 +17,7 @@
 - More and more user stories
 - More and more tutorials
 
-## Demonstator Grid Suite
+## Demonstator
 We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is: https://demo.powsybl.org/study-app/. It is available for everyone to experiment, with some great features:
 - Import networks (we are working on TSOs part of the European network)
 - Display networks on a map using CIM-CGMES Geographical Location (GL) profile
