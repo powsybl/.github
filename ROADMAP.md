@@ -37,7 +37,7 @@ The demonstrator will be available at the end of 2020.
 - Merging through the read-only merging view of the network: available as beta feature.
 - Improvement of HVDC modelling: the ENTSO-E WG implementation guide for DC part is not available, will start just after.
 
-Pending subjects: short circuit and operation stereotypes, dynamics profile. 
+Pending subjects: short circuit (waiting for an engine) and operation stereotypes, dynamics profile. 
 
 &larr; Exporter
 - Incremental export: export back to a CIM-CGMES file, a network that has been imported from a CIM-CGMES file. 
@@ -79,13 +79,12 @@ The backward compatibility management is robust. We have now a strong basis to c
     - Support modifications on the network by the simulator.
     - Support of curves. 
 - Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md).
-    - A perfomant security analysis: work in progress. Support of remedial actions in discussion.
-    - Increase support of regulations: end of 2020, shunts regulation for 2021.
+    - A performant security analysis: work in progress. Support of remedial actions in discussion.
+    - Increase support of transformer regulations: end of 2020, shunt regulations for 2021.
     - Sensitivity computations: 2021.
    
 ## Py-powsybl
-Integration of the powsybl library in python, solution based on JPype. We have planned to build a prototype before the end of 2021.
-
+A solution for Python users to call Powsybl, based on JPype. We have planned to build a prototype before the end of 2020.
     
 ## Data management
 - A persistent implementation of the network core model (IIDM) based on [Apache Cassandra](http://cassandra.apache.org)
