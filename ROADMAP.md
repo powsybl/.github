@@ -89,7 +89,7 @@ The PyPowSyBl project gives access PowSyBl Java framework to Python developers. 
 ## Balances adjustment 
 Support of a constant power factor on loads during scaling, required for the European Merging Function: mid 2021.
 
-## Enstoe
+## Entsoe
 We have created a repository dedicated to components specific to ENTSO-E-orientated processes. We support here CIM-CGMES oriented control areas through `CgmesVoltageLevelsArea` object and `CgmesBoundariesArea` object useful for partial merging.
 
 We are also working on:
@@ -119,7 +119,11 @@ We are also working on:
 - Package and distribute computation services based on spring, as docker images
 
 ## Tutorials
-We plan to create a CIM-CGMES based tutorial that implements the European Merging Function. The CIM-CGMES workflow consists in importing networks (also called Individual Grid Model), running a power flow, merging the networks (topologically at least), running a power flow on the merged network (also called Common Grid Model), computing a balances adjustment based on PEVF and CGMA files containing the AC and DC positions, applying modifications and exporting the updated network(s). This tutorial will be used during interoperability tests.
+We plan to create a CIM-CGMES based tutorial that implements the European Merging Function.
+The CIM-CGMES workflow consists in importing networks (also called Individual Grid Model), running a power flow, merging the networks (topologically at least), running a power flow on the merged network (also called Common Grid Model), computing a balances adjustment based on PEVF and CGMA files containing the AC positions, applying modifications and exporting the updated network(s).
+It can be noted that only AC positions are considered since no PEVF with valid DC positions has been received on our end. If you have access to one, please let us know or join the community to contribute.
+This tutorial will be used during interoperability tests.
+
 
 ## Grid Study Environment
 Archived.
