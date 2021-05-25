@@ -1,14 +1,13 @@
 # Roadmap
 
 * [Documentation](#documentation)
-* [Demonstrator](#demonstrator)
 * [Converters](#converters)
-* [Grid modeling](#grid-modeling)
+* [Grid modelling](#grid-modelling)
 * [Simulators](#simulators)
 * [Data management](#data-management)
 * [Viewing](#viewing)
 * [High level services](#high-level-services)
-* [Functional tests](#functional-tests)
+* [Tutorials](#tutorials)
 
 
 ## Documentation
@@ -17,46 +16,37 @@
 - More and more user stories
 - More and more tutorials
 
-## Demonstrator
-We have started to create a web-based demonstrator packaged as [docker images](https://hub.docker.com/search?q=powsybl&type=image) to show the world what PowSyBl is: https://demo.powsybl.org/study-app/. It is available for everyone to experiment, with some great features:
-- Import networks (we are working on TSOs part of the European network)
-- Display networks on a map using CIM-CGMES Geographical Location (GL) profile
-- Display substations (single line diagram) using CIM-CGMES Diagram Layout (DL) profile
-- Apply simple modifications to the network topology (tap changes, setpoints changes, status of switches)
-- Run power flows and display the calculation results
-- Run security analyses and display violations on the network map and in a synthetic table
-
-The demonstrator will be available at the end of 2020.
-
 ## Converters
 
 ### CIM-CGMES
 &rarr; Importer
-- End of basic importer of static information (operational limits to be completed): end of 2020.
-- Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management: 2021.
-- Merging through the read-only merging view of the network: available as beta feature.
-- Improvement of HVDC modelling: the ENTSO-E WG implementation guide for DC part is not available, will start just after.
+- End of basic importer of static information, only improvements remain: improve the support of transformers at boundary, support of conversion of remote reactive power control, refactoring of `TieLine` in order to access directly to the underlying `DanglingLines`.
+- CIM-CGMES 3.0: test configurations for CGMES 3.0 support expected mid 2021.
+- EQ profile only: work in progress [here](https://github.com/powsybl/powsybl-core/pull/1680).
+- Improvement of HVDC modelling: the ENTSO-E WG implementation guide for DC part is available, but we are waiting for test or real cases to start. If you have some, please let us know or join the community to contribute.
+- Merging through the read-only merging view of the network: a complete implementation will be available end of 2021.
+- Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management: end of 2021.
 
 Pending subjects: short circuit (waiting for an engine) and operation stereotypes, dynamics profile. 
 
 &larr; Exporter
 - Incremental export: export back to a CIM-CGMES file, a network that has been imported from a CIM-CGMES file. 
-    - The export of the SV (only bus/branch) and the SSH profiles are available as beta features. The SV export of node/breaker topology will be available at the end of 2020.
-    - TP and EQ exports: 2021.
-- Full export: export to a CIM-CGMES file, a network imported from any supported format: 2021.
+    - The export of the SV (bus/branch and node/breaker) and the SSH profiles are available.
+    - TP export: 2022.
+- Full export: export to a CIM-CGMES file, a network imported from any supported format. The EQ profile export will be available mid 2021.
 
 ### XIIDM
 &rarr; Importer
-- Current IIDM version for the Java implementation: 1.3
-- Current IIDM version for the C++ implementation: 1.2
+- Current IIDM version for the Java implementation: 1.5
+- Current IIDM version for the C++ implementation: 1.5
 
 &larr; Exporter
-- Current IIDM version for the Java implementation: 1.3
-- Current IIDM version for the C++ implementation: 1.2
+- Current IIDM version for the Java implementation: 1.5
+- Current IIDM version for the C++ implementation: 1.5
 
 ### UCTE
 &larr; Exporter
-- Done !
+- Functional logs: work in progress in order to be compatible with a micro-services architecture. Expected end of 2021.
 
 ### JSON
 &rarr; Importer
@@ -65,44 +55,72 @@ Pending subjects: short circuit (waiting for an engine) and operation stereotype
 &larr; Exporter
 - to be done
 
-## Grid modeling
+## Grid modelling
 The backward compatibility management is robust. We have now a strong basis to change the core network model:
-- HVDC modelling improvement: 2021.
-- Operational limits modeling: work in progress, expected end of 2020.
-- Extenstions for monitoring: work in progress.
-- DC network modeling (maybe for 2021).
-- Merging view when several networks are merged: we need to improve the boundary modelling in order to support hybrid merging.
+- DC line modelling improvement and DC network modelling: 2022.
+- Extensions for monitoring: work in progress.
+- Merging view when several networks are merged: refactoring of `TieLine` expected end of 2021.
 
 ## Simulators
-- Integration of [Dynawo](https://dynawo.github.io): feature available on a IEEE14 network.
-    - Support more and more dynawo models.
-    - Support modifications on the network by the simulator.
-    - Support of curves. 
-- Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md).
-    - A performant security analysis: work in progress. Support of remedial actions in discussion.
-    - Increase support of transformer regulations: end of 2020, shunt regulations for 2021.
-    - Sensitivity computations: 2021.
+
+### Dynawo
+The integration of [Dynawo](https://dynawo.github.io) is working: feature available on a IEEE14 network. We aim to work on:  
+- Support of more dynamics models.
+- Support of automatons and events: the difficulty is that they have no place in the static grid modelling and they can involved several equipments of the network.
+- Support modifications on the network by the simulator.
+- Groovy: improve the user experience.
+- DynaFlow: support of security analysis implementation.
+
+### OpenLoadFlow
+Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md). We are still working on:
+- A faster security analysis: work in progress and expected before the end of 2021.
+- Support of DC security analysis based on the DC sensitivity analysis implementation: work in progress. 
+- Voltage control: 
+    - Transformer voltage control will be improved before the end of 2021
+    - Shunt local control is already available in a [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/191) 
+    - Support of the static var compensator slope is already available as a beta-feature in a [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/304)
+- Remote reactive power control: work in progress in this [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/266).
+- Support of Ward Injection reduction: expected before the end of 2021.
+- Sensitivity analysis: support for users. Do not hesitate to ask us for more features!
    
-## Py-powsybl
-A solution for Python users to call Powsybl, based on JPype. We have planned to build a prototype before the end of 2020.
+## Pypowsybl
+The PyPowSyBl project gives access PowSyBl Java framework to Python developers. This Python integration relies on GraalVM to compile Java code to a native library.
+
+## Balances adjustment 
+Support of a constant power factor on loads during scaling, required for the European Merging Function: mid 2021.
+
+## Enstoe
+We have created a repository dedicated to components specific to ENTSO-E-orientated processes. We support here CIM-CGMES oriented control areas through `CgmesVoltageLevelsArea` object and `CgmesBoundariesArea` object useful for partial merging.
+
+We are also working on:
+- A CNE export of security analysis results ;
+- A PEVF and CGMA importer: already available. Tests are performed through our involvement in interoperability tests. 
     
 ## Data management
-- A persistent implementation of the network core model (IIDM) based on [Apache Cassandra](http://cassandra.apache.org)
+
+### Network store
+- A persistent implementation of the network grid model (IIDM) based on [Apache Cassandra](http://cassandra.apache.org)
 - A Persistent implementation of the extensions
+
+### AFS
 - A permissions and quotas management in the AFS
 - A log collector in the AFS
+
+### Time series
 
 ## Viewing
 - Voltage level view: display clean, pretty and interactive drawings of voltage levels
 - Substation view: display clean, pretty and interactive drawings of substations
 - Improvement of the graphical charter of electro-technical components
 - A geographical web view of the network: done
-
-## Grid Study Environment
-Archived.
+- A zonal view of the network to ease operations
 
 ## High level services
 - Package and distribute computation services based on spring, as docker images
 
-## Functional tests
-We plan to validate a CIM-CGMES based workflow, focusing on the functional validation, the computation time and the memory consumption. The CIM-CGMES workflow consists in importing networks (also called Individual Grid Model), running a power flow, merging the networks (topologically at least), running a power flow on the merged network (also called Common Grid Model), applying modifications and exporting the updated network(s).
+## Tutorials
+We plan to create a CIM-CGMES based tutorial that implements the European Merging Function. The CIM-CGMES workflow consists in importing networks (also called Individual Grid Model), running a power flow, merging the networks (topologically at least), running a power flow on the merged network (also called Common Grid Model), computing a balances adjustment based on PEVF and CGMA files containing the AC and DC positions, applying modifications and exporting the updated network(s). This tutorial will be used during interoperability tests.
+
+## Grid Study Environment
+Archived.
+
