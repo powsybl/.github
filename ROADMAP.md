@@ -98,10 +98,17 @@ Ongoing and foreseen improvements include:
  - access to more equipments data (batteries ...)
  - add core IIDM extensions handling
  - access to voltage level topology views
- - improve computation parameters management (initialize from config, extensions)
+ - improve computation parameters management (initialize from config, extensions, split AC and DC parameters)
  - network variants management
  - possibility to include private plugins in the build process
-
+ - add factors specific to one contingency to sensitivity analysis
+ - add zone to slack and zone to zone factors to sensitivity analysis
+ - GLSK (UCTE and CGMES) file support  
+ - add dynamic simulation API (DynaWaltz integration)
+ - support network reduction with equivalent
+ - improve load flow performance (better integration)
+ - network elements creation
+ - network diagram generation
 
 ## Balances adjustment
 Support of a constant power factor on loads during scaling, required for the European Merging Function: mid 2021.
