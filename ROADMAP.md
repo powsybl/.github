@@ -27,10 +27,10 @@
 - Merging through the read-only merging view of the network: a complete implementation will be available end of 2021.
 - Generation and Load Shift Keys (GLSK) and Contingency list, Remedial Actions and additional Constraints (CRAC) management: end of 2021.
 
-Pending subjects: short circuit (waiting for an engine) and operation stereotypes, dynamics profile. 
+Pending subjects: short circuit (waiting for an engine) and operation stereotypes, dynamics profile.
 
 &larr; Exporter
-- Incremental export: export back to a CIM-CGMES file, a network that has been imported from a CIM-CGMES file. 
+- Incremental export: export back to a CIM-CGMES file, a network that has been imported from a CIM-CGMES file.
     - The export of the SV (bus/branch and node/breaker) and the SSH profiles are available.
     - TP export: 2022.
 - Full export: export to a CIM-CGMES file, a network imported from any supported format. The EQ profile export will be available mid 2021.
@@ -74,19 +74,36 @@ The integration of [Dynawo](https://dynawo.github.io) is working: feature availa
 ### OpenLoadFlow
 Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md). We are still working on:
 - A faster security analysis: work in progress and expected before the end of 2021.
-- Support of DC security analysis based on the DC sensitivity analysis implementation: work in progress. 
-- Voltage control: 
+- Support of DC security analysis based on the DC sensitivity analysis implementation: work in progress.
+- Voltage control:
     - Transformer voltage control will be improved before the end of 2021
-    - Shunt local control is already available in a [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/191) 
+    - Shunt local control is already available in a [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/191)
     - Support of the static var compensator slope is already available as a beta-feature in a [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/304)
 - Remote reactive power control: work in progress in this [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/266).
 - Support of Ward Injection reduction: expected before the end of 2021.
 - Sensitivity analysis: support for users. Do not hesitate to ask us for more features!
-   
-## Pypowsybl
-The PyPowSyBl project gives access PowSyBl Java framework to Python developers. This Python integration relies on GraalVM to compile Java code to a native library.
 
-## Balances adjustment 
+### Security analysis API
+The security analysis API will evolve to:
+ - be consistent with other, renewed, computations API (loadflow for example)
+ - provide the possibility to retrieve more information than just violations :
+   currents and flow on specified branches, voltages on specified voltage levels
+
+## Pypowsybl
+The PyPowSyBl project gives access PowSyBl Java framework to Python developers.
+This Python integration relies on GraalVM to compile Java code to a native library.
+
+Ongoing and foreseen improvements include:
+ - improve the [documentation](https://pypowsybl.readthedocs.io/en/latest/) and provide notebooks examples
+ - access to more equipments data (batteries ...)
+ - add core IIDM extensions handling
+ - access to voltage level topology views
+ - improve computation parameters management (initialize from config, extensions)
+ - network variants management
+ - possibility to include private plugins in the build process
+
+
+## Balances adjustment
 Support of a constant power factor on loads during scaling, required for the European Merging Function: mid 2021.
 
 ## Entsoe
@@ -94,8 +111,8 @@ We have created a repository dedicated to components specific to ENTSO-E-orienta
 
 We are also working on:
 - A CNE export of security analysis results ;
-- A PEVF and CGMA importer: already available. Tests are performed through our involvement in interoperability tests. 
-    
+- A PEVF and CGMA importer: already available. Tests are performed through our involvement in interoperability tests.
+
 ## Data management
 
 ### Network store
@@ -105,6 +122,8 @@ We are also working on:
 ### AFS
 - A permissions and quotas management in the AFS
 - A log collector in the AFS
+- Storing nodes data as plain files
+- Mixed app storage implementation (files for data, cassandra for tree structure ...)
 
 ### Time series
 
@@ -127,4 +146,3 @@ This tutorial will be used during interoperability tests.
 
 ## Grid Study Environment
 Archived.
-
