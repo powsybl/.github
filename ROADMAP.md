@@ -70,6 +70,8 @@ The integration of [Dynawo](https://dynawo.github.io) is working: feature availa
 - Support modifications on the network by the simulator.
 - Groovy: improve the user experience.
 - DynaFlow: support of security analysis implementation.
+- Support of DSA, dynamic security analysis: 2022.
+- Support of margin calculation: 2022.
 
 ### OpenLoadFlow
 Improving our open load flow used for tests, experimental and collaboration purposes. For more information, please read the [README file](https://github.com/powsybl/powsybl-open-loadflow/blob/master/README.md). We are still working on:
@@ -82,16 +84,17 @@ Improving our open load flow used for tests, experimental and collaboration purp
 - Remote reactive power control: work in progress in this [branch](https://github.com/powsybl/powsybl-open-loadflow/pull/266).
 - Support of Ward Injection reduction: expected before the end of 2021.
 - Sensitivity analysis: support for users. Do not hesitate to ask us for more features!
+- Refactoring: we want to increase our network listener that updates automatically the equation system. It is needed to better manage controls.
+- Increase security analysis and sensitivity analysis: support of all type of contingencies, support of all kind of operational limits, etc. 
 
 ### Security analysis API
 The security analysis API will evolve to:
  - be consistent with other, renewed, computations API (loadflow for example)
- - provide the possibility to retrieve more information than just violations :
+ - provide the possibility to retrieve more information than just violations:
    currents and flow on specified branches, voltages on specified voltage levels
 
 ## Pypowsybl
-The PyPowSyBl project gives access PowSyBl Java framework to Python developers.
-This Python integration relies on GraalVM to compile Java code to a native library.
+The PyPowSyBl project gives access PowSyBl Java framework to Python developers. This Python integration relies on GraalVM to compile Java code to a native library.
 
 Ongoing and foreseen improvements include:
  - improve the [documentation](https://pypowsybl.readthedocs.io/en/latest/) and provide notebooks examples
@@ -127,12 +130,13 @@ We are also working on:
 - A Persistent implementation of the extensions
 
 ### AFS
-- A permissions and quotas management in the AFS
-- A log collector in the AFS
 - Storing nodes data as plain files
 - Mixed app storage implementation (files for data, cassandra for tree structure ...)
 
 ### Time series
+We are working on a time series store for an efficient storing and requesting of time series we need for our use cases:
+- In long-term studies, we store and request load and production stochastic forecasts over a complete year (see [Metrix simulation](https://www.powsybl.org/pages/documentation/simulation/metrix/)).
+- In dynamic simulation, we have to store the time-domain results. 
 
 ## Viewing
 - Voltage level view: display clean, pretty and interactive drawings of voltage levels
