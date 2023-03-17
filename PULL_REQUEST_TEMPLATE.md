@@ -5,7 +5,7 @@
 - [ ] Docs have been added / updated (for bug fixes / features)
 
 
-**Does this PR already have an issue describing the problem ?**
+**Does this PR already have an issue describing the problem?**
 <!-- If so, link to this issue using `'#XXX'` and skip the rest -->
 
 
