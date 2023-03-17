@@ -6,7 +6,7 @@
 
 
 **Does this PR already have an issue describing the problem?**
-<!-- If so, link to this issue using `'#XXX'` and skip the rest -->
+<!-- If so, link to this issue using `'Fixes #XXX'` and skip the rest -->
 
 
 
