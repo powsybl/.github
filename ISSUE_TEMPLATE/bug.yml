@@ -1,0 +1,60 @@
+name: Bug Report
+description: File a bug/issue report
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Bug Report 🐛
+        
+        Thanks for taking the time to fill out this bug report!
+
+        Please answer each question below to your best ability. It is okay to leave questions blank if you have to!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the current behavior
+      description: What is the current behavior?
+      placeholder: Something is wrong with X when trying to do Y
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Describe the expected behavior
+      description: What is the expected behavior?
+      placeholder: Calling X when Y should return Z
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Describe the steps
+      description: Please provide the steps to reproduce and if possible a minimal demo of the problem
+      placeholder: |
+        - Step 1: ...
+        - Step 2: ...
+        - ...
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Please tell us about your environment
+      placeholder: |
+        - PowSyBl Artifact Version: ...
+        - OS Version: ...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant log output.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra Information
+      description: Any extra information, e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, links for us to have context, eg. stackoverflow, etc
+
