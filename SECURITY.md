@@ -26,7 +26,7 @@ For new pull requests, we rely on Sonarcloud analysis that has [security-related
 
 ###  Powsybl governance
 
-All the developers allowed to merge new code are committers. They are experienced developers, known from the community. They have this right because they are competent enough to. All pull requests must have at least one approval for merge on main branch. Some pull requests need two approvals when the impacts are large. Thus, all the commits integrated on main branches are reviewed and approved by at least one committer. The members of the TSC are all committers, which list is available [here](https://www.powsybl.org/pages/overview/governance). The other committers are:
+All the developers allowed to merge new code are committers. They are experienced developers, known from the community. They have this right because they are competent enough to. All pull requests must have at least one approval for merge on main branch. Some pull requests need two approvals when the impacts are large. Thus, all the commits integrated on main branches are reviewed and approved by at least one committer. The members of the TSC are all committers, its list is available [here](https://www.powsybl.org/pages/overview/governance). The other committers are:
 
 - [Sophie Fransedo](https://github.com/So-Fras)
 - [Sébestion Murgey](https://github.com/orgs/powsybl/people/murgeyseb)
