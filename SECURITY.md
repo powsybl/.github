@@ -6,7 +6,7 @@ The available compatible releases are listed in [powsybl-dependencies](https://g
 
 ## Reporting a vulnerability
 
-Please report security vulnerability, suspected or confirmed, to the Technical Steering Committee [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org). You can also report totally privately to the Chair of TSC [Anne Tilloy](anne.tilloy@rte-france.com). If the issue if confirmed, we could inform the library users and release a patch as soon as possible depending on the complexity. Important: do not use public issues for security vulnerabilities.
+Please report any security vulnerability, suspected or confirmed, to the Technical Steering Committee [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org). You can also report totally privately to the Chair of TSC [Anne Tilloy](anne.tilloy@rte-france.com). If the issue is confirmed, we will inform the library users and release a patch as soon as possible depending on the complexity. Important: do not use public issues for security vulnerabilities.
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some python or Java code, screenshots) and the effects.
 
