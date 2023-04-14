@@ -15,7 +15,7 @@ Github reports automatically vulnerabilities, in opening pull requests. The fixe
 ## When to report a vulnerability
 
 - When you think that Powsybl has a potential security vulnerability.
-- When you suspect a potential vulnerability but you are not sure that it impacts Powsybl.
+- When you suspect a potential vulnerability but you are not sure if or how it would impact Powsybl.
 - When you know or suspect a vulnerability on another project that is used by Powsybl.
 
 ## Security on new code
