@@ -22,7 +22,7 @@ Github automatically reports vulnerabilities in opening pull requests. The fixes
 
 ### Sonarcloud analysis
 
-For new pull requests, we rely on Sonarcloud analysis that has [security-related rules](https://docs.sonarcloud.io/digging-deeper/security-related-rules/). The pull request cannot be merged with any vulnerability or hotspot rules is violated.
+For new pull requests, we rely on Sonarcloud analysis that has [security-related rules](https://docs.sonarcloud.io/digging-deeper/security-related-rules/). The pull request cannot be merged if any vulnerability or hotspot rule is violated.
 
 ###  Powsybl governance
 
