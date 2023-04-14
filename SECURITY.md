@@ -10,7 +10,7 @@ Please report any security vulnerability, suspected or confirmed, to the Technic
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some python or Java code, screenshots) and the effects.
 
-Github reports automatically vulnerabilities, in opening pull requests. The fixes are usually available for the next version, but could lead to a patch depending on the severity.
+Github automatically reports vulnerabilities in opening pull requests. The fixes are usually available for the next version, but could lead to a patch depending on the severity.
 
 ## When to report a vulnerability
 
