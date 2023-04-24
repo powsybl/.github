@@ -95,8 +95,8 @@ In order to release a PowSyBl repository, you must first:
          ...
          <server>
              <id>ossrh</id>
-             <username>SONARTYPE_LOGIN</username>
-             <password>SONARTYPE_PASSWORD</password>
+             <username>SONATYPE_LOGIN</username>
+             <password>SONATYPE_PASSWORD</password>
          </server>
 </servers>
 - ```
@@ -149,7 +149,7 @@ If an issue occurs at any time during the releasing process, do not hesitate to 
 
 ### Differences for a corrective release
 
-Please note that there are some differences in the process when you're publishing a corrective release or a patch, which version respects the pattern `vX.Y.Z' with Z different from 0.
+Please note that there are some differences in the process when you're publishing a corrective release or a patch, which version respects the pattern `vX.Y.Z` with Z different from 0.
 
 First checkout to the previous `vX.Y.*` release or if a patch has already been released, on the `release-vX.Y` branch instead of the `main` branch.
 ```shell
@@ -171,7 +171,7 @@ And bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
 $ git commit -s -m "Bump to X.Y.Z"
-$ git push -u origin release-vX.Y0 --force-with-lease
+$ git push -u origin release-vX.Y.0 --force-with-lease
 ```
 
 You can then create a Release note and tag via the GitHub UI, using directly the release branch. The tag must respect the pattern `vX.Y.Z`
