@@ -12,7 +12,7 @@ Points below detail the policy that determines in our repositories which branche
 
 The default branch is named `main` and is protected. Commits can be merged only via pull requests passing different checks:
 - Compiling through Ubuntu OS, MacOS and Windows OS without failing
-- Having a testing coverage greater than 80%
+- Having a testing coverage greater than 90% for powsybl-open-loadflow and powsybl-diagram, 80% for the other repositories
 - Succeeding in Sonarcloud checks without blocking failures (rules available [here](https://sonarcloud.io/organizations/powsybl-ci-github/rules)
 - At least one reviewer, different from the pull request's author, must have approved the pull request
 - Each commits must be signed correctly
@@ -60,7 +60,7 @@ Our release train consists in the release of:
 For each released repository:
 - a release note is written by one of the repository's committer
 - in case of breaking changes, a migration guide is written by one or several of the repository's developers
-- its latest version is updated on the [repositories' pages](../documentation/developer/repositories/index.md)
+- its latest version is updated on the [repositories' pages](https://www.powsybl.org/pages/documentation/developer/repositories/)
 - its latest version is updated in [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies)
 
 Once all the repositories have been released
@@ -144,6 +144,8 @@ $ mvn deploy -Prelease
 Your release will then be deployed in Sonatype. The complete documentation to release from your staging repository in Sonatype is detailed [here](https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository).
 
 Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
+
+If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to leave an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa).
 
 ### Differences for a corrective release
 
