@@ -124,7 +124,7 @@ $ git push -u origin tmp_prepare_release
 ```
 
 Create a pull request from your temporary branch into the `main` branch and tag another maintainer as a reviewer so they can approve it.
-Once it is approved, then merge it with the option `Rebase and merge`.
+Once it is approved, merge it with the option `Rebase and merge`.
 
 You can then create a Release note and tag via the GitHub UI, using the hash of the corresponding commit (bumping to vX.Y.0). The tag must respect the pattern `vX.Y.0`
 Please make sure that your release note is comprehensive to all new features and bug fixes of the release and that the migration guide has been updated if necessary.
