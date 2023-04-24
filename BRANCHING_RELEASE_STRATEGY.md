@@ -136,6 +136,7 @@ Please make sure that your release note is comprehensive to all new features and
 On your repository, checkout to the release tag. You can then package and deploy your release:
 ```shell
 $ git checkout tags/vX.Y.0
+$ mvn dependency:purge-local-repository
 $ mvn clean package -Prelease
 $ mvn deploy -Prelease
 ```
