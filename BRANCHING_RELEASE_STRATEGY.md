@@ -156,7 +156,7 @@ First checkout to the previous `vX.Y.*` release or if a patch has already been r
 $ git checkout tags/vX.Y.0
 $ git checkout -b release-vX.Y.0
 ```
-or
+or (if a patch has already been released)
 ```shell
 $ git checkout release-vX.Y.0
 ```
