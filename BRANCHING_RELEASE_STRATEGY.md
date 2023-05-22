@@ -13,7 +13,7 @@ Points below detail the policy that determines in our repositories which branche
 The default branch is named `main` and is protected. Commits can be merged only via pull requests passing different checks:
 - Compiling through Ubuntu OS, MacOS and Windows OS without failing
 - Having a testing coverage greater than 90% for powsybl-open-loadflow and powsybl-diagram, 80% for the other repositories
-- Succeeding in Sonarcloud checks without blocking failures (rules available [here](https://sonarcloud.io/organizations/powsybl-ci-github/rules)
+- Succeeding in Sonarcloud checks without blocking failures (rules available [here](https://sonarcloud.io/organizations/powsybl-ci-github/rules))
 - At least one reviewer, different from the pull request's author, must have approved the pull request
 - Each commits must be signed correctly
 - WIP status must be cleared
