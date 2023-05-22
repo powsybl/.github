@@ -58,7 +58,7 @@ Our release train consists in the release of:
 - [powsybl-entsoe and its sub-modules](https://github.com/powsybl/powsybl-entsoe)
 
 For each released repository:
-- a release note is written by one of the repository's committer
+- a release note is written by one of the repository's committers
 - in case of breaking changes, a migration guide is written by one or several of the repository's developers
 - its latest version is updated on the [repositories' pages](https://www.powsybl.org/pages/documentation/developer/repositories/)
 - its latest version is updated in [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies)
