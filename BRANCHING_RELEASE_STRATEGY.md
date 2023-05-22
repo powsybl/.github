@@ -151,7 +151,7 @@ If an issue occurs at any time during the releasing process, do not hesitate to 
 
 Please note that there are some differences in the process when you're publishing a corrective release or a patch, which version respects the pattern `vX.Y.Z` with Z different from 0.
 
-First checkout to the previous `vX.Y.*` release or if a patch has already been released, on the `release-vX.Y` branch instead of the `main` branch.
+First checkout to the previous `vX.Y.*` release or if a patch has already been released, on the `release-vX.Y.0` branch instead of the `main` branch.
 ```shell
 $ git checkout tags/vX.Y.0
 $ git checkout -b release-vX.Y.0
