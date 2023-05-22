@@ -177,5 +177,5 @@ $ git push -u origin release-vX.Y.0 --force-with-lease
 You can then create a Release note and tag via the GitHub UI, using directly the release branch. The tag must respect the pattern `vX.Y.Z`
 Please make sure that your release note is comprehensive to all bug fixes of the corrective release.
 
-You shall then follow the steps described above in [Publishing a relelease](#publishing-a-release).
+You shall then follow the steps described above in [Publishing a release](#publishing-a-release).
 
