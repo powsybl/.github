@@ -138,7 +138,7 @@ On your repository, checkout to the release tag. You can then package and deploy
 $ git checkout tags/vX.Y.0
 $ mvn dependency:purge-local-repository
 $ mvn clean package -Prelease
-$ mvn deploy -Prelease
+$ mvn deploy -Prelease -DskipTests
 ```
 
 Your release will then be deployed in Sonatype. The complete documentation to release from your staging repository in Sonatype is detailed [here](https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository).
