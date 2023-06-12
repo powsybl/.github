@@ -99,7 +99,7 @@ In order to release a PowSyBl repository, you must first:
              <password>SONATYPE_PASSWORD</password>
          </server>
 </servers>
-- ```
+```
 
 ### Generating a release tag
 
