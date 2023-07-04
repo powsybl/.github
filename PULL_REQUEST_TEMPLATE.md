@@ -25,9 +25,18 @@
 
 
 **Does this PR introduce a breaking change or deprecate an API?**
-<!-- If yes, check the following: -->
+- [ ] Yes
+- [ ] No
+
+**If yes, please check if the following requirements are fulfilled**
+<!-- If no breaking changes or API deprecations were introduced, delete this section -->
 - [ ] The *Breaking Change* or *Deprecated* label has been added
-- [ ] The migration guide has been updated in the github wiki *(What changes might users need to make in their application due to this PR?)*
+- [ ] The migration steps are described in the following section
+
+**What changes might users need to make in their application due to this PR? (migration steps)**
+<!-- If this PR introduces a breaking change, describe the migration steps -->
+<!-- The content of this section will be copied in the migration guide -->
+
 
 
 **Other information**:
