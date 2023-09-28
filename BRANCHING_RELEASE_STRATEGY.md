@@ -67,6 +67,7 @@ Once all the repositories have been released
 - [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies) is released
 - its latest version is updated in [powsybl-starter](https://github.com/powsybl/powsybl-starter)
 - its latest version is updated in [powsybl-distribution](https://github.com/powsybl/powsybl-distribution)
+  - a `Release CI` GitHub workflow run produces a zipped file (`powsybl-distribution-xxx.zip`) which must be attached to the release
 - its latest version is updated in [powsybl-integration-test](https://github.com/powsybl/powsybl-integration-test)
 
 Then, a communication on the LFE mailing list [powsybl-announce](https://lists.lfenergy.org/g/powsybl-announce/)
@@ -163,8 +164,8 @@ $ git checkout release-vX.Y.0
 
 You can then cherry-pick the commits of your patch:
 ```shell
-$ git cherry-pick <commit1_hash>
-$ git cherry-pick <commit2_hash>
+$ git cherry-pick -x <commit1_hash>
+$ git cherry-pick -x <commit2_hash>
 ...
 ```
 And bump to the patched version:
