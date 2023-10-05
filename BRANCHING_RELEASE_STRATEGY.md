@@ -162,6 +162,12 @@ or (if a patch has already been released)
 $ git checkout release-vX.Y.0
 ```
 
+Next, open the new release:
+```shell
+$ mvn versions:set -DnewVersion=X.Y.Z-SNAPSHOT
+$ git commit -s -m "Bump to vX.Y.Z-SNAPSHOT"
+```
+
 You can then cherry-pick the commits of your patch:
 ```shell
 $ git cherry-pick -x <commit1_hash>
@@ -171,7 +177,7 @@ $ git cherry-pick -x <commit2_hash>
 And bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
-$ git commit -s -m "Bump to X.Y.Z"
+$ git commit -s -m "Bump to vX.Y.Z"
 $ git push -u origin release-vX.Y.0 --force-with-lease
 ```
 
