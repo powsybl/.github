@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-The available compatible releases are listed in [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies). In case of vulnerability fix, the main branches are first fixed. The fix will be available for the next release train. In case of vulnerability of high or critical severity, the previous and more recent versions are patched.
+The available compatible releases are listed in [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies). In case of vulnerability fix, the main branches are first fixed. The fix will be available for the next release train. In case of vulnerability of high or critical severity, the most recent version is patched.
 
 ## Reporting a vulnerability
 
