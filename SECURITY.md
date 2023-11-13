@@ -1,5 +1,10 @@
 # Security policy
 
+## Warning to users
+
+PowSyBl is a library dedicated to electrical grid modelling and simulation. As such, it includes data importers to feed the calculations. Please make sure your data come from a safe source.
+PowSyBl also provides a persistent IIDM implementation by offering the possibility to connect to an external PostgreSQL database. If you use this feature, please make sure your login and password are secure and safely stored.
+
 ## Supported versions
 
 The available compatible releases are listed in [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies). In case of vulnerability fix, the main branches are first fixed. The fix will be available for the next release train. In case of vulnerability of high or critical severity, the most recent version is patched.
