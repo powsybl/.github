@@ -3,6 +3,7 @@
 ## Warning to users
 
 PowSyBl is a library dedicated to electrical grid modelling and simulation. As such, it includes data importers to feed the calculations. Please make sure your data comes from a safe source.
+
 PowSyBl also provides a persistent IIDM implementation by offering the possibility to connect to an external PostgreSQL database. If you use this feature, please make sure your login and password are secure and safely stored.
 
 ## Reporting a vulnerability
