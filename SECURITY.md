@@ -31,25 +31,26 @@ Only the most recent version will include the patch (through the usual release t
 
 ### Be harmless on user environment
 
-The PowSyBl code is executed on users own environment. The code has to do what it says it does and nothing more. For example, we do not want to introduce a bitcoin mining piece of software into a user server.
+The PowSyBl code is executed on users environments. Using the PowSyBl code must not cause damage to the users environments.
 
 ### Be safe with user data
-
-PowSyBl is a library. No piece of software that allows data exfiltration from a user environement should be allowed.
+The PowSyBl code is executed on users data. Using the PowSyBl code must not compromise the data.
 
 ## Threat model
 
-### Making profit of known vulnerabilities / bad design principles
+### Take advantage of known vulnerabilities / bugs / bad design principles
 
-An ill-intentionned developer may try to use known vulnerabilities from external dependencies used by PowSyBl or take advantage of bad design principles.
+An attacker interacting with user systems powered by PowSyBl may try to use known vulnerabilities from external dependencies or take advantage of bugs or bad design principles.
 
 ### Making a malicious Pull Request
 
-An ill-intentionned developer may try to push a pull request implementing a gateway to get hold of confidential data or even, as previously stated, implementing a bitcoin miner inside a user server.
+An attacker may try to push a malicious pull request, deliberatly introducing security vulnerabilities.
 
-### Attacking PowSyBl servers
+## Unapplicable threats
 
-An ill-intentionned developer may try to attack or access PowSyBl servers.
+### Unapplicable: attacks on infrastructure
+
+PowSyBl has no calculation or database servers. All calculations are run on a user environment and databases belong to users too.
 
 ## Implemented measures
 
@@ -59,15 +60,27 @@ In order to meet the PowSyBl security requirements and avoid possible threats, t
 
 #### Regular checks on dependency vulnerabilities
 
-Checks on known dependency vulnerabilities are automatically performed through GitHub actions. We pay attention to keep our dependency versions up-to-date, especially when releasing a new PowSyBl version, to benefit from the latest security patches.
+Checks on known dependency vulnerabilities are automatically performed through GitHub actions. 
 
-#### Up to date Java version
+#### Recent Java version
 
-We use a recent Java version so that users can benefit from the latest security improvements.
+We support recent Java versions so that users can benefit from the latest security improvements.
+
+#### Controlled dependency update
+
+We pay attention to keep our dependency versions up-to-date and also make sure the new versions are safe. This allows PowSyBl to benefit from the latest security patches, while ensuring a protection against supply-chain attacks.
 
 #### Sonarcloud analysis
 
 For new pull requests, we rely on Sonarcloud analysis that has [security-related rules](https://docs.sonarcloud.io/digging-deeper/security-related-rules/). The pull request cannot be merged if any vulnerability or hotspot rule is violated.
+
+#### Open source and community
+
+We encourage our users to report and investigate any vulnerability according to the recommendations of this document.
+
+#### Developers best practices
+
+We encourage contributors to use strong security practices (GPG keys, 2FA, safe and up-to-date operating systems, development tools and web browsers, etc.).
 
 ###  PowSyBl governance to control the merge of Pull Requests
 
@@ -77,6 +90,4 @@ All pull requests must have at least one approval to be merged on the main branc
 - [Sophie Frasnedo](https://github.com/So-Fras)
 - [Sébastien Murgey](https://github.com/orgs/powsybl/people/murgeyseb)
 
-### No PowSyBl infrastructure
 
-PowSyBl has no calculation or database servers for users. All calculations are run on a user environment and databases belong to users too. Thus, no attacks on PowSyBl servers could harm users.
