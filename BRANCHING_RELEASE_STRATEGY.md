@@ -20,7 +20,7 @@ The default branch is named `main` and is protected. Commits can be merged only 
 
 ### Release branches
 
-Release branches, which pattern is  `release-v*..*`, are created from the corresponding tag `v*.*` each time a corrective release is needed.
+Release branches, which pattern is  `release-v*.*.0`, are created from the corresponding tag `v*.*.0` each time a corrective release is needed.
 Only [maintainers](MAINTAINERS.md) can create or force-push into these branches.
 Other members must create a pull request to do push into these branches and pass the same checks as the `main` branch.
 These branches are always up to the most recent patch of the release.
@@ -178,7 +178,7 @@ And bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
 $ git commit -s -m "Bump to vX.Y.Z"
-$ git push -u origin release-vX.Y.0 --force-with-lease
+$ git push -u origin release-vX.Y.0
 ```
 
 You can then create a Release note and tag via the GitHub UI, using directly the release branch. The tag must respect the pattern `vX.Y.Z`
