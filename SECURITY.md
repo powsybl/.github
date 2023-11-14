@@ -1,26 +1,24 @@
 # Security policy
 
-## Warning to users
-
-PowSyBl is a library dedicated to electrical grid modelling and simulation. As such, it includes data importers to feed the calculations. Please make sure your data comes from a safe source.
-
-PowSyBl also provides a persistent IIDM implementation by offering the possibility to connect to an external PostgreSQL database. If you use this feature, please make sure your login and password are secure and safely stored.
-
 ## Reporting a vulnerability
 
-Please report any **high-severity** security vulnerability, suspected or confirmed, to the Technical Steering Committee [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org).
+Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to the Technical Steering Committee [TO-BE-AMENDED@lists.lfenergy.org](mailto:TO-BE-AMENDED@lists.lfenergy.org).
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
 For **moderate or low-severity** security vulnerabilities, you can use public Github issues. 
 
-After reporting a potential vulnerability, you will be contacted by a PowSyBl team member within 7 calendar days. If the report proves to be a vulnerability, the library users will be informed and the vulnerability will be patched within 30 calendar days for high-severity vulnerability or in the next release train for moderate to low-severity security vulnerabilities.
+In order to help you assess the severity of the potential vulnerability, you can use the [Apache severity rating](https://security.apache.org/blog/severityrating/).
+
+If you are not sure whether the issue should be reported privately or publicly, please make a private report.
+
+After reporting a potential vulnerability, you will be contacted by a PowSyBl team member within 7 calendar days. If the report proves to be a vulnerability, the library users will be informed and the vulnerability will be patched within 30 calendar days for critical or important vulnerabilities or in the next release train for moderate to low-severity vulnerabilities.
 
 ## When to report a vulnerability
 
 - When you think that PowSyBl has a potential security vulnerability.
 - When you suspect a potential vulnerability but you are not sure if or how it would impact PowSyBl.
-- When you know or suspect a vulnerability on another project that is used by PowSyBl.
+- When you know or suspect a vulnerability on a dependency used by PowSyBl.
 
 ## Supported versions
 
@@ -34,7 +32,8 @@ Only the most recent version will include the patch (through the usual release t
 The PowSyBl code is executed on users environments. Using the PowSyBl code must not cause damage to the users environments.
 
 ### Be safe with user data
-The PowSyBl code is executed on users data. Using the PowSyBl code must not compromise the data.
+
+The PowSyBl code is executed on users data. Using the PowSyBl code must not compromise the users data.
 
 ## Threat model
 
@@ -44,13 +43,18 @@ An attacker interacting with user systems powered by PowSyBl may try to use know
 
 ### Making a malicious Pull Request
 
-An attacker may try to push a malicious pull request, deliberatly introducing security vulnerabilities.
+An attacker may try to push a malicious pull request, deliberatly introducing security vulnerabilities in PowSyBl source code.
 
-## Unapplicable threats
+## Out of frame
 
 ### Unapplicable: attacks on infrastructure
 
-PowSyBl has no calculation or database servers. All calculations are run on a user environment and databases belong to users too.
+PowSyBl has no user-dedicated calculation or database servers. All calculations are run on a user environment and databases belong to users too.
+
+### Out of scope: security on user environment
+
+PowSyBl is a library. The user is responsible for the security of the surrounding system (calculation servers, databases etc.).
+PowSyBl includes data importers to feed the calculations. Even though we enforce strong security principles and use Sonar as a safeguard, making sure your data comes from a safe source is an additional protection.
 
 ## Implemented measures
 
@@ -62,9 +66,9 @@ In order to meet the PowSyBl security requirements and avoid possible threats, t
 
 Checks on known dependency vulnerabilities are automatically performed through GitHub actions. 
 
-#### Recent Java version
+#### Recent Java and Python versions
 
-We support recent Java versions so that users can benefit from the latest security improvements.
+We support recent Java and Python versions so that users can benefit from the latest security improvements.
 
 #### Controlled dependency update
 
@@ -80,14 +84,21 @@ We encourage our users to report and investigate any vulnerability according to 
 
 #### Developers best practices
 
-We encourage contributors to use strong security practices (GPG keys, 2FA, safe and up-to-date operating systems, development tools and web browsers, etc.).
+We encourage contributors to use strong security practices (GPG keys, safe and up-to-date operating systems, development tools and web browsers, etc.).
 
-###  PowSyBl governance to control the merge of Pull Requests
+###  PowSyBl governance to control the merge of Pull Requests and the release process
 
-All the developers allowed to merge new code are committers. They are experienced developers, known from the community. They have this right because they are competent enough. During the review process, they make sure that the pushed code is harmless to environments and data, without any malicious part, before giving their approval.
-All pull requests must have at least one approval to be merged on the main branch. Some pull requests need two approvals when the impacts are significant. Thus, all the commits integrated on main branches are reviewed and approved by at least one committer. The members of the TSC are all committers. The list of TSC members is available [here](https://www.powsybl.org/pages/overview/governance). The other committers are:
+All the developers allowed to merge new code are maintainers. They are experienced developers, known from the community. They have this right because they are competent enough. During the review process, they make sure that the pushed code is harmless to environments and data, without any malicious part, before giving their approval.
+All pull requests must have at least one approval to be merged on the main branch. Some pull requests need two approvals when the impacts are significant. Thus, all the commits integrated on main branches are reviewed and approved by at least one maintainer. 
+
+The same goes for releases: only a maintainer of a repository can release this repository.
+
+The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/overview/governance). The other maintainers are:
 
 - [Sophie Frasnedo](https://github.com/So-Fras)
-- [Sébastien Murgey](https://github.com/orgs/powsybl/people/murgeyseb)
+- [Sébastien Murgey](https://github.com/murgeyseb)
+- [Olivier Perrin](https://github.com/olperr1)
+
+
 
 
