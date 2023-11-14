@@ -55,6 +55,7 @@ PowSyBl has no user-dedicated calculation or database servers. All calculations 
 
 PowSyBl is a library. The user is responsible for the security of the surrounding system (calculation servers, databases etc.).
 PowSyBl includes data importers to feed the calculations. Even though we enforce strong security principles and use Sonar as a safeguard, making sure your data comes from a safe source is an additional protection.
+Furthermore, if you use Groovy scripts, make sure they are not corrupted.
 
 ## Implemented measures
 
@@ -66,9 +67,9 @@ In order to meet the PowSyBl security requirements and avoid possible threats, t
 
 Checks on known dependency vulnerabilities are automatically performed through GitHub actions. 
 
-#### Recent Java and Python versions
+#### Recent Java, Python and Groovy versions
 
-We support recent Java and Python versions so that users can benefit from the latest security improvements.
+We support recent Java, Python and Groovy versions so that users can benefit from the latest security improvements.
 
 #### Controlled dependency update
 
