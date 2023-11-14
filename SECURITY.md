@@ -53,9 +53,11 @@ PowSyBl has no user-dedicated calculation or database servers. All calculations 
 
 ### Out of scope: user environment
 
-PowSyBl is a library. The user is responsible for the security of the surrounding system (calculation servers, databases etc.).
+The user is responsible for the security of the surrounding system. When using pypowsybl or itools.sh, do not execute untrusted commands or scripts. When using powsybl in servers, apply security best practices for all associated servers.
+
 PowSyBl includes data importers to feed the calculations. Even though we enforce strong security principles and use Sonar as a safeguard, making sure your data comes from a safe source is an additional protection.
-Furthermore, if you use Groovy scripts, make sure they are not compromised.
+
+Furthermore, if you use external Groovy scripts as data postprocessors or configuration DSLs, make sure they are not compromised.
 
 ## Implemented measures
 
