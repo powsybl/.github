@@ -45,13 +45,13 @@ An attacker interacting with user systems powered by PowSyBl may try to use know
 
 An attacker may try to push a malicious pull request, deliberatly introducing security vulnerabilities in PowSyBl source code.
 
-## Out of frame
+## Non-relevant threats
 
-### Unapplicable: attacks on infrastructure
+### Unapplicable: infrastructure
 
 PowSyBl has no user-dedicated calculation or database servers. All calculations are run on a user environment and databases belong to users too.
 
-### Out of scope: security on user environment
+### Out of scope: user environment
 
 PowSyBl is a library. The user is responsible for the security of the surrounding system (calculation servers, databases etc.).
 PowSyBl includes data importers to feed the calculations. Even though we enforce strong security principles and use Sonar as a safeguard, making sure your data comes from a safe source is an additional protection.
