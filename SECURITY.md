@@ -2,7 +2,12 @@
 
 ## Reporting a vulnerability
 
-Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to the Technical Steering Committee [TO-BE-AMENDED@lists.lfenergy.org](mailto:TO-BE-AMENDED@lists.lfenergy.org).
+Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to this subgroup of PowSyBl maintainers:
+- [Anne Tilloy](anne.tilloy@rte-france.com)
+- [Florian Dupuy](florian.dupuy@rte-france.com)
+- [Olivier Perrin](olivier.perrin@rte-france.com)
+- [Sophie Frasnedo](sophie.frasnedo@rte-france.com)
+- [Jon Schumacher](jon.harper@rte-france.com)
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
