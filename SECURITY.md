@@ -11,7 +11,7 @@ Please report any **critical** or **important** security vulnerability, suspecte
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
-For **moderate or low-severity** security vulnerabilities, you can use public Github issues. 
+For **moderate** or **low-severity** security vulnerabilities, you can use public Github issues. 
 
 In order to help you assess the severity of the potential vulnerability, you can use the [Apache severity rating](https://security.apache.org/blog/severityrating/).
 
