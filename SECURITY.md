@@ -7,7 +7,7 @@ Please report any **critical** or **important** security vulnerability, suspecte
 - [Florian Dupuy](florian.dupuy@rte-france.com)
 - [Olivier Perrin](olivier.perrin@rte-france.com)
 - [Sophie Frasnedo](sophie.frasnedo@rte-france.com)
-- [Jon Schumacher](jon.harper@rte-france.com)
+- [Jon Schuhmacher](jon.harper@rte-france.com)
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
