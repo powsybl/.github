@@ -19,6 +19,8 @@ If you are not sure whether the issue should be reported privately or publicly, 
 
 After reporting a potential vulnerability, you will be contacted by a PowSyBl team member within 7 calendar days. If the report proves to be a vulnerability, the library users will be informed and the vulnerability will be patched within 30 calendar days for critical or important vulnerabilities or in the next release train for moderate to low-severity vulnerabilities.
 
+For security patch releases (outside the release train), the **repositories concerned by the vulnerability** and the **powsybl-dependencies repository** will be released. The powsybl-starter and powsybl-distribution repositories will be released upon request only.
+
 ## When to report a vulnerability
 
 - When you think that PowSyBl has a potential security vulnerability.
