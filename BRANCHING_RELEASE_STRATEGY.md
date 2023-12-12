@@ -103,18 +103,18 @@ In order to release a PowSyBl repository, you must first:
 ```
 - add the PGP/GPG key to your Github account:
 
-	- Start by fetching the public id of the GPG key you want to use:
+1. Start by fetching the public id of the GPG key you want to use:
 
 ```shell
 $ gpg --list-secret-keys --keyid-format=long
 ```
- 	- Generate the key to the ASCII armor format, which is the accepted Github format:
+2. Generate the key to the ASCII armor format, which is the accepted Github format:
 
 ```shell
 $ gpg --armor --export <key_ID>
 ```
 
-	- Copy-paste the output of the previous command into Github (your profile > SSH and GPG keys):
+3. Copy-paste the output of the previous command into Github (your profile > SSH and GPG keys):
 
 ```shell
 -----BEGIN PGP PUBLIC KEY BLOCK-----
