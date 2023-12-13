@@ -154,6 +154,7 @@ Once it is approved, locally merge it by following these steps:
 $ git ckeckout main
 $ git pull
 $ git merge --ff tmp_prepare_release
+$ git push
 ```
 After that, create your tag:
 ```shell
