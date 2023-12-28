@@ -151,7 +151,7 @@ $ git push -u origin tmp_prepare_release
 Create a pull request from your temporary branch into the `main` branch and tag another maintainer as a reviewer so they can approve it.
 Once it is approved, locally merge it by following these steps:
 ```shell
-$ git ckeckout main
+$ git checkout main
 $ git pull
 $ git merge --ff tmp_prepare_release
 $ git push
