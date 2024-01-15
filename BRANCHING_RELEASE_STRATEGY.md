@@ -101,6 +101,30 @@ In order to release a PowSyBl repository, you must first:
          </server>
 </servers>
 ```
+- add the PGP/GPG key to your Github account:
+  
+  1. Start by fetching the public id of the GPG key you want to use:
+  
+  ```shell
+  $ gpg --list-secret-keys --keyid-format=long
+  ```
+  2. Generate the key to the ASCII armor format, which is the accepted Github format:
+  
+  ```shell
+  $ gpg --armor --export <key_ID>
+  ```
+  
+  3. Copy-paste the output of the previous command into Github (your profile > SSH and GPG keys):
+  
+  ```shell
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  
+  ...
+  
+  
+  -----END PGP PUBLIC KEY BLOCK-----
+  ```
+
 
 ### Generating a release tag
 
@@ -118,16 +142,29 @@ You can then push this branch.
 ```shell
 $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.0
-$ git commit -s -m "Bump to vX.Y.0"
+$ git commit -s -a -S -m "Bump to vX.Y.0"
 $ mvn versions:set -DnewVersion=X.Y+1.0-SNAPSHOT
 $ git commit -s -m "Bump to vX.Y+1.0-SNAPSHOT"
 $ git push -u origin tmp_prepare_release
 ```
 
 Create a pull request from your temporary branch into the `main` branch and tag another maintainer as a reviewer so they can approve it.
-Once it is approved, merge it with the option `Rebase and merge`. **DO NOT squash the commit!**
+Once it is approved, locally merge it by following these steps:
+```shell
+$ git checkout main
+$ git pull
+$ git merge --ff tmp_prepare_release
+$ git push
+```
+After that, create your tag:
+```shell
+$ git tag -s vX.Y.0 <hash of the corresponding commit (bumping to vX.Y.0)>
+$ git push origin vX.Y.0
+```
+NB: the tag must respect the pattern `vX.Y.0`.
 
-You can then create a Release note and tag via the GitHub UI, using the hash of the corresponding commit (bumping to vX.Y.0). The tag must respect the pattern `vX.Y.0`
+You can then publish a Release note pointing to your newly created tag. 
+
 Please make sure that your release note is comprehensive to all new features and bug fixes of the release and that the migration guide has been updated if necessary.
 
 ### Publishing a release
