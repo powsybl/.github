@@ -214,11 +214,19 @@ $ git cherry-pick -x <commit2_hash>
 And bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
-$ git commit -s -m "Bump to vX.Y.Z"
+$ git commit -s -a -S -m "Bump to vX.Y.Z"
 $ git push -u origin release-vX.Y.0
 ```
 
-You can then create a Release note and tag via the GitHub UI, using directly the release branch. The tag must respect the pattern `vX.Y.Z`
+After that, create your tag:
+```shell
+$ git tag -s vX.Y.Z <hash of the corresponding commit (bumping to vX.Y.Z)>
+$ git push origin vX.Y.Z
+```
+NB: the tag must respect the pattern `vX.Y.Z`.
+
+You can then publish a Release note pointing to your newly created tag.
+
 Please make sure that your release note is comprehensive to all bug fixes of the corrective release.
 
 You shall then follow the steps described above in [Publishing a release](#publishing-a-release).
