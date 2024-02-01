@@ -56,6 +56,7 @@ Our release train consists in the release of:
 - [powsybl-dynawo and its sub-modules](https://github.com/powsybl/powsybl-dynawo)
 - [pypowsybl](https://github.com/powsybl/pypowsybl)
 - [powsybl-entsoe and its sub-modules](https://github.com/powsybl/powsybl-entsoe)
+- [powsybl-open-rao and its sub-modules](https://github.com/powsybl/powsybl-open-rao)
 
 For each released repository:
 - a release note is written by one of the repository's committers
