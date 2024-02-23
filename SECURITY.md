@@ -107,7 +107,9 @@ The members of the TSC are all maintainers. The list of TSC members is available
 
 - [Jean-Pierre Arnould](https://github.com/jipea)
 - [Martin Belthle](https://github.com/MartinBelthle)
+- [Mohamed Ben Rejeb](https://github.com/benrejebmoh)
 - [Antoine Bouhours](https://github.com/antoinebhs)
+- [Thomas Bouquet](https://github.com/bqth29)
 - [Gautier Bureau](https://github.com/gautierbureau)
 - [Sophie Frasnedo](https://github.com/So-Fras)
 - [Marianne Funfrock](https://github.com/marifunf)
