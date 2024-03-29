@@ -76,7 +76,6 @@ html_theme_options = {
             "icon": "fab fa-github-square",
         }
     ],
-    "navbar_start": ["navbar-brand-powsybl"],
     # the following 3 lines enable edit button
     "source_repository": "https://github.com/powsybl/.github",
     "source_branch": "main",
