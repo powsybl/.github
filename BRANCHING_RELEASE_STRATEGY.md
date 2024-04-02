@@ -145,7 +145,7 @@ $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.0
 $ git commit -s -a -S -m "Bump to vX.Y.0"
 $ mvn versions:set -DnewVersion=X.Y+1.0-SNAPSHOT
-$ git commit -s -m "Bump to vX.Y+1.0-SNAPSHOT"
+$ git commit -s -a -m "Bump to vX.Y+1.0-SNAPSHOT"
 $ git push -u origin tmp_prepare_release
 ```
 
@@ -203,7 +203,7 @@ $ git checkout release-vX.Y.0
 Next, open the new release:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z-SNAPSHOT
-$ git commit -s -m "Bump to vX.Y.Z-SNAPSHOT"
+$ git commit -s -a -m "Bump to vX.Y.Z-SNAPSHOT"
 ```
 
 You can then cherry-pick the commits of your patch:
