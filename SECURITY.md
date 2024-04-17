@@ -105,9 +105,20 @@ The same goes for releases: only a maintainer of a repository can release this r
 
 The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/overview/governance). The other maintainers are:
 
+- [Jean-Pierre Arnould](https://github.com/jipea)
+- [Martin Belthle](https://github.com/MartinBelthle)
+- [Mohamed Ben Rejeb](https://github.com/benrejebmoh)
+- [Antoine Bouhours](https://github.com/antoinebhs)
+- [Thomas Bouquet](https://github.com/bqth29)
+- [Gautier Bureau](https://github.com/gautierbureau)
 - [Sophie Frasnedo](https://github.com/So-Fras)
+- [Marianne Funfrock](https://github.com/marifunf)
+- [Peter Mitri](https://github.com/pet-mit)
+- [Godelaine De Montmorillon](https://github.com/Godelaine)
 - [Sébastien Murgey](https://github.com/murgeyseb)
 - [Olivier Perrin](https://github.com/olperr1)
+- [Nicolas Rol](https://github.com/rolnico)
+- [Manuel Ruiz](https://github.com/klorel)
 
 
 
