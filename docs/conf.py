@@ -10,7 +10,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+import datetime
 import os
+import re
 import sys
 
 # Path to python sources, for doc generation on readthedocs
@@ -21,9 +23,13 @@ print(f'appended {source_path}')
 
 # -- Project information -----------------------------------------------------
 
-project = 'PowSyBl'
-copyright = '2024, RTE (http://www.rte-france.com)'
+# Only those 4 parameters have to be modified for each specific repository
+project = 'powsybl'
+module_name = "powsybl"
+github_repository = "https://github.com/powsybl/.github/"
 
+# Build year for the copyright
+copyright_year = f'2018-{ datetime.datetime.now().year }'
 
 # -- General configuration ---------------------------------------------------
 
@@ -31,6 +37,7 @@ copyright = '2024, RTE (http://www.rte-france.com)'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.autosectionlabel',
               'sphinx.ext.autosummary',
               'sphinx.ext.viewcode',
               'sphinx.ext.doctest',
@@ -38,11 +45,14 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.todo',
               'sphinx.ext.intersphinx',
               'sphinx_tabs.tabs',
-              'myst_parser']
+              'myst_parser',
+              # Extension used to add a "copy" button on code blocks
+              'sphinx_copybutton']
 myst_enable_extensions = [
     "amsmath",
     "colon_fence",
-    "dollarmath"
+    "dollarmath",
+    "attrs_inline"
 ]
 myst_heading_anchors = 6
 
@@ -54,6 +64,10 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
+# Reference sections generation
+autosectionlabel_prefix_document = True
+autosectionlabel_maxdepth = 2
+
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -62,18 +76,22 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = "furo"
 
-html_title = 'PowSyBl'
-html_short_title = 'PowSyBl'
+html_title = module_name
 
 html_logo = '_static/logos/logo_lfe_powsybl.svg'
 html_favicon = "_static/favicon.ico"
 
+html_context = {
+    "copyright_year": copyright_year,
+    "sidebar_logo_href": "https://powsybl.readthedocs.io/",
+    "github_repository": github_repository
+}
+
 html_theme_options = {
     # the following 3 lines enable edit button
-    "source_repository": "https://github.com/powsybl/.github",
+    "source_repository": github_repository,
     "source_branch": "main",
     "source_directory": "docs/",
-    "sidebar_hide_name": True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -86,6 +104,8 @@ todo_include_todos = True
 
 # Links to external documentations : python 3 and pandas
 intersphinx_mapping = {
-
 }
 intersphinx_disabled_reftypes = ["*"]
+
+# Generate one file per method
+autosummary_generate = True
