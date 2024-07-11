@@ -11,7 +11,7 @@
 🙋‍♀️ A short introduction - what is our organization all about?
 
 
-PowSyBl (**Pow**er **Sy**stem **Bl**ocks) is an open-source framework, dedicated to the modeling, simulation, and visualization of electrical networks. The power system blocks can be used through scripts for a quick setup, but they can also be assembled to build state-of-the-art applications.
+PowSyBl (**Pow**er **Sy**stem **Bl**ocks) is an open-source library, dedicated to the modeling, simulation, and visualization of electrical networks. The power system blocks can be used through scripts for a quick setup, but they can also be assembled to build state-of-the-art applications.
 
 PowSyBl commons include:
 - A human-readable grid model that is fully extendable and supports merging of networks;
