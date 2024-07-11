@@ -15,7 +15,7 @@ PowSyBl (**Pow**er **Sy**stem **Bl**ocks) is an open-source framework, dedicated
 
 PowSyBl commons include:
 - A human-readable grid model that is fully extendable and supports merging of networks;
-- The ability to provide network area diagrams and substation single-line diagrams;
+- The ability to provide network-area diagrams and substation single-line diagrams;
 - The ability to read and write a wide variety of formats, such as CIM-CGMES, UCTE, IEEE-CDF, Matpower, PSSE, PowerFactory;
 - The ability to run load flows, security analyses with remedial actions, sensitivity analyses, and short-circuit analyses;
 - The ability to run dynamic simulations and dynamic security analyses;
@@ -27,7 +27,7 @@ A key feature of PowSyBl is its modular design, which is at the heart of the ope
 
 More comfortable with Python? Use our PowSyBl Python binding called PyPowSyBl, which utilizes our industrial Java blocks.
 
-PowSyBl is part of the [LF Energy Foundation](https://www.lfenergy.org), a project of The Linux Foundation that supports open-source innovation projects to accelerate the Energy Transition.
+PowSyBl is part of the [LF Energy](https://www.lfenergy.org), a project of The Linux Foundation that supports open-source innovation projects to accelerate the energy transition.
 
 
 
@@ -45,7 +45,7 @@ PowSyBl is part of the [LF Energy Foundation](https://www.lfenergy.org), a proje
 - Join the community on [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-rzvbuzjk-nxi0boim1RKPS5PjieI0rA), ask for help, report bugs, help other users, provide feedback, present your use cases, etc.
 - [Contribute in the code](https://www.powsybl.org/pages/contributing/);
 - Contribute in our functional and technical roadmap by joining our Technical Steering Committees;
-- Provide feedback on the tool directly to the Lf Energy Foundation! 
+- Provide feedback on the tool directly to the LF Energy ! 
 
 
 
