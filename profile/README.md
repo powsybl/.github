@@ -45,11 +45,4 @@ PowSyBl is part of the [LF Energy](https://www.lfenergy.org), a project of The L
 - Join the community on [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-rzvbuzjk-nxi0boim1RKPS5PjieI0rA), ask for help, report bugs, help other users, provide feedback, present your use cases, etc.
 - [Contribute in the code](https://www.powsybl.org/pages/contributing/);
 - Contribute in our functional and technical roadmap by joining our Technical Steering Committees;
-- Provide feedback on the tool directly to the LF Energy ! 
-
-
-
-🍿 Fun facts - what does our team eat for breakfast?
-
-- Bugs
-
+- Provide feedback on the tool directly to the LF Energy !
