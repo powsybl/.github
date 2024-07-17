@@ -21,7 +21,7 @@ After the testing period, the release train starts with powsybl-core followed by
 
 Those dependencies are pictured in the diagram below.
 
-![release-train](/_static/img/releaseTrainDependencies.png)
+![release-train](/_static/img/releaseTrainDependencies.svg)
 
 ## The powsybl-dependencies artifact
 
