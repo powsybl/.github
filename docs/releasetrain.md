@@ -23,6 +23,10 @@ Those dependencies are pictured in the diagram below.
 
 ![release-train](/_static/img/releaseTrainDependencies.svg)
 
+For each released repository:
+- A release note is written by one of the repository's committer;
+- In case of breaking changes, a migration guide is written by one or several of the repository's developers.
+
 ## The powsybl-dependencies artifact
 
 After the six repositories have been released, a new version of [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies) is created.
@@ -33,3 +37,7 @@ The powsybl-dependencies artifact helps projects with dependency management by g
 Following [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies), [powsybl-starter](https://github.com/powsybl/powsybl-starter) is released. This artifact is meant for beginners. By including this sole dependency in their pom.xml, new users get access to the main features of the library. They can start exploring very quickly without bothering about specific dependencies.
 
 The [powsybl-distribution](https://github.com/powsybl/powsybl-distribution) artifact is then released. It allows users to download a [.zip file](https://github.com/powsybl/powsybl-distribution/releases) that allows them to use PowSyBl from the command line.
+
+## Communication
+
+Finally, a communication on the LFE mailing list [powsybl-announce](https://lists.lfenergy.org/g/powsybl-announce/) is done by one of PowSyBl's committers to announce the new release train and its main features.
