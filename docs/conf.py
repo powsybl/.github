@@ -102,7 +102,7 @@ html_css_files = ['styles/styles.css']
 
 todo_include_todos = True
 
-# Links to external documentations : python 3 and pandas
+# Links to external documentations: powsybl-core
 intersphinx_mapping = {
     "powsyblcore": ("https://powsybl.readthedocs.io/projects/powsybl-core/en/latest/", None),
 }
