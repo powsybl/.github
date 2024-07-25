@@ -113,6 +113,7 @@ The members of the TSC are all maintainers. The list of TSC members is available
 - [Gautier Bureau](https://github.com/gautierbureau)
 - [Sophie Frasnedo](https://github.com/So-Fras)
 - [Marianne Funfrock](https://github.com/marifunf)
+- [Hugo Kulesza](https://github.com/HugoKulesza)
 - [Peter Mitri](https://github.com/pet-mit)
 - [Godelaine De Montmorillon](https://github.com/Godelaine)
 - [Sébastien Murgey](https://github.com/murgeyseb)
