@@ -1,6 +1,6 @@
 # Release train 🚂
 
-The release train consists of six repositories: 
+The release train consists of six repositories that are released every two to three months: 
 
 - [powsybl-core](https://github.com/powsybl/powsybl-core)
 - [powsybl-diagram](https://github.com/powsybl/powsybl-diagram)
