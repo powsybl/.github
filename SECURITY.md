@@ -3,11 +3,11 @@
 ## Reporting a vulnerability
 
 Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to this subgroup of PowSyBl maintainers:
-- [Anne Tilloy](anne.tilloy@rte-france.com)
-- [Florian Dupuy](florian.dupuy@rte-france.com)
-- [Olivier Perrin](olivier.perrin@rte-france.com)
-- [Sophie Frasnedo](sophie.frasnedo@rte-france.com)
-- [Jon Schuhmacher](jon.harper@rte-france.com)
+- [Anne Tilloy](mailto:anne.tilloy@rte-france.com)
+- [Florian Dupuy](mailto:florian.dupuy@rte-france.com)
+- [Olivier Perrin](mailto:olivier.perrin@rte-france.com)
+- [Sophie Frasnedo](mailto:sophie.frasnedo@rte-france.com)
+- [Jon Schuhmacher](mailto:jon.harper@rte-france.com)
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
