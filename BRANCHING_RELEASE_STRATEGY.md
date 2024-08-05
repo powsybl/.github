@@ -36,7 +36,7 @@ Other members must create a pull request to do push into these branches and pass
 
 ## Release cycle
 
-A new release train of the framework occurs roughly every two months.
+A new release train of the framework occurs roughly every two or three months.
 
 In case of structural issues, corrective releases can also be published for some repositories.
 These corrective releases are motivated by users' demand so don't hesitate to [contact us](https://www.powsybl.org/pages/community/).
@@ -61,7 +61,6 @@ Our release train consists in the release of:
 For each released repository:
 - a release note is written by one of the repository's committers
 - in case of breaking changes, a migration guide is written by one or several of the repository's developers
-- its latest version is updated on the [repositories' pages](https://www.powsybl.org/pages/documentation/developer/repositories/)
 - its latest version is updated in [powsybl-dependencies](https://github.com/powsybl/powsybl-dependencies)
 
 Once all the repositories have been released
