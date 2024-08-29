@@ -4,12 +4,41 @@ Follow these simple steps to get familiar with the PowSyBl environment. Below ar
 
 Please note that this PowSyBl distribution is functional on Windows and Linux but is not supported for MacOS yet.
 
-## Installation from binaries
+## Installation
+
+### Installation from binaries
 
 Start by downloading the [latest version of a PowSyBl distribution](https://github.com/powsybl/powsybl-distribution).
 Unzip the downloaded package. You can now add `<INSTALL_DIR>/powsybl-distribution-<LATEST_VERSION>/bin` to your environment variable `PATH`.
 
-You can now use iTools commands in your terminal:
+### Installation from sources
+
+It is also possible to install PowSyBl distribution from sources.
+
+First download the sources of [`powsybl-distribution` repository](https://github.com/powsybl/powsybl-distribution):
+
+```
+$ git clone https://github.com/powsybl/powsybl-distribution.git
+```
+
+If you want to work on a stable version, go to [the latest release tag](https://github.com/powsybl/powsybl-distribution/releases/latest):
+
+```
+$ git checkout tags/<LATEST_RELEASE_TAG> -b latest-release
+```
+
+Generate a basic PowSyBl distribution by launching from the root repository:
+
+```
+$ cd <PROJECT_ROOT_PATH>
+$ mvn clean package
+```
+
+The distribution is generated in `<PROJECT_ROOT_PATH>/target`. You can then add `<PROJECT_ROOT_PATH>/target/powsybl-distribution-<powsybldistribution.version>/bin` to your environment variable `PATH`.
+
+## Test your installation
+
+Launch the `itools --help` command in your terminal to check that everything went smoothly.
 
 ```
 $> itools --help
@@ -36,15 +65,16 @@ Script:
     run-script                               run script (only groovy is supported)
 
 ```
-**Optional**: You can set a default configuration by copying the provided configuration file in the `.itools` repository
+
+## Set a default configuration
+
+You can set a default configuration by copying the provided configuration file in the `.itools` repository
 in your `HOME` (note that you will need to create this repository if it does not exist):
+
 ```
 $ mkdir <HOME>/.itools
 $ cp <INSTALL_DIR>/resources/config/config.yml <HOME>/.itools/config.yml
 ```
+
 This step is not mandatory **if you already have a custom configuration file and the necessary configuration modules are filled**.
-For more information, go to the [documentation page of the configuration]().
-
-## Installation from sources
-
-
+For more information on configuration, go to the [related documentation]().
