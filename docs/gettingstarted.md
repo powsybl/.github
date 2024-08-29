@@ -1,5 +1,7 @@
 # Getting started 
 
+Beside the functional documentation
+
 ## PyPowSyBl notebooks
 Have a look at our [PyPowSyBl notebooks](https://github.com/powsybl/pypowsybl-notebooks)!
 
