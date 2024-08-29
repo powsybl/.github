@@ -38,7 +38,7 @@ The 🚂 repositories are released every two to three months through a [release 
 	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-dynawo)
 	- [GitHub repository](https://github.com/powsybl/powsybl-dynawo)
 - **powsybl-metrix**: multi-variant network simulation
-	- [documentation](https://powsybl.readthedocs.io/projects/powsybl-metrix)
+	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-metrix)
 	- [GitHub repository](https://github.com/powsybl/powsybl-metrix)
 
  <br/>
@@ -67,8 +67,8 @@ The 🚂 repositories are released every two to three months through a [release 
 ## 🧐 Advanced features
 
 - **powsybl-afs**: Application File System to organize and store business data
-	- [documentation](https://powsybl.readthedocs.io/projects/powsybl-afs)
+	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-afs)
 	- [GitHub repository](https://github.com/powsybl/powsybl-afs)
 - **powsybl-hpc**: High Performance Computing modules
-	- [documentation](https://powsybl.readthedocs.io/projects/powsybl-hpc)
+	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-hpc)
 	- [GitHub repository](https://github.com/powsybl/powsybl-hpc)
