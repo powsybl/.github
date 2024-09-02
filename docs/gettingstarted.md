@@ -1,6 +1,6 @@
 # Getting started 
 
-Beside the functional documentation
+Besides the functional documentation, there are other resources to get you started with PowSyBl.
 
 ## PyPowSyBl notebooks
 Have a look at our [PyPowSyBl notebooks](https://github.com/powsybl/pypowsybl-notebooks)!
