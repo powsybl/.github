@@ -74,6 +74,7 @@ If you are not part of the development team, please join our [Slack](https://joi
 Once you do, you will receive an invitation to the PowSyBl organization. Accept it and you will be able to clone the repository, create your own branch and commit your changes! 
 
 Once the development is done, you have to create a [pull request](https://help.github.com/en/articles/about-pull-requests):
+- Make sure you have updated the documentation: no Pull Request shall be merged without the associated documentation;
 - Fill all the relevant sections of the template to give context to the reviewer;
 - Assign one or more reviewer, ideally the [maintainers](MAINTAINERS.md) of the repository;
 - Add the `PR: waiting-for-review` label and all other relevant labels;
