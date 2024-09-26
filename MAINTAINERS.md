@@ -10,7 +10,7 @@ The PowSyBl project is split in several repository so we decided to dispatch the
 This [repository](https://github.com/powsybl/powsybl-core) provides the core feature of the PowSyBl framework such as the grid modelling, the support of several data exchange formats (CGMES, UCTE...), computation APIs (load flow, security analysis, sensitivity analysis, dynamic simulation...), time series.
 
 **Reviewers:** all great contributors are relevant as first reviewer, second review must be performed by a committer. This repository has many very different features, do not hesitate to ask the developers' community before.      
-**Committers:** [flo-dup](https://github.com/flo-dup), [annetill](https://github.com/annetill), [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [zamarrenolm](https://github.com/zamarrenolm), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)  
+**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [zamarrenolm](https://github.com/zamarrenolm), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)  
 
 ### powsybl-diagram [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-diagram.svg?sort=semver)](https://github.com/powsybl/powsybl-diagram/releases/)
 This [repository](https://github.com/powsybl/powsybl-diagram) provides modules to generate single-line diagrams and network graph diagrams.
@@ -33,7 +33,7 @@ This [repository](https://github.com/powsybl/powsybl-dynawo) provides an impleme
 ### powsybl-entsoe [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-entsoe.svg?sort=semver)](https://github.com/powsybl/powsybl-entsoe/releases/)
 This [repository](https://github.com/powsybl/powsybl-entsoe) provides components specific to ENTSO-E-orientated processes.
 
-**Reviewers:** [phiedw](https://github.com/phiedw), [annetill](https://github.com/annetill), [colinepiloquet](https://github.com/colinepiloquet)     
+**Reviewers:** [phiedw](https://github.com/phiedw), [colinepiloquet](https://github.com/colinepiloquet)     
 **Committers:** [phiedw](https://github.com/phiedw)   
 
 ### powsybl-open-rao [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-rao.svg?sort=semver)](https://github.com/powsybl/powsybl-open-rao/releases/)
@@ -75,8 +75,8 @@ This [repository](https://github.com/powsybl/pypowsybl) provides an GraalVM inte
 
 This [repository](https://github.com/powsybl/pypowsybl-notebooks) provides some notebooks using pypowsybl for demos and tutorials.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [annetill](https://github.com/annetill), [colinepiloquet](https://github.com/colinepiloquet), [obrix](https://github.com/obrix)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [annetill](https://github.com/annetill), [obrix](https://github.com/obrix)
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [colinepiloquet](https://github.com/colinepiloquet), [obrix](https://github.com/obrix)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)
 
 ### pypowsybl-jupyter
 
@@ -91,19 +91,19 @@ This [repository](https://github.com/powsybl/pypowsybl-jupyter) contains widgets
 ### .github
 This [repository](https://github.com/powsybl/.github) contains documents to explain how the PowSyBl organization works (code of conduct, maintainers, contributing, security). It also provides the templates for the issues and the pull requests. These documents are shared by all the repositories. The associated Github wiki contains the roadmap of the whole organization.
 
-**Reviewers:** [annetill](https://github.com/annetill), [So-Fras](https://github.com/So-Fras)    
-**Committers:** [annetill](https://github.com/annetill)
+**Reviewers:** [So-Fras](https://github.com/So-Fras)    
+**Committers:** [So-Fras](https://github.com/So-Fras)
 
 ### powsybl.github.io
 This [repository](https://github.com/powsybl/powsybl.github.io) contains the source code of the PowSyBl organizational website.
 
-**Reviewers:** [annetill](https://github.com/annetill), [So-Fras](https://github.com/So-Fras)    
+**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colinepiloquet](https://github.com/colinepiloquet)      
 **Committers:** all the committers
 
 ### powsybl-tutorials
 This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](../../pages/documentation/developer/tutorials/index.md) presented on this website.
 
-**Reviewers:** [annetill](https://github.com/annetill), [So-Fras](https://github.com/So-Fras),  [colinepiloquet](https://github.com/colinepiloquet)   
+**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colinepiloquet](https://github.com/colinepiloquet)   
 **Committers:** all the committers
 
 
@@ -159,7 +159,7 @@ This [repository](https://github.com/powsybl/powsybl-hpc) provides two implement
 ### powsybl-optimizer [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-optimizer.svg?sort=semver)](https://github.com/powsybl/powsybl-optimizer/releases/)
 This [repository](https://github.com/powsybl/powsybl-optimizer) provides an interface to use the Ampl optimizer.
 
-**Reviewers:** [annetill](https://github.com/annetill), [So-Fras](https://github.com/So-Fras)   
+**Reviewers:** [So-Fras](https://github.com/So-Fras)   
 **Committers:** [So-Fras](https://github.com/So-Fras)
 
 ### powsybl-eurostag
