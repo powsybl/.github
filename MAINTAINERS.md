@@ -1,6 +1,6 @@
 # PowSyBl maintainers
 
-The PowSyBl project is split in several repository so we decided to dispatch the responsibility of the repositories between maintainers, either for the code review or to release to code. The contact information for our main repositories is listed below.
+The PowSyBl project is split in several repository so we decided to dispatch the responsibility of the repositories between maintainers, either for the code review or to release the code. The contact information for our main repositories is listed below.
 
 
 
@@ -232,5 +232,11 @@ This [repository](https://github.com/powsybl/powsybl-ws-commons) provides common
 
 **Reviewers:** [jonenst](https://github.com/jonenst)  
 **Committers:** [jonenst](https://github.com/jonenst)  
+
+### powsybl-ws-dependencies
+This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
+
+**Reviewers:**   
+**Committers:**   
 
 
