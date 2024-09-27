@@ -199,38 +199,49 @@ This [repository](https://github.com/powsybl/powsybl-metrix) also provides a C++
 This [repository](https://github.com/powsybl/powsybl-case-server) provides a web service for network cases management.
 The [powsybl-case-datasource](https://github.com/powsybl/powsybl-case-datasource) repository is the client part of this service.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
+**Reviewers:** [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt)
+**Committers:** [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt)
 
 ### powsybl-network-store-server
 This [repository](https://github.com/powsybl/powsybl-network-store-server) provides a persistent implementation of the IIDM grid model in [PostgreSQL](https://www.postgresql.org/) database. The grid model is exposed as a web service.
-The [powsybl-network-store](https://github.com/powsybl/powsybl-network-store) repository is the client part of this service.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)
+
+### powsybl-network-store
+This [repository](https://github.com/powsybl/powsybl-network-store-server) provides a client for the persistent implementation of the IIDM grid model.
+
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)
 
 ### powsybl-network-conversion-server
 This [repository](https://github.com/powsybl/powsybl-network-conversion-server) provides a web service that exposes conversion functions.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)    
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)  
+**Reviewers:** [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt)
+**Committers:** [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt)
 
 ### powsybl-single-line-diagram-server
 This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server) provides a web service to generate single line diagrams.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)    
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)
+**Reviewers:** [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
+**Committers:** [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
 
 ### powsybl-diagram-viewer
 This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a service to display network-area digrams and single-line diagrams.
 
-**Reviewers:** [flo-dup](https://github.com/flo-dup)
-**Committers:** [flo-dup](https://github.com/flo-dup)
+**Reviewers:** [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
+**Committers:** [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
 
-**Reviewers:** [jonenst](https://github.com/jonenst)  
-**Committers:** [jonenst](https://github.com/jonenst)  
+**Reviewers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Committers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
+
+### powsybl-ws-dependencies
+This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides dependency versions for powsybl web services.
+
+**Reviewers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Committers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
 
 
