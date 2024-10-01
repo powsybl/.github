@@ -205,14 +205,14 @@ The [powsybl-case-datasource](https://github.com/powsybl/powsybl-case-datasource
 ### powsybl-network-store-server
 This [repository](https://github.com/powsybl/powsybl-network-store-server) provides a persistent implementation of the IIDM grid model in [PostgreSQL](https://www.postgresql.org/) database. The grid model is exposed as a web service.
 
-**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)  
-**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [FranckLecuyer](https://github.com/FranckLecuyer)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [SlimaneAmar](https://github.com/SlimaneAmar), [FranckLecuyer](https://github.com/FranckLecuyer)
 
 ### powsybl-network-store
 This [repository](https://github.com/powsybl/powsybl-network-store-server) provides a client for the persistent implementation of the IIDM grid model.
 
-**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)
-**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [SlimaneAmar](https://github.com/SlimaneAmar), [FranckLecuyer](https://github.com/FranckLecuyer)
 
 ### powsybl-network-conversion-server
 This [repository](https://github.com/powsybl/powsybl-network-conversion-server) provides a web service that exposes conversion functions.
