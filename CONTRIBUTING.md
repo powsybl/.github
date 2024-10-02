@@ -85,6 +85,8 @@ The reviewer will review your proposal and:
 - Comments: the reviewer suggests to make some improvements;
 - Requests a change: your proposal cannot be merged as such. You need to fix it with respect to the different comments made by the reviewer.
 
+**Please note that, after a first review has been done, no force-push should be done on the Pull Request.** A force-push makes it more difficult for reviewers to follow the changes following their reviews.
+
 ### Continuous Integration
 The Continuous Integration (CI) runs automatically when a pull request is opened, or a commit is pushed. The CI helps us maintain the quality of the project with automatic checks:
 - Code style: the code style will be analyzed by `maven-checkstyle-plugin`. The [configuration](https://github.com/powsybl/powsybl-parent/blob/main/powsybl-build-tools/src/main/resources/powsybl-build-tools/checkstyle.xml) is shared between all our repositoriesk;
