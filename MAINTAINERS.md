@@ -229,19 +229,19 @@ This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server)
 ### powsybl-diagram-viewer
 This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a service to display network-area digrams and single-line diagrams.
 
-**Reviewers:** [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
-**Committers:** [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
+**Reviewers:** [flo-dup](https://github.com/flo-dup), [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
+**Committers:** [flo-dup](https://github.com/flo-dup), [SlimaneAmar](https://github.com/SlimaneAmar), [antoinebhs](https://github.com/antoinebhs)
 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
-**Committers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Committers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer)
 
 ### powsybl-ws-dependencies
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides dependency versions for powsybl web services.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
-**Committers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [AbdelHedhili](https://github.com/AbdelHedhili), [FranckLecuyer](https://github.com/FranckLecuyer)
+**Committers:** [jonenst](https://github.com/jonenst), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer)
 
 
