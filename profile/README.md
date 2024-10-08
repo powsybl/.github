@@ -34,7 +34,7 @@ PowSyBl is part of the [LF Energy](https://www.lfenergy.org), a project of The L
 👩‍💻 Useful resources - where can the community find docs?
 
 - [General overview](https://www.powsybl.org/pages/overview)
-- [Governance](https://www.powsybl.org/pages/overview/governance)
+- [Governance](https://www.powsybl.org/pages/project/governance)
 - [Functional documentation](https://powsybl.readthedocs.io/en/latest/)
 
 
