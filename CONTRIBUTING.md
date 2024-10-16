@@ -97,7 +97,7 @@ The Continuous Integration (CI) runs automatically when a pull request is opened
 
 ### Committer Rights
 
-A Committer is a developer with the authority to merge changes into protected branches of a repository. Committer rights may extend to one or multiple repositories, depending on the developer's expertise.
+A Committer is a developer with the authority to merge changes into main and other protected branches of a repository. Committer rights may extend to one or multiple repositories, depending on the developer's expertise.
 
 Committers can vote when someone requests Committer rights on a repository.
 
@@ -110,7 +110,7 @@ Developers requesting Committer rights should keep the following points in mind:
 - **Merge with care:** Code quality should be a priority. If technical debt is introduced, it must be justified and tracked (e.g., via an issue).  
 - **Participate in the Technical Steering Committee:** Committers are expected to attend TSC meetings and contribute in their areas of expertise.  
 - **Be active in the community:** Committers should be available on Slack to respond to community questions related to their expertise.  
-- **Exercise voting rights:** Committers are expected to participate in polls for new TSC members or new Committers, unless they are unavailable (e.g., on leave).
+- **Exercise voting rights:** Committers are expected to participate in polls for new TSC members or new Committers.
 
 ### Procedure to Request Committer rights
 
