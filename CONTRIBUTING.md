@@ -132,8 +132,9 @@ PowSyBl Committers can vote on adding a new Committer or expanding the rights of
 
 If Committers are requesting additional rights (on other repositories), they should abstain from voting on their own requests.
 
-The poll will remain open for one week, during which existing Committers will be notified and can vote "Yes" or "No."  
-If a majority of respondents support the request after one week, the PR is merged, and the requester gains the requested rights. Otherwise, the PR is closed without merging.
+The poll will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
+A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.
+If a majority of respondents support the request, the PR is merged, and the requester gains the requested rights. Otherwise, the PR is closed without merging.
 
 ### Removal of Committer Rights
 
