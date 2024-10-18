@@ -93,6 +93,60 @@ The Continuous Integration (CI) runs automatically when a pull request is opened
 - Compilation: the code will be compiled using [Github Actions](https://github.com/features/actions) under Linux, Windows and MacOS, and the unit tests will be run;
 - SonarCloud will report the code smells, duplications and the code coverage. You have to fix all the relevant code smells and add unit tests to reach the required barrier.
 
+## Committer rights on One or More Repositories
+
+### Committer Rights
+
+A Committer is a developer with the authority to merge changes into main and other protected branches of a repository. Committer rights may extend to one or multiple repositories, depending on the developer's expertise.
+
+Committers can vote when someone requests Committer rights on a repository.
+
+Committers are also able to vote when there is a candidate for a TSC (Technical Steering Committee) member seat.
+
+### Committer Responsibilities
+
+**Being a Committer is a significant responsibility.**  
+Developers requesting Committer rights should keep the following points in mind:  
+- **Merge with care:** Code quality should be a priority. If technical debt is introduced, it must be justified and tracked (e.g., via an issue).  
+- **Participate in the Technical Steering Committee:** Committers are expected to attend TSC meetings and contribute in their areas of expertise.  
+- **Be active in the community:** Committers should be available on Slack to respond to community questions related to their expertise.  
+- **Exercise voting rights:** Committers are expected to participate in polls for new TSC members or new Committers.
+
+### Procedure to Request Committer rights
+
+A pull request (PR) should be created for each person and each repository.  
+
+An exception can be made for individuals with special roles in the project (e.g., the release manager) who need to merge changes across multiple repositories (more than five). In such cases, a single PR may be submitted to maintain a practical process, but it must be thoroughly justified.
+
+The PR should be opened by the person requesting Committer rights.
+
+The PR must include a justification, which may be based on:  
+- The number of contributions (e.g., a screenshot of contributions, such as [pypowsybl repository contributions](https://github.com/powsybl/pypowsybl/graphs/contributors)).  
+- A list of PRs submitted as examples of contributions.  
+- A list of PRs reviewed by the applicant.  
+- Details about the applicant's professional background, areas of expertise, etc.
+
+### Vote to Grant Committer Rights
+
+PowSyBl Committers can vote on adding a new Committer or expanding the rights of an existing Committer.
+
+If Committers are requesting additional rights (on other repositories), they should abstain from voting on their own requests.
+
+The poll will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
+A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.
+If a majority of respondents support the request, the PR is merged, and the requester gains the requested rights. Otherwise, the PR is closed without merging.
+
+### Removal of Committer Rights
+
+Each April, the TSC will review Committer involvement to identify those who are no longer active in the project.  
+This review will be followed by votes on whether to remove rights from specific Committers for one or more repositories.  
+Polls will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
+A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.  
+
+All Committers may participate in these votes.
+
+
+
 
 
 
