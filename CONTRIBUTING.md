@@ -140,6 +140,8 @@ If a majority of respondents support the request, the PR is merged, and the requ
 
 Each April, the TSC will review Committer involvement to identify those who are no longer active in the project.  
 This review will be followed by votes on whether to remove rights from specific Committers for one or more repositories.  
+Polls will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
+A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.  
 
 All Committers may participate in these votes.
 
