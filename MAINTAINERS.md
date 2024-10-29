@@ -135,8 +135,8 @@ This [repository](https://github.com/powsybl/powsybl-incubator) provides incubat
 ### powsybl-network-store [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-network-store.svg?sort=semver)](https://github.com/powsybl/powsybl-network-store/releases/)
 This repository provides a PostgreSQL implementation of the IIDM grid model.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix)  
 
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to run optimal power load flow on several network variants. Variants are generated through time series mapping on a base case.
