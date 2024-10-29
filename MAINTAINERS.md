@@ -242,7 +242,7 @@ This [repository](https://github.com/powsybl/powsybl-ws-commons) provides common
 ### powsybl-ws-dependencies
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
 
-**Reviewers:**   
-**Committers:**   
+**Reviewers:** [jonenst](https://github.com/jonenst)  
+**Committers:** [jonenst](https://github.com/jonenst)  
 
 
