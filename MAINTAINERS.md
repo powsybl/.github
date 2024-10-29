@@ -138,6 +138,12 @@ This repository provides a PostgreSQL implementation of the IIDM grid model.
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)  
 
+### powsybl-case-datasource [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-case-datasource.svg?sort=semver)](https://github.com/powsybl/powsybl-case-datasource/releases/)
+This [repository](https://github.com/powsybl/powsybl-case-datasource) provides network case management.
+
+**Reviewers:**   
+**Committers:**   
+
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to run optimal power load flow on several network variants. Variants are generated through time series mapping on a base case.
 
@@ -224,7 +230,7 @@ This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server)
 ### powsybl-diagram-viewer
 This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a service to display network-area digrams and single-line diagrams.
 
-**Reviewers:** [flo-dup](https://github.com/flo-dup)
+**Reviewers:** [flo-dup](https://github.com/flo-dup)  
 **Committers:** [flo-dup](https://github.com/flo-dup)
 
 ### powsybl-ws-commons
