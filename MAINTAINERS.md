@@ -230,8 +230,8 @@ This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server)
 ### powsybl-diagram-viewer
 This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a service to display network-area digrams and single-line diagrams.
 
-**Reviewers:** [flo-dup](https://github.com/flo-dup)  
-**Committers:** [flo-dup](https://github.com/flo-dup)
+**Reviewers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst)    
+**Committers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst)    
 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
