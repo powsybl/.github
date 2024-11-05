@@ -135,8 +135,8 @@ This [repository](https://github.com/powsybl/powsybl-incubator) provides incubat
 ### powsybl-network-store [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-network-store.svg?sort=semver)](https://github.com/powsybl/powsybl-network-store/releases/)
 This repository provides a PostgreSQL implementation of the IIDM grid model.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [antoinebhs](https://github.com/antoinebhs)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [antoinebhs](https://github.com/antoinebhs)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs)  
 
 ### powsybl-case-datasource [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-case-datasource.svg?sort=semver)](https://github.com/powsybl/powsybl-case-datasource/releases/)
 This [repository](https://github.com/powsybl/powsybl-case-datasource) provides network case management.
