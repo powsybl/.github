@@ -135,8 +135,8 @@ This [repository](https://github.com/powsybl/powsybl-incubator) provides incubat
 ### powsybl-network-store [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-network-store.svg?sort=semver)](https://github.com/powsybl/powsybl-network-store/releases/)
 This repository provides a PostgreSQL implementation of the IIDM grid model.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [antoinebhs](https://github.com/antoinebhs)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs)  
 
 ### powsybl-case-datasource [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-case-datasource.svg?sort=semver)](https://github.com/powsybl/powsybl-case-datasource/releases/)
 This [repository](https://github.com/powsybl/powsybl-case-datasource) provides network case management.
@@ -218,14 +218,14 @@ The [powsybl-network-store](https://github.com/powsybl/powsybl-network-store) re
 ### powsybl-network-conversion-server
 This [repository](https://github.com/powsybl/powsybl-network-conversion-server) provides a web service that exposes conversion functions.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)    
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)    
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
 ### powsybl-single-line-diagram-server
 This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server) provides a web service to generate single line diagrams.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)    
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst)
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)    
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)
 
 ### powsybl-diagram-viewer
 This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a service to display network-area digrams and single-line diagrams.
@@ -236,13 +236,13 @@ This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
 
-**Reviewers:** [jonenst](https://github.com/jonenst)  
-**Committers:** [jonenst](https://github.com/jonenst)  
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
 ### powsybl-ws-dependencies
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
 
-**Reviewers:**   
-**Committers:**   
+**Reviewers:** [jonenst](https://github.com/jonenst)  
+**Committers:** [jonenst](https://github.com/jonenst)  
 
 
