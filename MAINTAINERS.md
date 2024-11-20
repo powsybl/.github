@@ -227,8 +227,8 @@ This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server)
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)    
 **Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)
 
-### powsybl-diagram-viewer
-This [repository](https://github.com/powsybl/powsybl-diagram-viewer) provides a service to display network-area digrams and single-line diagrams.
+### powsybl-network-viewer
+This [repository](https://github.com/powsybl/powsybl-network-viewer) provides a service to display network-area diagrams, single-line diagrams and the substations, voltage levels and lines on a map.
 
 **Reviewers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)    
 **Committers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)    
