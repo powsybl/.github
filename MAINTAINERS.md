@@ -236,13 +236,13 @@ This [repository](https://github.com/powsybl/powsybl-network-viewer) provides a 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
 
-**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [etiennehomer](https://github.com/etiennehomer)  
-**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [etiennehomer](https://github.com/etiennehomer)  
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
 ### powsybl-ws-dependencies
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
 
-**Reviewers:** [jonenst](https://github.com/jonenst)  
-**Committers:** [jonenst](https://github.com/jonenst)  
+**Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)  
+**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)  
 
 
