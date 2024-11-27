@@ -141,8 +141,8 @@ This repository provides a PostgreSQL implementation of the IIDM grid model.
 ### powsybl-case-datasource [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-case-datasource.svg?sort=semver)](https://github.com/powsybl/powsybl-case-datasource/releases/)
 This [repository](https://github.com/powsybl/powsybl-case-datasource) provides network case management.
 
-**Reviewers:** [jonenst](https://github.com/jonenst)  
-**Committers:** [jonenst](https://github.com/jonenst) 
+**Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)  
+**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer) 
 
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to run optimal power load flow on several network variants. Variants are generated through time series mapping on a base case.
