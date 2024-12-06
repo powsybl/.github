@@ -114,10 +114,6 @@ Developers requesting Committer rights should keep the following points in mind:
 
 ### Procedure to Request Committer rights
 
-A pull request (PR) should be created for each person and each repository.  
-
-An exception can be made for individuals with special roles in the project (e.g., the release manager) who need to merge changes across multiple repositories (more than five). In such cases, a single PR may be submitted to maintain a practical process, but it must be thoroughly justified.
-
 The PR should be opened by the person requesting Committer rights.
 
 The PR must include a justification, which may be based on:  
