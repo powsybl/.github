@@ -124,9 +124,9 @@ The PR must include a justification, which may be based on:
 
 ### Vote to Grant Committer Rights
 
-PowSyBl Committers can vote on adding a new Committer or expanding the rights of an existing Committer.
+PowSyBl Committers can vote on adding a new Committer or expanding the rights of an existing Committer.  
 
-If Committers are requesting additional rights (on other repositories), they should abstain from voting on their own requests.
+If Committers are requesting additional rights (on other repositories), they should abstain from voting on their own requests.  
 
 The poll will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
 A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.
