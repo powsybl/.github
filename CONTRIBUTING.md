@@ -35,7 +35,17 @@ Please provide as much detail as you can about your use cases in the issue templ
 ## Contributing to the code or the documentation
 Before contributing to the project, please be sure to have read and understood the [code of conduct](https://www.lfenergy.org/about/code-of-conduct/) and the [license](#license) paragraph. 
 
-Please also make sure that you fully understand the [DCO mechanism](#dco) and the [contributing process](#contributing-process) described below.
+Please also make sure that your [two-factor authentication](#two-factor-authentication) is activated and that you fully understand the [DCO mechanism](#dco) and the [contributing process](#contributing-process) described below.
+
+### Two-factor authentication
+In the settings of your GitHub profile, go to the "Password and authentication" tab.  
+![Password and authentication](images/password_authentication_github_settings.png?sanitize=true)
+
+Make sure your two-factor authentication is enabled.  
+![Password and authentication](images/2fa_enabled.png?sanitize=true)
+
+If not, follow the steps mentioned in GitHub to activate it!
+
 
 ### DCO
 
