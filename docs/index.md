@@ -40,6 +40,9 @@ The 🚂 repositories are released every two to three months through a [release 
 - **powsybl-metrix**: multi-variant network simulation
 	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-metrix)
 	- [GitHub repository](https://github.com/powsybl/powsybl-metrix)
+- **powsybl-optimizer**: production-ready optimal powerflow optimizers
+	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-optimizer)
+	- [GitHub repository](https://github.com/powsybl/powsybl-optimizer)
 
  <br/>
 
