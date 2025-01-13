@@ -121,6 +121,7 @@ The members of the TSC are all maintainers. The list of TSC members is available
 - [Nicolas Rol](https://github.com/rolnico)
 - [Manuel Ruiz](https://github.com/klorel)
 - [Anne Tilloy](https://github.com/annetill)
+- [Didier Vidal](https://github.com/vidaldid-rte)
 
 
 
