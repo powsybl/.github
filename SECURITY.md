@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to this subgroup of PowSyBl maintainers:
-- [Anne Tilloy](mailto:anne.tilloy@rte-france.com)
+- [Alice Caron](mailto:alice.caron@rte-france.com)
 - [Florian Dupuy](mailto:florian.dupuy@rte-france.com)
 - [Olivier Perrin](mailto:olivier.perrin@rte-france.com)
 - [Sophie Frasnedo](mailto:sophie.frasnedo@rte-france.com)
@@ -111,8 +111,8 @@ The members of the TSC are all maintainers. The list of TSC members is available
 - [Antoine Bouhours](https://github.com/antoinebhs)
 - [Thomas Bouquet](https://github.com/bqth29)
 - [Gautier Bureau](https://github.com/gautierbureau)
-- [Sophie Frasnedo](https://github.com/So-Fras)
 - [Marianne Funfrock](https://github.com/marifunf)
+- [Etienne Homer](https://github.com/etiennehomer)
 - [Hugo Kulesza](https://github.com/HugoKulesza)
 - [Peter Mitri](https://github.com/pet-mit)
 - [Godelaine De Montmorillon](https://github.com/Godelaine)
@@ -120,7 +120,7 @@ The members of the TSC are all maintainers. The list of TSC members is available
 - [Olivier Perrin](https://github.com/olperr1)
 - [Nicolas Rol](https://github.com/rolnico)
 - [Manuel Ruiz](https://github.com/klorel)
-
+- [Anne Tilloy](https://github.com/annetill)
 
 
 
