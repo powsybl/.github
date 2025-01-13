@@ -103,7 +103,7 @@ All pull requests must have at least one approval to be merged on the main branc
 
 The same goes for releases: only a maintainer of a repository can release this repository.
 
-The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/overview/governance). The other maintainers are:
+The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/project/governance.html). The other maintainers are:
 
 - [Jean-Pierre Arnould](https://github.com/jipea)
 - [Martin Belthle](https://github.com/MartinBelthle)
