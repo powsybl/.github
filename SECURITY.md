@@ -79,6 +79,7 @@ Checks on known dependency vulnerabilities are automatically performed through G
 #### Recent Java, Python and Groovy versions
 
 We support recent Java, Python and Groovy versions so that users can benefit from the latest security improvements.
+Regarding Java, the policy is to have only one LTS version behind the most recent LTS version.
 
 #### Controlled dependency update
 
