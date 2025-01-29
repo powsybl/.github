@@ -14,7 +14,7 @@
 <!-- Bug fix, feature, docs update, ... -->
 
 **Does this PR introduce a new Powsybl Action implying to be implemented in simulators or pypowsybl?**
-- [ ] Yes, then maybe discuss about an issue creation in the needed projects
+- [ ] Yes, the corresponding issue is [here](link)
 - [ ] No
 
 **What is the current behavior?**
