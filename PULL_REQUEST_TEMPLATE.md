@@ -13,7 +13,9 @@
 **What kind of change does this PR introduce?**
 <!-- Bug fix, feature, docs update, ... -->
 
-
+**Does this PR introduce a new Powsybl Action implying to be implemented in simulators or pypowsybl?**
+- [ ] Yes, then maybe discuss about an issue creation in the needed projects
+- [ ] No
 
 **What is the current behavior?**
 <!-- You can also link to an open issue here -->
