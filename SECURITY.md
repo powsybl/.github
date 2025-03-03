@@ -3,7 +3,7 @@
 ## Reporting a vulnerability
 
 Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to this subgroup of PowSyBl maintainers:
-- [Anne Tilloy](mailto:anne.tilloy@rte-france.com)
+- [Alice Caron](mailto:alice.caron@rte-france.com)
 - [Florian Dupuy](mailto:florian.dupuy@rte-france.com)
 - [Olivier Perrin](mailto:olivier.perrin@rte-france.com)
 - [Sophie Frasnedo](mailto:sophie.frasnedo@rte-france.com)
@@ -79,6 +79,7 @@ Checks on known dependency vulnerabilities are automatically performed through G
 #### Recent Java, Python and Groovy versions
 
 We support recent Java, Python and Groovy versions so that users can benefit from the latest security improvements.
+Regarding Java, the policy is to have only one LTS version behind the most recent LTS version.
 
 #### Controlled dependency update
 
@@ -103,7 +104,7 @@ All pull requests must have at least one approval to be merged on the main branc
 
 The same goes for releases: only a maintainer of a repository can release this repository.
 
-The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/overview/governance). The other maintainers are:
+The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/project/governance.html). The other maintainers are:
 
 - [Jean-Pierre Arnould](https://github.com/jipea)
 - [Martin Belthle](https://github.com/MartinBelthle)
@@ -111,8 +112,8 @@ The members of the TSC are all maintainers. The list of TSC members is available
 - [Antoine Bouhours](https://github.com/antoinebhs)
 - [Thomas Bouquet](https://github.com/bqth29)
 - [Gautier Bureau](https://github.com/gautierbureau)
-- [Sophie Frasnedo](https://github.com/So-Fras)
 - [Marianne Funfrock](https://github.com/marifunf)
+- [Etienne Homer](https://github.com/etiennehomer)
 - [Hugo Kulesza](https://github.com/HugoKulesza)
 - [Peter Mitri](https://github.com/pet-mit)
 - [Godelaine De Montmorillon](https://github.com/Godelaine)
@@ -120,7 +121,8 @@ The members of the TSC are all maintainers. The list of TSC members is available
 - [Olivier Perrin](https://github.com/olperr1)
 - [Nicolas Rol](https://github.com/rolnico)
 - [Manuel Ruiz](https://github.com/klorel)
-
+- [Anne Tilloy](https://github.com/annetill)
+- [Didier Vidal](https://github.com/vidaldid-rte)
 
 
 
