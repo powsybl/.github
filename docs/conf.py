@@ -100,6 +100,14 @@ html_theme_options = {
 html_static_path = ['_static']
 html_css_files = ['styles/styles.css']
 
+# This option should be removed once search from the parent documentation through all child repositories is enabled.
+html_sidebars = {
+    "**": [
+        "sidebar/brand.html",
+        "sidebar/navigation.html",
+    ]
+}
+
 todo_include_todos = True
 
 # Links to external documentations: powsybl-core
