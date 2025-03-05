@@ -128,6 +128,11 @@ This [repository](https://github.com/powsybl/powsybl-incubator) provides incubat
 
 **Reviewers:** all the committers
 
+### github-ci
+This [repository](https://github.com/powsybl/github-ci) provides reusable workflows for running CIs and publishing releases
+
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
 
 ## Other Java libraries
