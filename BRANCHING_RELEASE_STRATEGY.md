@@ -137,12 +137,21 @@ $ git checkout main
 $ git pull
 ```
 
+Verify that you don't use a RC or SNAPSHOT version for the PowSyBl dependencies.
+Using the following command, you should only have your repo version:
+```shell
+$ git grep -B2 -E "SNAPSHOT|-RC" pom.xml | less
+$ # You should not have RC or SNAPSHOT versions (except your own repo's one)
+```
+If it is not the case, then the bump of the dependencies should be done prior to releasing.
+
 Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
 ```shell
 $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.0
 $ git commit -s -a -S -m "Bump to vX.Y.0"
 $ git push -u origin tmp_prepare_release
+$ # Then create a PR for tmp_prepare_release
 ```
 
 Create a pull request from your temporary branch into the `main` branch.
@@ -159,6 +168,7 @@ Tag another maintainer as a reviewer to your pull request so they can approve it
 
 Once it is approved, locally merge it by following these steps:
 ```shell
+$ # The PR should be reviewed and approved
 $ git checkout main
 $ git pull
 $ git merge --ff tmp_prepare_release
@@ -181,6 +191,8 @@ Please make sure that your release note is comprehensive to all new features and
 
 On your repository, checkout to the release tag. You can then package and deploy your release:
 ```shell
+$ git status
+$ # Your local repository should be clean
 $ git checkout tags/vX.Y.0
 $ mvn dependency:purge-local-repository
 $ mvn clean package -Prelease
