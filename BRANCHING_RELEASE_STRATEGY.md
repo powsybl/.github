@@ -137,18 +137,26 @@ $ git checkout main
 $ git pull
 ```
 
-Create your temporary branch preparing to the release X.Y.0 and add commits bumping to your release version then your next snapshot version.
-You can then push this branch.
+Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
 ```shell
 $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.0
 $ git commit -s -a -S -m "Bump to vX.Y.0"
-$ mvn versions:set -DnewVersion=X.Y+1.0-SNAPSHOT
-$ git commit -s -a -S -m "Bump to vX.Y+1.0-SNAPSHOT"
 $ git push -u origin tmp_prepare_release
 ```
 
-Create a pull request from your temporary branch into the `main` branch and tag another maintainer as a reviewer so they can approve it.
+Create a pull request from your temporary branch into the `main` branch.
+Wait until all the CI criteria are fully validated. Then add a commit for your next snapshot version.
+You can then push again.
+
+```shell
+$ mvn versions:set -DnewVersion=X.Y+1.0-SNAPSHOT
+$ git commit -s -a -S -m "Bump to vX.Y+1.0-SNAPSHOT"
+$ git push
+```
+
+Tag another maintainer as a reviewer to your pull request so they can approve it.
+
 Once it is approved, locally merge it by following these steps:
 ```shell
 $ git checkout main
