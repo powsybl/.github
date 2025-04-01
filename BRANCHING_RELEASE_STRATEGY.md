@@ -154,7 +154,22 @@ $ git push -u origin tmp_prepare_release
 $ # Then create a PR for tmp_prepare_release
 ```
 
-Create a pull request from your temporary branch into the `main` branch.
+Create a pull request from your temporary branch into the `main` branch.  
+In its description, use the following message (don't forget to change the vX.Y.0 by your version number):
+```markdown
+**Please check if the PR fulfills these requirements**
+<!-- please use `'[x]'` to check the checkboxes, or submit the PR and then click the checkboxes -->
+- [X] The commit message follows our guidelines
+
+
+**What kind of change does this PR introduce?**
+<!-- Bug fix, feature, docs update, ... -->
+Prepare release vX.Y.0
+
+**Other information**:
+:warning: **DO NOT** squash the commits, merge with fast-forward locally
+```
+
 Wait until all the CI criteria are fully validated. Then add a commit for your next snapshot version.
 You can then push again.
 
@@ -176,6 +191,8 @@ $ git push
 ```
 After that, create your tag:
 ```shell
+$ git log --oneline -2
+$ # Retrieve the commit hash of the second line, and use it in the following instruction
 $ git tag -s vX.Y.0 <hash of the corresponding commit (bumping to vX.Y.0)>
 $ git push origin vX.Y.0
 ```
@@ -194,6 +211,8 @@ On your repository, checkout to the release tag. You can then package and deploy
 $ git status
 $ # Your local repository should be clean
 $ git checkout tags/vX.Y.0
+$ git log --oneline -1
+$ # Check that the last commit is indeed the "Bump to X.Y.0" commit
 $ mvn dependency:purge-local-repository
 $ mvn clean package -Prelease
 $ mvn deploy -Prelease -DskipTests
