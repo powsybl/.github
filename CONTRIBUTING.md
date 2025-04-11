@@ -6,7 +6,7 @@ Before you start, we highly recommend that you read the following. IT will give 
 
 
 ## Code of conduct
-This project applies the [LF Energy Code of Conduct](https://wiki.lfenergy.org/display/HOME/Code+of+Conduct). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project's Technical Steering Committee [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org).
+This project applies the [LF Energy Code of Conduct](https://lf-energy.atlassian.net/wiki/spaces/HOME/pages/13671620/Code+of+Conduct). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project's Technical Steering Committee [powsybl-tsc@lists.lfenergy.org](mailto:powsybl-tsc@lists.lfenergy.org).
 
 
 ## English convention
@@ -33,7 +33,7 @@ Please provide as much detail as you can about your use cases in the issue templ
 
 
 ## Contributing to the code or the documentation
-Before contributing to the project, please be sure to have read and understood the [code of conduct](https://www.lfenergy.org/about/code-of-conduct/) and the [license](#license) paragraph. 
+Before contributing to the project, please be sure to have read and understood the [code of conduct](https://lf-energy.atlassian.net/wiki/spaces/HOME/pages/13671620/Code+of+Conduct) and the [license](#license) paragraph. 
 
 Please also make sure that your [two-factor authentication](#two-factor-authentication) is activated and that you fully understand the [DCO mechanism](#dco) and the [contributing process](#contributing-process) described below.
 
