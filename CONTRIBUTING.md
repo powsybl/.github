@@ -25,7 +25,7 @@ If there is no already existing issue for your problem, feel free to create a ne
 
 
 ## Suggesting Enhancements
-If you are interested in a new feature to add in the PowSyBl framework, the first place to discuss it are the `#powsybl`[Slack channel](https://app.slack.com/client/TG8ALA0TB/CGAAPNWTY) or the [developers mailing list](https://lists.lfenergy.org/g/powsybl-dev).
+If you are interested in a new feature to add in the PowSyBl framework, the first place to discuss it is the `#powsybl`[Slack channel](https://app.slack.com/client/TG8ALA0TB/CGAAPNWTY).
 
 You can also track your proposal by filling an issue in the appropriate [GitHub repository](https://github.com/powsybl). Before creating a feature request, please **perform a [cursory search](https://github.com/search?q=+is%3Aissue+user%3Apowsybl)** to see if someone else has already asked for it. It is preferable to add a comment to an existing issue rather than opening a new one. This avoids duplication of effort and makes it easier to triage issues.
 
