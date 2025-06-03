@@ -240,7 +240,7 @@ This [repository](https://github.com/powsybl/powsybl-network-conversion-server) 
 This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server) provides a web service to generate single line diagrams.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst),  [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [etiennehomer](https://github.com/etiennehomer)    
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [etiennehomer](https://github.com/etiennehomer)
 
 ### powsybl-network-viewer
 This [repository](https://github.com/powsybl/powsybl-network-viewer) provides a service to display network-area diagrams, single-line diagrams and the substations, voltage levels and lines on a map.
@@ -258,6 +258,6 @@ This [repository](https://github.com/powsybl/powsybl-ws-commons) provides common
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)  
-**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)  
+**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [etiennehomer](https://github.com/etiennehomer)  
 
 
