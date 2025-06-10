@@ -21,8 +21,8 @@ This [repository](https://github.com/powsybl/powsybl-diagram) provides modules t
 ### powsybl-open-loadflow [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an implementation of the LoadFlow API based on the [powsybl-math-native](powsybl-math-native.md) project.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [annetill](https://github.com/annetill), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [annetill](https://github.com/annetill), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [annetill](https://github.com/annetill), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [annetill](https://github.com/annetill), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
 
 ### powsybl-dynawo [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-dynawo.svg?sort=semver)](https://github.com/powsybl/powsybl-dynawo/releases/)
 This [repository](https://github.com/powsybl/powsybl-dynawo) provides an implementation of the dynamic simulation API for the [Dyna&omega;o](https://dynawo.github.io/) time domain simulation tool.
@@ -117,12 +117,12 @@ This [repository](https://github.com/powsybl/powsybl-parent) provides the build 
 **Committers:** [jonenst](https://github.com/jonenst)
 
 ### java-docker
-This [repository](https://github.com/powsybl/java-docker) provides a base docker image with java and a 'powsybl' user to be used by our deployments.
+This [repository](https://github.com/powsybl/java-docker) provides a base docker image with java and a 'powsybl' user to be used by our deployments.  
 **Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)  
 **Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
 ### java-dynawo-docker
-This [repository](https://github.com/powsybl/java-dynawo-docker) provides a base docker image that expands on java-docker by adding dynawo and its requirements.
+This [repository](https://github.com/powsybl/java-dynawo-docker) provides a base docker image that expands on java-docker by adding dynawo and its requirements.  
 **Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)  
 **Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
