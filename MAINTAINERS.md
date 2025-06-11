@@ -151,7 +151,8 @@ This [repository](https://github.com/powsybl/github-ci) provides reusable workfl
 This repository provides a PostgreSQL implementation of the IIDM grid model.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [antoinebhs](https://github.com/antoinebhs), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)   
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer)  
+
 
 ### powsybl-case-datasource [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-case-datasource.svg?sort=semver)](https://github.com/powsybl/powsybl-case-datasource/releases/)
 This [repository](https://github.com/powsybl/powsybl-case-datasource) provides network case management.
@@ -229,7 +230,7 @@ This [repository](https://github.com/powsybl/powsybl-network-store-server) provi
 The [powsybl-network-store](https://github.com/powsybl/powsybl-network-store) repository is the client part of this service.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [jorismancini](https://github.com/TheMaskedTurtle)    
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [jorismancini](https://github.com/TheMaskedTurtle), [etiennehomer](https://github.com/etiennehomer)    
 
 
 ### powsybl-network-conversion-server
@@ -243,7 +244,7 @@ This [repository](https://github.com/powsybl/powsybl-network-conversion-server) 
 This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server) provides a web service to generate single line diagrams.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst),  [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [etiennehomer](https://github.com/etiennehomer)    
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [jorismancini](https://github.com/TheMaskedTurtle)    
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [jorismancini](https://github.com/TheMaskedTurtle), [etiennehomer](https://github.com/etiennehomer)    
 
 
 ### powsybl-network-viewer
@@ -256,7 +257,7 @@ This [repository](https://github.com/powsybl/powsybl-network-viewer) provides a 
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)    
-**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [etiennehomer](https://github.com/etiennehomer)  
 
 ### powsybl-ws-dependencies
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
