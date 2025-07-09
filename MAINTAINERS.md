@@ -198,8 +198,8 @@ This [repository](https://github.com/powsybl/powsybl-eurostag) allows to import 
 ### powsybl-iidm4cpp [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-iidm4cpp.svg?sort=semver)](https://github.com/powsybl/powsybl-iidm4cpp/releases/)
 This [repository](https://github.com/powsybl/powsybl-iidm4cpp) provides a C++ implementation of the IIDM grid model.
 
-**Reviewers:**  [gautierbureau](https://github.com/gautierbureau)  
-**Committers:** [gautierbureau](https://github.com/gautierbureau)
+**Reviewers:**  [gautierbureau](https://github.com/gautierbureau), [rolnico](https://github.com/rolnico)  
+**Committers:** [gautierbureau](https://github.com/gautierbureau), [rolnico](https://github.com/rolnico)
 
 ### powsybl-math-native [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-math-native.svg?sort=semver)](https://github.com/powsybl/powsybl-math-native/releases/)
 This [repository](https://github.com/powsybl/powsybl-math-native) provides a C++ implementation of sparse matrix, based on the [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) project. This 64-bits libraries for Linux, Windows and MacOS are packaged as a Jar file and published on maven central.
