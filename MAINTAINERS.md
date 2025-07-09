@@ -45,20 +45,20 @@ This [repository](https://github.com/powsybl/powsybl-open-rao) provides a modula
 ### powsybl-dependencies [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-dependencies.svg?sort=semver)](https://github.com/powsybl/powsybl-dependencies/releases/)
 This [repository](https://github.com/powsybl/powsybl-dependencies) helps users with dependency management in PowSyBl.
 
-**Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup)  
-**Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup)  
+**Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
+**Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-starter [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-starter.svg?sort=semver)](https://github.com/powsybl/powsybl-starter/releases/)
 This [repository](https://github.com/powsybl/powsybl-starter) is a help for PowSyBl beginners: it makes the main PowSyBl functionalities available through one single dependency import.
 
-**Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup)  
-**Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup)  
+**Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
+**Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-distribution [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-distribution.svg?sort=semver)](https://github.com/powsybl/powsybl-distribution/releases/)
 This [repository](https://github.com/powsybl/powsybl-distribution) allows for the generation of a basic distribution of PowSyBl.
 
-**Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup)  
-**Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup)  
+**Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
+**Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
 
 
 
@@ -113,8 +113,8 @@ This [repository](https://github.com/powsybl/powsybl-tutorials) contains the sou
 ### powsybl-parent [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-parent.svg?sort=semver)](https://github.com/powsybl/powsybl-parent/releases/)
 This [repository](https://github.com/powsybl/powsybl-parent) provides the build configuration shared as maven pom files, shared by all our Java repositories.
 
-**Reviewers:** [jonenst](https://github.com/jonenst), [Tristan-WorkGH](https://github.com/Tristan), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [AbdelHedhili](https://github.com/AbdelHedhili)  
-**Committers:** [jonenst](https://github.com/jonenst)
+**Reviewers:** [jonenst](https://github.com/jonenst), [Tristan-WorkGH](https://github.com/Tristan), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [AbdelHedhili](https://github.com/AbdelHedhili), [rolnico](https://github.com/rolnico)  
+**Committers:** [jonenst](https://github.com/jonenst), [rolnico](https://github.com/rolnico)
 
 ### java-docker
 This [repository](https://github.com/powsybl/java-docker) provides a base docker image with java and a 'powsybl' user to be used by our deployments.  
