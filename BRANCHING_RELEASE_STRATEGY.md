@@ -187,7 +187,7 @@ $ mvn clean package -Prelease
 $ mvn deploy -Prelease -DskipTests
 ```
 
-Your release will then be deployed in Sonatype. The complete documentation to release from your staging repository in Sonatype is detailed [here](https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository).
+Your release will then be deployed in Sonatype. The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).
 
 Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
 
