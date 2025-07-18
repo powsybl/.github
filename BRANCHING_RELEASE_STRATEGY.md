@@ -88,19 +88,20 @@ After a release train is published, a new date for the next release train is fix
 In order to release a PowSyBl repository, you must first:
 - be a maintainer of the repository you wish to release
 - have a Sonatype JIRA account, that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
-- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer to create an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa) asking to grant you these rights
+- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer asking to the Central Team to grant you these rights
 - have a PGP/GPG key to sign your release; the complete documentation is available [here](https://central.sonatype.org/pages/working-with-pgp-signatures.html)
 - configure the server in your maven settings (by default in your `~/.m2/settings.xml` file):
 ```xml
 <servers>
          ...
          <server>
-             <id>ossrh</id>
-             <username>SONATYPE_LOGIN</username>
-             <password>SONATYPE_PASSWORD</password>
+             <id>central</id>
+             <username>SONATYPE_TOKEN_USER</username>
+             <password>SONATYPE_TOKEN_PASSWORD</password>
          </server>
 </servers>
 ```
+(See [Sonatype publishing guide](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components) to generate your token.)
 - add the PGP/GPG key to your Github account:
   
   1. Start by fetching the public id of the GPG key you want to use:
@@ -191,7 +192,7 @@ Your release will then be deployed in Sonatype. The documentation to publish you
 
 Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
 
-If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to leave an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa).
+If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to contact Sonatype's Central Team.
 
 ### Differences for a corrective release
 
