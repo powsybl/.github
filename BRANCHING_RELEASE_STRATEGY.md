@@ -88,7 +88,7 @@ After a release train is published, a new date for the next release train is fix
 In order to release a PowSyBl repository, you must first:
 - be a maintainer of the repository you wish to release
 - have a Sonatype JIRA account, that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
-- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer asking to the Central Team to grant you these rights
+- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer asking the Central Team to grant you these rights
 - have a PGP/GPG key to sign your release; the complete documentation is available [here](https://central.sonatype.org/pages/working-with-pgp-signatures.html)
 - configure the server in your maven settings (by default in your `~/.m2/settings.xml` file):
 ```xml
