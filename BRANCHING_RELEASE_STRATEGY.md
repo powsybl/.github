@@ -101,7 +101,7 @@ In order to release a PowSyBl repository, you must first:
          </server>
 </servers>
 ```
-(See [Sonatype publishing guide](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components) to generate your token.)
+(See [Sonatype publishing guide](https://central.sonatype.org/publish/generate-portal-token/) to generate your token.)
 - add the PGP/GPG key to your Github account:
   
   1. Start by fetching the public id of the GPG key you want to use:
