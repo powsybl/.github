@@ -33,8 +33,8 @@ This [repository](https://github.com/powsybl/powsybl-dynawo) provides an impleme
 ### powsybl-entsoe [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-entsoe.svg?sort=semver)](https://github.com/powsybl/powsybl-entsoe/releases/)
 This [repository](https://github.com/powsybl/powsybl-entsoe) provides components specific to ENTSO-E-orientated processes.
 
-**Reviewers:** [phiedw](https://github.com/phiedw), [colinepiloquet](https://github.com/colinepiloquet)     
-**Committers:** [phiedw](https://github.com/phiedw)   
+**Reviewers:** [phiedw](https://github.com/phiedw), [colinepiloquet](https://github.com/colinepiloquet), [OpenSuze](https://github.com/OpenSuze)  
+**Committers:** [phiedw](https://github.com/phiedw), [OpenSuze](https://github.com/OpenSuze)  
 
 ### powsybl-open-rao [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-rao.svg?sort=semver)](https://github.com/powsybl/powsybl-open-rao/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-rao) provides a modular engine for remedial actions optimization.
