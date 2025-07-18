@@ -90,6 +90,7 @@ In order to release a PowSyBl repository, you must first:
 - have a Sonatype JIRA account, that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
 - have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer to create an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa) asking to grant you these rights
 - have a PGP/GPG key to sign your release; the complete documentation is available [here](https://central.sonatype.org/pages/working-with-pgp-signatures.html)
+  - If you are behind a proxy, you may encounter problems to publish your key. In that case, add `--keyserver-options "http-proxy=$http_proxy"` to your `gpg --send-keys` command
 - configure the server in your maven settings (by default in your `~/.m2/settings.xml` file):
 ```xml
 <servers>
@@ -143,7 +144,10 @@ Using the following command, you should only have your repo version:
 $ git grep -B2 -E "SNAPSHOT|-RC" pom.xml | less
 $ # You should not have RC or SNAPSHOT versions (except your own repo's one)
 ```
-If it is not the case, then the bump of the dependencies should be done prior to releasing.
+If it is not the case, then the bump of the dependencies should be done prior to releasing, in a regular pull request.
+
+If the README contains POM examples they should be updated to include the right versions for the project being released and its dependencies (to include in the bump version commit or before so that it is included in the release tag).
+
 
 Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
 ```shell
