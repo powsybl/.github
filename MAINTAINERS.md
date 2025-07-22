@@ -33,7 +33,7 @@ This [repository](https://github.com/powsybl/powsybl-dynawo) provides an impleme
 ### powsybl-entsoe [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-entsoe.svg?sort=semver)](https://github.com/powsybl/powsybl-entsoe/releases/)
 This [repository](https://github.com/powsybl/powsybl-entsoe) provides components specific to ENTSO-E-orientated processes.
 
-**Reviewers:** [phiedw](https://github.com/phiedw), [colinepiloquet](https://github.com/colinepiloquet), [OpenSuze](https://github.com/OpenSuze)  
+**Reviewers:** [phiedw](https://github.com/phiedw), [colineplqt](https://github.com/colineplqt), [OpenSuze](https://github.com/OpenSuze)  
 **Committers:** [phiedw](https://github.com/phiedw), [OpenSuze](https://github.com/OpenSuze)  
 
 ### powsybl-open-rao [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-rao.svg?sort=semver)](https://github.com/powsybl/powsybl-open-rao/releases/)
@@ -68,14 +68,14 @@ This [repository](https://github.com/powsybl/powsybl-distribution) allows for th
 
 This [repository](https://github.com/powsybl/pypowsybl) provides an GraalVM integration of the PowSyBl libraries for Python developers.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colinepiloquet](https://github.com/colinepiloquet), [obrix](https://github.com/obrix)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza)
 
 ### pypowsybl-notebooks
 
 This [repository](https://github.com/powsybl/pypowsybl-notebooks) provides some notebooks using pypowsybl for demos and tutorials.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [colinepiloquet](https://github.com/colinepiloquet), [obrix](https://github.com/obrix)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [alicecaron](https://github.com/alicecaron)
 
 ### pypowsybl-jupyter
@@ -97,13 +97,13 @@ This [repository](https://github.com/powsybl/.github) contains documents to expl
 ### powsybl.github.io
 This [repository](https://github.com/powsybl/powsybl.github.io) contains the source code of the PowSyBl organizational website.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colinepiloquet](https://github.com/colinepiloquet)      
+**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colineplqt](https://github.com/colineplqt)      
 **Committers:** all the committers
 
 ### powsybl-tutorials
 This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](../../pages/documentation/developer/tutorials/index.md) presented on this website.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colinepiloquet](https://github.com/colinepiloquet)   
+**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colineplqt](https://github.com/colineplqt)   
 **Committers:** all the committers
 
 
