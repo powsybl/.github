@@ -10,7 +10,7 @@ The PowSyBl project is split in several repository so we decided to dispatch the
 This [repository](https://github.com/powsybl/powsybl-core) provides the core feature of the PowSyBl framework such as the grid modelling, the support of several data exchange formats (CGMES, UCTE...), computation APIs (load flow, security analysis, sensitivity analysis, dynamic simulation...), time series.
 
 **Reviewers:** all great contributors are relevant as first reviewer, second review must be performed by a committer. This repository has many very different features, do not hesitate to ask the developers' community before.      
-**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [zamarrenolm](https://github.com/zamarrenolm), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico)
+**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [zamarrenolm](https://github.com/zamarrenolm), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [colineplqt](https://github.com/colineplqt)
 
 ### powsybl-diagram [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-diagram.svg?sort=semver)](https://github.com/powsybl/powsybl-diagram/releases/)
 This [repository](https://github.com/powsybl/powsybl-diagram) provides modules to generate single-line diagrams and network graph diagrams.
