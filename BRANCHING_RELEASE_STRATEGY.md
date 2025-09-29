@@ -131,7 +131,7 @@ To release a PowSyBl repository, you must first:
 
 For the sake of the demonstration, the repository to be released will be called `powsybl-repo` below.
 
-Start by being up to date to your `main` branch:
+Start by updating your main branch to the latest version:
 ```shell
 $ cd powsybl-repo
 $ git checkout main

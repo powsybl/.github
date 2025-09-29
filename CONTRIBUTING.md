@@ -113,7 +113,7 @@ A Committer is a developer with the authority to merge changes into main and oth
 
 Committers can vote when someone requests Committer rights on a repository.
 
-Committers are also able to vote when there is a candidate for a TSC (Technical Steering Committee) member's seat.
+Committers can also vote for candidates running for a seat on the Technical Steering Committee (TSC).
 
 ### Committer Responsibilities
 

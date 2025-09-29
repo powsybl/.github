@@ -36,7 +36,7 @@ Only the most recent version will include the patch (through the usual release t
 
 ### Be harmless on user environment
 
-The PowSyBl code is executed on users' environments. Using the PowSyBl code must not cause damage to the users' environments.
+The PowSyBl code is executed in users' environments. Using the PowSyBl code must not cause damage to the users' environments.
 
 ### Be safe with user data
 
@@ -83,7 +83,8 @@ Regarding Java, the policy is to have only one LTS version behind the most recen
 
 #### Controlled dependency update
 
-We pay attention to keeping our dependency versions up to date and also make sure the new versions are safe. This allows PowSyBl to benefit from the latest security patches, while ensuring protection against supply-chain attacks.
+We pay attention to keeping our dependency versions up to date and also make sure that the new versions are safe. 
+This allows PowSyBl to benefit from the latest security patches while ensuring protection against supply-chain attacks.
 
 #### Sonarcloud analysis
 
