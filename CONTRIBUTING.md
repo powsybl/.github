@@ -82,7 +82,7 @@ Note that, during continuous integration, a check is performed to see if all com
 
 
 Before you start coding, you have to agree with the [maintainers](MAINTAINERS.md) of the repository about the technical solution you will implement to make sure it will be aligned with the project guidelines.
-If you are not part of the development team, please join our [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-rzvbuzjk-nxi0boim1RKPS5PjieI0rA) and ask us on the `#first-time-contributors` channel to grant you developer rights in the PowSyBl organization.
+If you are not part of the development team, please join our [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-36jvd725u-cnquPgZb6kpjH8SKh~FWHQ) and ask us on the `#first-time-contributors` channel to grant you developer rights in the PowSyBl organization.
 Once you do, you will receive an invitation to the PowSyBl organization. Accept it, and you will be able to clone the repository, create your own branch and commit your changes! 
 
 Once the development is done, you have to create a [pull request](https://help.github.com/en/articles/about-pull-requests):
