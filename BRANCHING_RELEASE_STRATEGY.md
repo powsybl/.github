@@ -88,7 +88,7 @@ After a release train is published, a new date for the next release train is fix
 In order to release a PowSyBl repository, you must first:
 - be a maintainer of the repository you wish to release
 - have a Sonatype JIRA account, that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
-- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer to create an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa) asking to grant you these rights
+- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer asking the Central Team to grant you these rights
 - have a PGP/GPG key to sign your release; the complete documentation is available [here](https://central.sonatype.org/pages/working-with-pgp-signatures.html)
   - If you are behind a proxy, you may encounter problems to publish your key. In that case, add `--keyserver-options "http-proxy=$http_proxy"` to your `gpg --send-keys` command
 - configure the server in your maven settings (by default in your `~/.m2/settings.xml` file):
@@ -96,12 +96,13 @@ In order to release a PowSyBl repository, you must first:
 <servers>
          ...
          <server>
-             <id>ossrh</id>
-             <username>SONATYPE_LOGIN</username>
-             <password>SONATYPE_PASSWORD</password>
+             <id>central</id>
+             <username>SONATYPE_TOKEN_USER</username>
+             <password>SONATYPE_TOKEN_PASSWORD</password>
          </server>
 </servers>
 ```
+(See [Sonatype publishing guide](https://central.sonatype.org/publish/generate-portal-token/) to generate your token.)
 - add the PGP/GPG key to your Github account:
   
   1. Start by fetching the public id of the GPG key you want to use:
@@ -222,11 +223,11 @@ $ mvn clean package -Prelease
 $ mvn deploy -Prelease -DskipTests
 ```
 
-Your release will then be deployed in Sonatype. The complete documentation to release from your staging repository in Sonatype is detailed [here](https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository).
+Your release will then be deployed in Sonatype. The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).
 
 Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
 
-If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to leave an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa).
+If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to contact Sonatype's Central Team.
 
 ### Differences for a corrective release
 
