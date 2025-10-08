@@ -233,37 +233,60 @@ If an issue occurs at any time during the releasing process, do not hesitate to 
 
 Please note that there are some differences in the process when you're publishing a corrective release or a patch, which version respects the pattern `vX.Y.Z` with Z different from 0.
 
-First checkout to the previous `vX.Y.*` release or if a patch has already been released, on the `release-vX.Y.0` branch instead of the `main` branch.
+You should work from the `release-vX.Y.0` branch.  
+- If no patch was previously released for the `vX.Y.0` version, retrieve the `vX.Y.0` tag and initialize the `release-vX.Y.0` branch:
 ```shell
 $ git checkout tags/vX.Y.0
 $ git checkout -b release-vX.Y.0
+$ git push -u origin release-vX.Y.0
 ```
-or (if a patch has already been released)
+- or if the branch already exists:
 ```shell
 $ git checkout release-vX.Y.0
+$ git pull
 ```
 
-Next, open the new release:
+Next create a new branch that will receive the commits for the new version, and open the new release:
 ```shell
+$ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.Z-SNAPSHOT
 $ git commit -s -a -S -m "Bump to vX.Y.Z-SNAPSHOT"
+$ git push -u origin tmp_prepare_release
+$ # Then create a PR for tmp_prepare_release
 ```
 
-You can then cherry-pick the commits of your patch:
+Create a pull request to merge the `tmp_prepare_release` **into `release-vX.Y.0`** (**not main**).  
+Wait until all the CI criteria are fully validated.
+
+You can then cherry-pick **one by one** the commits of your patch.
+Before pushing another commit, make sure the previous `docs/readthedocs.org:...` job is finished:
 ```shell
-$ git cherry-pick -S -x <commit1_hash>
-$ git cherry-pick -S -x <commit2_hash>
-...
+$ git cherry-pick -S -x <commit_hash>
+$ git push tmp_prepare_release
+$ # Wait for the "docs/readthedocs.org:..." job is finished
+$ # Then loop on these instructions until all the commits are pushed
 ```
-And bump to the patched version:
+Then bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
 $ git commit -s -a -S -m "Bump to vX.Y.Z"
-$ git push -u origin release-vX.Y.0
+```
+
+Tag another maintainer as a reviewer to your pull request so they can approve it.
+
+Once it is approved, locally merge it by following these steps:
+```shell
+$ # The PR should be reviewed and approved
+$ git checkout release-vX.Y.0
+$ git pull
+$ git merge --ff tmp_prepare_release
+$ git push
 ```
 
 After that, create your tag:
 ```shell
+$ git log --oneline -1
+$ # Retrieve the commit hash, and use it in the following instruction
 $ git tag -s vX.Y.Z <hash of the corresponding commit (bumping to vX.Y.Z)>
 $ git push origin vX.Y.Z
 ```
