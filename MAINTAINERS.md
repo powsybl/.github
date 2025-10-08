@@ -66,7 +66,7 @@ This [repository](https://github.com/powsybl/powsybl-distribution) allows for th
 
 ### pypowsybl [![GitHub release](https://img.shields.io/github/release/powsybl/pypowsybl.svg?sort=semver)](https://github.com/powsybl/pypowsybl/releases/)
 
-This [repository](https://github.com/powsybl/pypowsybl) provides an GraalVM integration of the PowSyBl libraries for Python developers.
+This [repository](https://github.com/powsybl/pypowsybl) provides a GraalVM integration of the PowSyBl libraries for Python developers.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza)
@@ -88,7 +88,7 @@ This [repository](https://github.com/powsybl/pypowsybl-jupyter) contains widgets
 
 ### powsybl.jl [![GitHub release](https://img.shields.io/github/v/release/powsybl/powsybl.jl.svg?sort=semver)](https://github.com/powsybl/powsybl.jl/releases/)
 
-This [repository](https://github.com/powsybl/powsybl.jl) provides a Julia integration of the PowSyBl libraries for Julia developers.
+This [repository](https://github.com/powsybl/powsybl.jl) provides a GraalVM integration of the PowSyBl libraries for Julia developers.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)
