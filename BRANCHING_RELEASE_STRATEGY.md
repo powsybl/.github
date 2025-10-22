@@ -252,7 +252,7 @@ $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.Z-SNAPSHOT
 $ git commit -s -a -S -m "Bump to vX.Y.Z-SNAPSHOT"
 $ git push -u origin tmp_prepare_release
-$ # Then create a PR for tmp_prepare_release
+$ # Then create a PR for tmp_prepare_release into release-vX.Y.0
 ```
 
 Create a pull request to merge the `tmp_prepare_release` **into `release-vX.Y.0`** (**not main**).  
@@ -262,7 +262,7 @@ You can then cherry-pick **one by one** the commits of your patch.
 Before pushing another commit, make sure the previous `docs/readthedocs.org:...` job is finished:
 ```shell
 $ git cherry-pick -S -x <commit_hash>
-$ git push tmp_prepare_release
+$ git push
 $ # Wait for the "docs/readthedocs.org:..." job is finished
 $ # Then loop on these instructions until all the commits are pushed
 ```
@@ -270,6 +270,7 @@ Then bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
 $ git commit -s -a -S -m "Bump to vX.Y.Z"
+$ git push
 ```
 
 Tag another maintainer as a reviewer to your pull request so they can approve it.
