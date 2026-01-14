@@ -130,7 +130,7 @@ This [repository](https://github.com/powsybl/java-dynawo-docker) provides a base
 
 This [repository](https://github.com/powsybl/powsybl-dev-tools) provides tools to help developers for debugging such as a single line diagram viewer.
 
-**Committers:** [flo-dup](https://github.com/flo-dup), [So-Fras](https://github.com/So-Fras)  
+**Committers:** [flo-dup](https://github.com/flo-dup), [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-incubator
 
