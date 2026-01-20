@@ -199,6 +199,12 @@ This [repository](https://github.com/powsybl/powsybl-eurostag) allows importing 
 **Reviewers:** [JB-H](https://github.com/JB-H)  
 **Committers:** [geofjamg](https://github.com/geofjamg)  
 
+### powsybl-open-loadflow-knitro-solver [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow-knitro-solver.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow-knitro-solver/releases/)
+This [repository](https://github.com/powsybl/powsybl-open-loadflow-knitro-solver) is an extension to [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow)
+allowing to solve the load flow equations with the non-linear solver Knitro instead of the default Newton-Raphson method.
+
+**Reviewers:** [p-arvy](https://github.com/p-arvy), [Hadrien-Godard](https://github.com/Hadrien-Godard), [jeanneArchambault](https://github.com/jeanneArchambault), [amakhen](https://github.com/amakhen), [mdeboute](https://github.com/mdeboute), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)
+**Committers:** [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)
 
 
 ## C++ libraries
