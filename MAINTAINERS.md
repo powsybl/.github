@@ -16,7 +16,7 @@ This [repository](https://github.com/powsybl/powsybl-core) provides the core fea
 This [repository](https://github.com/powsybl/powsybl-diagram) provides modules to generate single-line diagrams and network graph diagrams.
 
 **Reviewers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras), [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [etiennehomer](https://github.com/etiennehomer)  
-**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras)  
+**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-open-loadflow [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an implementation of the LoadFlow API based on the [powsybl-math-native](powsybl-math-native.md) project.
@@ -99,8 +99,8 @@ This [repository](https://github.com/powsybl/powsybl.jl) provides a GraalVM inte
 ### .github
 This [repository](https://github.com/powsybl/.github) contains documents to explain how the PowSyBl organization works (code of conduct, maintainers, contributing, security). It also provides the templates for the issues and the pull requests. These documents are shared by all the repositories. The associated Github wiki contains the roadmap of the whole organization.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras)    
-**Committers:** [So-Fras](https://github.com/So-Fras)
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)    
+**Committers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)
 
 ### powsybl.github.io
 This [repository](https://github.com/powsybl/powsybl.github.io) contains the source code of the PowSyBl organizational website.
@@ -111,7 +111,7 @@ This [repository](https://github.com/powsybl/powsybl.github.io) contains the sou
 ### powsybl-tutorials
 This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](../../pages/documentation/developer/tutorials/index.md) presented on this website.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras), [colineplqt](https://github.com/colineplqt)   
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [colineplqt](https://github.com/colineplqt), [rolnico](https://github.com/rolnico)   
 **Committers:** all the committers
 
 
@@ -138,7 +138,7 @@ This [repository](https://github.com/powsybl/java-dynawo-docker) provides a base
 
 This [repository](https://github.com/powsybl/powsybl-dev-tools) provides tools to help developers with debugging, such as a single-line diagram viewer.
 
-**Committers:** [flo-dup](https://github.com/flo-dup), [So-Fras](https://github.com/So-Fras)  
+**Committers:** [flo-dup](https://github.com/flo-dup), [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-incubator
 
