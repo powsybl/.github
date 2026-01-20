@@ -69,14 +69,14 @@ This [repository](https://github.com/powsybl/powsybl-distribution) helps to gene
 This [repository](https://github.com/powsybl/pypowsybl) provides a GraalVM integration of the PowSyBl libraries for Python developers.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza)
+**Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza), [Godelaine](https://github.com/Godelaine)
 
 ### pypowsybl-notebooks
 
 This [repository](https://github.com/powsybl/pypowsybl-notebooks) provides some notebooks using pypowsybl for demos and tutorials.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [alicecaron](https://github.com/alicecaron)
+**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [alicecaron](https://github.com/alicecaron), [Godelaine](https://github.com/Godelaine)
 
 ### pypowsybl-jupyter
 
