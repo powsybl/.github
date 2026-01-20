@@ -42,7 +42,7 @@ PowSyBl is part of the [LF Energy](https://www.lfenergy.org), a project of The L
 🌈 Contribution guidelines - how can the community get involved?
 
 - Just use it!
-- Join the community on [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-rzvbuzjk-nxi0boim1RKPS5PjieI0rA), ask for help, report bugs, help other users, provide feedback, present your use cases, etc.
+- Join the community on [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-36jvd725u-cnquPgZb6kpjH8SKh~FWHQ), ask for help, report bugs, help other users, provide feedback, present your use cases, etc.
 - [Contribute in the code](https://www.powsybl.org/pages/contributing/);
 - Contribute in our functional and technical roadmap by joining our Technical Steering Committees;
 - Join the [powsybl-announce@lists.lfenergy.org](mailto:powsybl-announce@lists.lfenergy.org) to receive announcements from PowSyBl Project (releases, new features, issues, etc.)

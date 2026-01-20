@@ -3,6 +3,7 @@
 - [ ] The commit message follows our guidelines
 - [ ] Tests for the changes have been added (for bug fixes / features)
 - [ ] Docs have been added / updated (for bug fixes / features)
+- [ ] A PR or issue has been opened in all impacted repositories (if any)
 
 
 **Does this PR already have an issue describing the problem?**

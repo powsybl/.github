@@ -11,11 +11,11 @@ Points below detail the policy that determines in our repositories which branche
 ### Main branch
 
 The default branch is named `main` and is protected. Commits can be merged only via pull requests passing different checks:
-- Compiling through Ubuntu OS, MacOS and Windows OS without failing
+- Compiling through Ubuntu OS, macOS and Windows OS without failing
 - Having a testing coverage greater than 90% for powsybl-open-loadflow and powsybl-diagram, 80% for the other repositories
 - Succeeding in Sonarcloud checks without blocking failures (rules available [here](https://sonarcloud.io/organizations/powsybl-ci-github/rules))
 - At least one reviewer, different from the pull request's author, must have approved the pull request
-- Each commits must be signed correctly
+- Each commit must be signed correctly
 - WIP status must be cleared
 
 ### Release branches
@@ -29,7 +29,7 @@ These branches are always up to the most recent patch of the release.
 
 There are two different types of integration branches:
 - Branches that are created to support a specific major feature or to adapt to a major breaking change present in a SNAPSHOT release of another PowSyBl repository; their pattern is `integration/<other_repository_name>-<SNAPSHOT_release>` or `integration/<major_feature_name>`
-- Branches preparing a new XIIDM version, which means updating of several files that can be awkward to review. Their pattern can be `evolution_xiidm/<xiidm_version>` or `xiidm_version_<xiidm_version>`
+- Branches used to prepare a new XIIDM version, which means updating of several files that can be awkward to review. Their pattern can be `evolution_xiidm/<xiidm_version>` or `xiidm_version_<xiidm_version>`
 
 Only [maintainers](MAINTAINERS.md) can create or force-push into these branches.
 Other members must create a pull request to do push into these branches and pass the same checks as the `main` branch.
@@ -38,8 +38,8 @@ Other members must create a pull request to do push into these branches and pass
 
 A new release train of the framework occurs roughly every two or three months.
 
-In case of structural issues, corrective releases can also be published for some repositories.
-These corrective releases are motivated by users' demand so don't hesitate to [contact us](https://www.powsybl.org/pages/community/).
+In the case of structural issues, corrective releases can also be published for some repositories.
+Users' demand motivates these corrective releases, so don't hesitate to [contact us](https://www.powsybl.org/pages/community/).
 
 There is also always a possibility to release a module outside this agenda if necessary,
 please [contact us](https://www.powsybl.org/pages/community/) for further discussion.
@@ -49,14 +49,14 @@ usually published and available for testing and migration of dependent repositor
 A release candidate should be up for at least one week before the release is published.
 On average, it is up for two weeks.
 
-Our release train consists in the release of:
-- [powsybl-core and its sub-modules](https://github.com/powsybl/powsybl-core)
+Our release train consists of the release of:
+- [powsybl-core and its submodules](https://github.com/powsybl/powsybl-core)
 - [powsybl-open-loadflow](https://github.com/powsybl/powsybl-open-loadflow)
-- [powsybl-diagram and its sub-modules](https://github.com/powsybl/powsybl-diagram)
-- [powsybl-dynawo and its sub-modules](https://github.com/powsybl/powsybl-dynawo)
+- [powsybl-diagram and its submodules](https://github.com/powsybl/powsybl-diagram)
+- [powsybl-dynawo and its submodules](https://github.com/powsybl/powsybl-dynawo)
 - [pypowsybl](https://github.com/powsybl/pypowsybl)
-- [powsybl-entsoe and its sub-modules](https://github.com/powsybl/powsybl-entsoe)
-- [powsybl-open-rao and its sub-modules](https://github.com/powsybl/powsybl-open-rao)
+- [powsybl-entsoe and its submodules](https://github.com/powsybl/powsybl-entsoe)
+- [powsybl-open-rao and its submodules](https://github.com/powsybl/powsybl-open-rao)
 
 For each released repository:
 - a release note is written by one of the repository's committers
@@ -85,36 +85,37 @@ After a release train is published, a new date for the next release train is fix
 
 ### Prerequisites
 
-In order to release a PowSyBl repository, you must first:
+To release a PowSyBl repository, you must first:
 - be a maintainer of the repository you wish to release
-- have a Sonatype JIRA account, that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
-- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer to create an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa) asking to grant you these rights
+- have a Sonatype JIRA account that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
+- have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer asking the Central Team to grant you these rights
 - have a PGP/GPG key to sign your release; the complete documentation is available [here](https://central.sonatype.org/pages/working-with-pgp-signatures.html)
 - configure the server in your maven settings (by default in your `~/.m2/settings.xml` file):
 ```xml
 <servers>
          ...
          <server>
-             <id>ossrh</id>
-             <username>SONATYPE_LOGIN</username>
-             <password>SONATYPE_PASSWORD</password>
+             <id>central</id>
+             <username>SONATYPE_TOKEN_USER</username>
+             <password>SONATYPE_TOKEN_PASSWORD</password>
          </server>
 </servers>
 ```
-- add the PGP/GPG key to your Github account:
+(See [Sonatype publishing guide](https://central.sonatype.org/publish/generate-portal-token/) to generate your token.)
+- add the PGP/GPG key to your GitHub account:
   
   1. Start by fetching the public id of the GPG key you want to use:
   
   ```shell
   $ gpg --list-secret-keys --keyid-format=long
   ```
-  2. Generate the key to the ASCII armor format, which is the accepted Github format:
+  2. Generate the key to the ASCII armor format, which is the accepted GitHub format:
   
   ```shell
   $ gpg --armor --export <key_ID>
   ```
   
-  3. Copy-paste the output of the previous command into Github (your profile > SSH and GPG keys):
+  3. Copy-paste the output of the previous command into GitHub (your profile > SSH and GPG keys):
   
   ```shell
   -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -130,25 +131,33 @@ In order to release a PowSyBl repository, you must first:
 
 For the sake of the demonstration, the repository to be released will be called `powsybl-repo` below.
 
-Start by being up-to-date to your `main` branch:
+Start by updating your main branch to the latest version:
 ```shell
 $ cd powsybl-repo
 $ git checkout main
 $ git pull
 ```
 
-Create your temporary branch preparing to the release X.Y.0 and add commits bumping to your release version then your next snapshot version.
-You can then push this branch.
+Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
 ```shell
 $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.0
 $ git commit -s -a -S -m "Bump to vX.Y.0"
-$ mvn versions:set -DnewVersion=X.Y+1.0-SNAPSHOT
-$ git commit -s -a -S -m "Bump to vX.Y+1.0-SNAPSHOT"
 $ git push -u origin tmp_prepare_release
 ```
 
-Create a pull request from your temporary branch into the `main` branch and tag another maintainer as a reviewer so they can approve it.
+Create a pull request from your temporary branch into the `main` branch.
+Wait until all the CI criteria are fully validated. Then add a commit for your next snapshot version.
+You can then push again.
+
+```shell
+$ mvn versions:set -DnewVersion=X.Y+1.0-SNAPSHOT
+$ git commit -s -a -S -m "Bump to vX.Y+1.0-SNAPSHOT"
+$ git push
+```
+
+Tag another maintainer as a reviewer to your pull request so they can approve it.
+
 Once it is approved, locally merge it by following these steps:
 ```shell
 $ git checkout main
@@ -179,11 +188,11 @@ $ mvn clean package -Prelease
 $ mvn deploy -Prelease -DskipTests
 ```
 
-Your release will then be deployed in Sonatype. The complete documentation to release from your staging repository in Sonatype is detailed [here](https://central.sonatype.org/publish/release/#locate-and-examine-your-staging-repository).
+Your release will then be deployed in Sonatype. The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).
 
 Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
 
-If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to leave an issue on [Sonatype JIRA Dashboard](https://issues.sonatype.org/secure/Dashboard.jspa).
+If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to contact Sonatype's Central Team.
 
 ### Differences for a corrective release
 
