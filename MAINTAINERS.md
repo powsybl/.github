@@ -189,8 +189,8 @@ This [repository](https://github.com/powsybl/powsybl-hpc) provides two implement
 ### powsybl-optimizer [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-optimizer.svg?sort=semver)](https://github.com/powsybl/powsybl-optimizer/releases/)
 This [repository](https://github.com/powsybl/powsybl-optimizer) provides an interface to use the Ampl optimizer.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras)   
-**Committers:** [So-Fras](https://github.com/So-Fras)
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [olperr1](https://github.com/olperr1)   
+**Committers:** [So-Fras](https://github.com/So-Fras), [olperr1](https://github.com/olperr1) 
 
 ### powsybl-eurostag
 
