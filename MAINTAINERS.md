@@ -84,6 +84,14 @@ This [repository](https://github.com/powsybl/pypowsybl-jupyter) contains widgets
 
 **Committers:** [flo-dup](https://github.com/flo-dup)
 
+## Julia librairies
+
+### powsybl.jl [![GitHub release](https://img.shields.io/github/v/release/powsybl/powsybl.jl.svg?sort=semver)](https://github.com/powsybl/powsybl.jl/releases/)
+
+This [repository](https://github.com/powsybl/powsybl.jl) provides a GraalVM integration of the PowSyBl libraries for Julia developers.
+
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)
 
 
 ## Community
