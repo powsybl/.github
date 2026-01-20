@@ -1,6 +1,6 @@
 # Use PowSyBl in Java
 
-PowSyBl is available in Java as Maven artifacts.
+PowSyBl is available in Java as [Maven artifacts](https://central.sonatype.com/search?q=powsybl).
 
 
 ## Java dependency management for beginners
