@@ -8,7 +8,7 @@ hidden: true
 ---
 
 releasetrain.md
-gettingstarted.md
+start/gettingstarted.md
 
 ```
 

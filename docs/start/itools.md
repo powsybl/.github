@@ -1,17 +1,17 @@
-# Installation of a basic PowSyBl distribution
+# Run PowSyBl commands with Itools
 
-Follow these simple steps to get familiar with the PowSyBl environment. Below are instructions to install a basic PowSyBl distribution and to start running iTools commands.
+## Itools overview
+<span style="color: red">TODO: add more information here</span>
 
-Please note that this PowSyBl distribution is functional on Windows and Linux but is not supported for MacOS yet.
-
-## Installation
+## Installation of a basic PowSyBl distribution
+Follow these steps to install a basic PowSyBl distribution and to start running iTools commands.
 
 ### Installation from binaries
 
 Start by downloading the [latest version of a PowSyBl distribution](https://github.com/powsybl/powsybl-distribution).
 Unzip the downloaded package. You can now add `<INSTALL_DIR>/powsybl-distribution-<LATEST_VERSION>/bin` to your environment variable `PATH`.
 
-### Installation from sources
+### Installation from sources
 
 It is also possible to install PowSyBl distribution from sources.
 
@@ -77,4 +77,8 @@ $ cp <INSTALL_DIR>/resources/config/config.yml <HOME>/.itools/config.yml
 ```
 
 This step is not mandatory **if you already have a custom configuration file and the necessary configuration modules are filled**.
-For more information on configuration, go to the [related documentation]().
+For more information on configuration, go to the [related documentation](https://powsybl.readthedocs.io/projects/powsybl-core/en/stable/user/configuration/index.html).
+
+## Examples
+
+<span style="color: red">TODO: add examples of Itools use cases here</span>
