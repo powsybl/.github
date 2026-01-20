@@ -28,7 +28,7 @@ This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an 
 This [repository](https://github.com/powsybl/powsybl-dynawo) provides an implementation of the dynamic simulation API for the [Dyna&omega;o](https://dynawo.github.io/) time domain simulation tool.
 
 **Reviewers:** [flo-dup](https://github.com/flo-dup), [gautierbureau](https://github.com/gautierbureau), [Lisrte](https://github.com/Lisrte)      
-**Committers:** [flo-dup](https://github.com/flo-dup), [Lisrte](https://github.com/Lisrte)
+**Committers:** [flo-dup](https://github.com/flo-dup), [Lisrte](https://github.com/Lisrte), [alicecaron](https://github.com/alicecaron)
 
 ### powsybl-entsoe [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-entsoe.svg?sort=semver)](https://github.com/powsybl/powsybl-entsoe/releases/)
 This [repository](https://github.com/powsybl/powsybl-entsoe) provides components specific to ENTSO-E-orientated processes.
