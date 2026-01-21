@@ -13,9 +13,9 @@ Unzip the downloaded package. You can now add `<INSTALL_DIR>/powsybl-distributio
 
 ### Installation from sources
 
-It is also possible to install PowSyBl distribution from sources.
+It is also possible to install the PowSyBl distribution from the sources.
 
-First download the sources of [`powsybl-distribution` repository](https://github.com/powsybl/powsybl-distribution):
+First download the sources of the [`powsybl-distribution` repository](https://github.com/powsybl/powsybl-distribution):
 
 ```
 $ git clone https://github.com/powsybl/powsybl-distribution.git
