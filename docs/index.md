@@ -75,3 +75,12 @@ The 🚂 repositories are released every two to three months through a [release 
 - **powsybl-hpc**: High Performance Computing modules
 	- [Documentation](https://powsybl.readthedocs.io/projects/powsybl-hpc)
 	- [GitHub repository](https://github.com/powsybl/powsybl-hpc)
+
+## Tutorials and demo
+
+- **poswybl-tutorials**: Java based project for Powsybl getting started purpose
+  - [Documentation](https://powsybl.readthedocs.io/projects/powsybl-tutorials/en/latest/)
+  - [GitHub repository](https://github.com/powsybl/powsybl-tutorials)
+
+- **pypowsybl-notebooks**: Python based project for Powsybl getting started purpose
+    - [GitHub repository](https://github.com/powsybl/pypowsybl-notebooks)
