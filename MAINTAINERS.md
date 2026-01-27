@@ -1,22 +1,22 @@
 # PowSyBl maintainers
 
-The PowSyBl project is split in several repository so we decided to dispatch the responsibility of the repositories between maintainers, either for the code review or to release the code. The contact information for our main repositories is listed below.
+The PowSyBl project is split in several repositories so we decided to dispatch the responsibility of the repositories between maintainers, either for the code review or to release the code. The contact information for our main repositories is listed below.
 
 
 
 ## Java release train
 
 ### powsybl-core [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-core.svg?sort=semver)](https://github.com/powsybl/powsybl-core/releases/)
-This [repository](https://github.com/powsybl/powsybl-core) provides the core feature of the PowSyBl framework such as the grid modelling, the support of several data exchange formats (CGMES, UCTE...), computation APIs (load flow, security analysis, sensitivity analysis, dynamic simulation...), time series.
+This [repository](https://github.com/powsybl/powsybl-core) provides the core features of the PowSyBl framework, such as the grid modeling, the support of several data exchange formats (CGMES, UCTE...), computation APIs (load flow, security analysis, sensitivity analysis, dynamic simulation...), time series.
 
-**Reviewers:** all great contributors are relevant as first reviewer, second review must be performed by a committer. This repository has many very different features, do not hesitate to ask the developers' community before.      
+**Reviewers:** all great contributors are relevant as the first reviewer, the second review must be performed by a committer. This repository has many very different features, do not hesitate to ask the developers' community before.      
 **Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [zamarrenolm](https://github.com/zamarrenolm), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [colineplqt](https://github.com/colineplqt)
 
 ### powsybl-diagram [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-diagram.svg?sort=semver)](https://github.com/powsybl/powsybl-diagram/releases/)
 This [repository](https://github.com/powsybl/powsybl-diagram) provides modules to generate single-line diagrams and network graph diagrams.
 
 **Reviewers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras), [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [etiennehomer](https://github.com/etiennehomer)  
-**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras)  
+**Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-open-loadflow [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an implementation of the LoadFlow API based on the [powsybl-math-native](powsybl-math-native.md) project.
@@ -28,7 +28,7 @@ This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an 
 This [repository](https://github.com/powsybl/powsybl-dynawo) provides an implementation of the dynamic simulation API for the [Dyna&omega;o](https://dynawo.github.io/) time domain simulation tool.
 
 **Reviewers:** [flo-dup](https://github.com/flo-dup), [gautierbureau](https://github.com/gautierbureau), [Lisrte](https://github.com/Lisrte)      
-**Committers:** [flo-dup](https://github.com/flo-dup), [Lisrte](https://github.com/Lisrte)
+**Committers:** [flo-dup](https://github.com/flo-dup), [Lisrte](https://github.com/Lisrte), [alicecaron](https://github.com/alicecaron)
 
 ### powsybl-entsoe [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-entsoe.svg?sort=semver)](https://github.com/powsybl/powsybl-entsoe/releases/)
 This [repository](https://github.com/powsybl/powsybl-entsoe) provides components specific to ENTSO-E-orientated processes.
@@ -55,7 +55,7 @@ This [repository](https://github.com/powsybl/powsybl-starter) is a help for PowS
 **Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-distribution [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-distribution.svg?sort=semver)](https://github.com/powsybl/powsybl-distribution/releases/)
-This [repository](https://github.com/powsybl/powsybl-distribution) allows for the generation of a basic distribution of PowSyBl.
+This [repository](https://github.com/powsybl/powsybl-distribution) helps to generate a basic distribution of PowSyBl.
 
 **Reviewers:**  [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
 **Committers:** [olperr1](https://github.com/olperr1), [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico)  
@@ -66,17 +66,17 @@ This [repository](https://github.com/powsybl/powsybl-distribution) allows for th
 
 ### pypowsybl [![GitHub release](https://img.shields.io/github/release/powsybl/pypowsybl.svg?sort=semver)](https://github.com/powsybl/pypowsybl/releases/)
 
-This [repository](https://github.com/powsybl/pypowsybl) provides an GraalVM integration of the PowSyBl libraries for Python developers.
+This [repository](https://github.com/powsybl/pypowsybl) provides a GraalVM integration of the PowSyBl libraries for Python developers.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix), [bqth29](https://github.com/bqth29)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza), [bqth29](https://github.com/bqth29)
+**Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza), [Godelaine](https://github.com/Godelaine), [bqth29](https://github.com/bqth29)
 
 ### pypowsybl-notebooks
 
 This [repository](https://github.com/powsybl/pypowsybl-notebooks) provides some notebooks using pypowsybl for demos and tutorials.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [alicecaron](https://github.com/alicecaron)
+**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [alicecaron](https://github.com/alicecaron), [Godelaine](https://github.com/Godelaine)
 
 ### pypowsybl-jupyter
 
@@ -84,6 +84,14 @@ This [repository](https://github.com/powsybl/pypowsybl-jupyter) contains widgets
 
 **Committers:** [flo-dup](https://github.com/flo-dup)
 
+## Julia librairies
+
+### powsybl.jl [![GitHub release](https://img.shields.io/github/v/release/powsybl/powsybl.jl.svg?sort=semver)](https://github.com/powsybl/powsybl.jl/releases/)
+
+This [repository](https://github.com/powsybl/powsybl.jl) provides a GraalVM integration of the PowSyBl libraries for Julia developers.
+
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix)
 
 
 ## Community
@@ -91,19 +99,19 @@ This [repository](https://github.com/powsybl/pypowsybl-jupyter) contains widgets
 ### .github
 This [repository](https://github.com/powsybl/.github) contains documents to explain how the PowSyBl organization works (code of conduct, maintainers, contributing, security). It also provides the templates for the issues and the pull requests. These documents are shared by all the repositories. The associated Github wiki contains the roadmap of the whole organization.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras)    
-**Committers:** [So-Fras](https://github.com/So-Fras)
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)    
+**Committers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)
 
 ### powsybl.github.io
 This [repository](https://github.com/powsybl/powsybl.github.io) contains the source code of the PowSyBl organizational website.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colineplqt](https://github.com/colineplqt)      
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [colineplqt](https://github.com/colineplqt)      
 **Committers:** all the committers
 
 ### powsybl-tutorials
 This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](../../pages/documentation/developer/tutorials/index.md) presented on this website.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras),  [colineplqt](https://github.com/colineplqt)   
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [colineplqt](https://github.com/colineplqt), [rolnico](https://github.com/rolnico)   
 **Committers:** all the committers
 
 
@@ -128,9 +136,9 @@ This [repository](https://github.com/powsybl/java-dynawo-docker) provides a base
 
 ### powsybl-dev-tools
 
-This [repository](https://github.com/powsybl/powsybl-dev-tools) provides tools to help developers for debugging such as a single line diagram viewer.
+This [repository](https://github.com/powsybl/powsybl-dev-tools) provides tools to help developers with debugging, such as a single-line diagram viewer.
 
-**Committers:** [flo-dup](https://github.com/flo-dup), [So-Fras](https://github.com/So-Fras)  
+**Committers:** [flo-dup](https://github.com/flo-dup), [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-incubator
 
@@ -151,14 +159,14 @@ This [repository](https://github.com/powsybl/github-ci) provides reusable workfl
 This repository provides a PostgreSQL implementation of the IIDM grid model.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [antoinebhs](https://github.com/antoinebhs), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)   
-**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [obrix](https://github.com/obrix), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [etiennehomer](https://github.com/etiennehomer), [jorismancini](https://github.com/TheMaskedTurtle)  
 
 
 ### powsybl-case-datasource [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-case-datasource.svg?sort=semver)](https://github.com/powsybl/powsybl-case-datasource/releases/)
 This [repository](https://github.com/powsybl/powsybl-case-datasource) provides network case management.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)  
-**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer) 
+**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [jorismancini](https://github.com/TheMaskedTurtle)
 
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to run optimal power load flow on several network variants. Variants are generated through time series mapping on a base case.
@@ -181,16 +189,22 @@ This [repository](https://github.com/powsybl/powsybl-hpc) provides two implement
 ### powsybl-optimizer [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-optimizer.svg?sort=semver)](https://github.com/powsybl/powsybl-optimizer/releases/)
 This [repository](https://github.com/powsybl/powsybl-optimizer) provides an interface to use the Ampl optimizer.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras)   
-**Committers:** [So-Fras](https://github.com/So-Fras)
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [olperr1](https://github.com/olperr1)   
+**Committers:** [So-Fras](https://github.com/So-Fras), [olperr1](https://github.com/olperr1) 
 
 ### powsybl-eurostag
 
-This [repository](https://github.com/powsybl/powsybl-eurostag) allows to import Eurostag format file.
+This [repository](https://github.com/powsybl/powsybl-eurostag) allows importing Eurostag format files.
 
 **Reviewers:** [JB-H](https://github.com/JB-H)  
 **Committers:** [geofjamg](https://github.com/geofjamg)  
 
+### powsybl-open-loadflow-knitro-solver [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow-knitro-solver.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow-knitro-solver/releases/)
+This [repository](https://github.com/powsybl/powsybl-open-loadflow-knitro-solver) is an extension to [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow)
+allowing to solve the load flow equations with the non-linear solver Knitro instead of the default Newton-Raphson method.
+
+**Reviewers:** [p-arvy](https://github.com/p-arvy), [Hadrien-Godard](https://github.com/Hadrien-Godard), [jeanneArchambault](https://github.com/jeanneArchambault), [amakhen](https://github.com/amakhen), [mdeboute](https://github.com/mdeboute), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)
+**Committers:** [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)
 
 
 ## C++ libraries
@@ -202,7 +216,7 @@ This [repository](https://github.com/powsybl/powsybl-iidm4cpp) provides a C++ im
 **Committers:** [gautierbureau](https://github.com/gautierbureau), [rolnico](https://github.com/rolnico)
 
 ### powsybl-math-native [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-math-native.svg?sort=semver)](https://github.com/powsybl/powsybl-math-native/releases/)
-This [repository](https://github.com/powsybl/powsybl-math-native) provides a C++ implementation of sparse matrix, based on the [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) project. This 64-bits libraries for Linux, Windows and MacOS are packaged as a Jar file and published on maven central.
+This [repository](https://github.com/powsybl/powsybl-math-native) provides a C++ implementation of sparse matrix, based on the [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) project. This 64-bits library for Linux, Windows and MacOS is packaged as a Jar file and published on maven central.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg)   
 **Committers:** [geofjamg](https://github.com/geofjamg)
@@ -241,7 +255,7 @@ This [repository](https://github.com/powsybl/powsybl-network-conversion-server) 
 
 
 ### powsybl-single-line-diagram-server
-This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server) provides a web service to generate single line diagrams.
+This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server) provides a web service to generate single-line diagrams.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst),  [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [etiennehomer](https://github.com/etiennehomer)    
 **Committers:** [geofjamg](https://github.com/geofjamg), [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [EtienneLt](https://github.com/EtienneLt), [SlimaneAmar](https://github.com/SlimaneAmar), [jorismancini](https://github.com/TheMaskedTurtle), [etiennehomer](https://github.com/etiennehomer)    
@@ -250,19 +264,19 @@ This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server)
 ### powsybl-network-viewer
 This [repository](https://github.com/powsybl/powsybl-network-viewer) provides a service to display network-area diagrams, single-line diagrams and the substations, voltage levels and lines on a map.
 
-**Reviewers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai)    
+**Reviewers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [massimo-ferraro](https://github.com/massimo-ferraro)    
 **Committers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)    
 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)    
-**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt)  
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [jorismancini](https://github.com/TheMaskedTurtle)  
 
 ### powsybl-ws-dependencies
 This [repository](https://github.com/powsybl/powsybl-ws-dependencies) provides commons for web services.
 
 **Reviewers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [AbdelHedhili](https://github.com/AbdelHedhili), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [ayolab](https://github.com/ayolab), [basseche](https://github.com/basseche), [celmhari](https://github.com/celmhari), [dbraquart](https://github.com/dbraquart), [EstherDarkish](https://github.com/EstherDarkish), [EtienneLt](https://github.com/EtienneLt), [FranckLecuyer](https://github.com/FranckLecuyer), [ghazwarhili](https://github.com/ghazwarhili), [klesaulnier](https://github.com/klesaulnier), [Mathieu-Deharbe](https://github.com/Mathieu), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [thangqp](https://github.com/thangqp), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [Tristan-WorkGH](https://github.com/Tristan)  
-**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt)  
+**Committers:** [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [EtienneLt](https://github.com/EtienneLt), [jorismancini](https://github.com/TheMaskedTurtle)
 
 
