@@ -68,8 +68,8 @@ This [repository](https://github.com/powsybl/powsybl-distribution) helps to gene
 
 This [repository](https://github.com/powsybl/pypowsybl) provides a GraalVM integration of the PowSyBl libraries for Python developers.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix)  
-**Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza), [Godelaine](https://github.com/Godelaine)
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix), [bqth29](https://github.com/bqth29)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [EtienneLt](https://github.com/EtienneLt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza), [Godelaine](https://github.com/Godelaine), [bqth29](https://github.com/bqth29)
 
 ### pypowsybl-notebooks
 
