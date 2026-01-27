@@ -90,6 +90,7 @@ To release a PowSyBl repository, you must first:
 - have a Sonatype JIRA account that can be created [here](https://issues.sonatype.org/secure/Signup!default.jspa)
 - have rights to upload artefacts with the group ID `com.powsybl`; this must be achieved by having a current maintainer asking the Central Team to grant you these rights
 - have a PGP/GPG key to sign your release; the complete documentation is available [here](https://central.sonatype.org/pages/working-with-pgp-signatures.html)
+  - If you are behind a proxy, you may encounter problems to publish your key. In that case, add `--keyserver-options "http-proxy=$http_proxy"` to your `gpg --send-keys` command
 - configure the server in your maven settings (by default in your `~/.m2/settings.xml` file):
 ```xml
 <servers>
@@ -138,15 +139,42 @@ $ git checkout main
 $ git pull
 ```
 
+Verify that you don't use a RC or SNAPSHOT version for the PowSyBl dependencies.
+Using the following command, you should only have your repo version:
+```shell
+$ git grep -B2 -E "SNAPSHOT|-RC" pom.xml | less
+$ # You should not have RC or SNAPSHOT versions (except your own repo's one)
+```
+If it is not the case, then the bump of the dependencies should be done prior to releasing, in a regular pull request.
+
+If the README contains POM examples they should be updated to include the right versions for the project being released and its dependencies (to include in the bump version commit or before so that it is included in the release tag).
+
+
 Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
 ```shell
 $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.0
 $ git commit -s -a -S -m "Bump to vX.Y.0"
 $ git push -u origin tmp_prepare_release
+$ # Then create a PR for tmp_prepare_release
 ```
 
-Create a pull request from your temporary branch into the `main` branch.
+Create a pull request from your temporary branch into the `main` branch.  
+In its description, use the following message (don't forget to change the vX.Y.0 by your version number):
+```markdown
+**Please check if the PR fulfills these requirements**
+<!-- please use `'[x]'` to check the checkboxes, or submit the PR and then click the checkboxes -->
+- [X] The commit message follows our guidelines
+
+
+**What kind of change does this PR introduce?**
+<!-- Bug fix, feature, docs update, ... -->
+Prepare release vX.Y.0
+
+**Other information**:
+:warning: **DO NOT** squash the commits, merge with fast-forward locally
+```
+
 Wait until all the CI criteria are fully validated. Then add a commit for your next snapshot version.
 You can then push again.
 
@@ -160,6 +188,7 @@ Tag another maintainer as a reviewer to your pull request so they can approve it
 
 Once it is approved, locally merge it by following these steps:
 ```shell
+$ # The PR should be reviewed and approved
 $ git checkout main
 $ git pull
 $ git merge --ff tmp_prepare_release
@@ -167,6 +196,8 @@ $ git push
 ```
 After that, create your tag:
 ```shell
+$ git log --oneline -2
+$ # Retrieve the commit hash of the second line, and use it in the following instruction
 $ git tag -s vX.Y.0 <hash of the corresponding commit (bumping to vX.Y.0)>
 $ git push origin vX.Y.0
 ```
@@ -182,7 +213,11 @@ Please make sure that your release note is comprehensive to all new features and
 
 On your repository, checkout to the release tag. You can then package and deploy your release:
 ```shell
+$ git status
+$ # Your local repository should be clean
 $ git checkout tags/vX.Y.0
+$ git log --oneline -1
+$ # Check that the last commit is indeed the "Bump to X.Y.0" commit
 $ mvn dependency:purge-local-repository
 $ mvn clean package -Prelease
 $ mvn deploy -Prelease -DskipTests
@@ -198,37 +233,61 @@ If an issue occurs at any time during the releasing process, do not hesitate to 
 
 Please note that there are some differences in the process when you're publishing a corrective release or a patch, which version respects the pattern `vX.Y.Z` with Z different from 0.
 
-First checkout to the previous `vX.Y.*` release or if a patch has already been released, on the `release-vX.Y.0` branch instead of the `main` branch.
+You should work from the `release-vX.Y.0` branch.  
+- If no patch was previously released for the `vX.Y.0` version, retrieve the `vX.Y.0` tag and initialize the `release-vX.Y.0` branch:
 ```shell
 $ git checkout tags/vX.Y.0
 $ git checkout -b release-vX.Y.0
+$ git push -u origin release-vX.Y.0
 ```
-or (if a patch has already been released)
+- or if the branch already exists:
 ```shell
 $ git checkout release-vX.Y.0
+$ git pull
 ```
 
-Next, open the new release:
+Next create a new branch that will receive the commits for the new version, and open the new release:
 ```shell
+$ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.Z-SNAPSHOT
 $ git commit -s -a -S -m "Bump to vX.Y.Z-SNAPSHOT"
+$ git push -u origin tmp_prepare_release
+$ # Then create a PR for tmp_prepare_release into release-vX.Y.0
 ```
 
-You can then cherry-pick the commits of your patch:
+Create a pull request to merge the `tmp_prepare_release` **into `release-vX.Y.0`** (**not main**).  
+Wait until all the CI criteria are fully validated.
+
+You can then cherry-pick **one by one** the commits of your patch.
+Before pushing another commit, make sure the previous `docs/readthedocs.org:...` job is finished:
 ```shell
-$ git cherry-pick -S -x <commit1_hash>
-$ git cherry-pick -S -x <commit2_hash>
-...
+$ git cherry-pick -S -x <commit_hash>
+$ git push
+$ # Wait for the "docs/readthedocs.org:..." job is finished
+$ # Then loop on these instructions until all the commits are pushed
 ```
-And bump to the patched version:
+Then bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
 $ git commit -s -a -S -m "Bump to vX.Y.Z"
-$ git push -u origin release-vX.Y.0
+$ git push
+```
+
+Tag another maintainer as a reviewer to your pull request so they can approve it.
+
+Once it is approved, locally merge it by following these steps:
+```shell
+$ # The PR should be reviewed and approved
+$ git checkout release-vX.Y.0
+$ git pull
+$ git merge --ff tmp_prepare_release
+$ git push
 ```
 
 After that, create your tag:
 ```shell
+$ git log --oneline -1
+$ # Retrieve the commit hash, and use it in the following instruction
 $ git tag -s vX.Y.Z <hash of the corresponding commit (bumping to vX.Y.Z)>
 $ git push origin vX.Y.Z
 ```
