@@ -82,7 +82,7 @@ This [repository](https://github.com/powsybl/pypowsybl-notebooks) provides some 
 
 This [repository](https://github.com/powsybl/pypowsybl-jupyter) contains widgets for pypowsybl in Jupyter notebooks.
 
-**Committers:** [flo-dup](https://github.com/flo-dup)
+**Committers:** [flo-dup](https://github.com/flo-dup), [rolnico](https://github.com/rolnico) 
 
 ## Julia librairies
 
@@ -264,8 +264,8 @@ This [repository](https://github.com/powsybl/powsybl-single-line-diagram-server)
 ### powsybl-network-viewer
 This [repository](https://github.com/powsybl/powsybl-network-viewer) provides a service to display network-area diagrams, single-line diagrams and the substations, voltage levels and lines on a map.
 
-**Reviewers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [massimo-ferraro](https://github.com/massimo-ferraro)    
-**Committers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer)    
+**Reviewers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [rolnico](https://github.com/rolnico) , [AAJELLAL](https://github.com/AAJELLAL), [antoinebhs](https://github.com/antoinebhs), [EstherDarkish](https://github.com/EstherDarkish), [klesaulnier](https://github.com/klesaulnier), [Meklo](https://github.com/Meklo), [sBouzols](https://github.com/sBouzols), [SlimaneAmar](https://github.com/SlimaneAmar), [souissimai](https://github.com/souissimai), [massimo-ferraro](https://github.com/massimo-ferraro)    
+**Committers:** [flo-dup](https://github.com/flo-dup), [jonenst](https://github.com/jonenst), [etiennehomer](https://github.com/etiennehomer), [rolnico](https://github.com/rolnico)
 
 ### powsybl-ws-commons
 This [repository](https://github.com/powsybl/powsybl-ws-commons) provides commons for web services.
