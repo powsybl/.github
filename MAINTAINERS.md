@@ -177,14 +177,14 @@ This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to
 ### powsybl-afs [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-afs.svg?sort=semver)](https://github.com/powsybl/powsybl-afs/releases/)
 This [repository](https://github.com/powsybl/powsybl-afs) provides a standardized way to organize the data for a power system study, called AFS (**A**pplication **F**ile **S**ystem). It supports some storage systems such as [MapDB](http://www.mapdb.org) or [Apache Cassandra](https://cassandra.apache.org). It is designed to be extensible using custom plugins to manage new types of data.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)  
-**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
+**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)
 
 ### powsybl-hpc [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-hpc.svg?sort=semver)](https://github.com/powsybl/powsybl-hpc/releases/)
 This [repository](https://github.com/powsybl/powsybl-hpc) provides two implementations of the Computation API, to distribute the computation using [MPI](https://www.open-mpi.org) or [Slurm Workload Manager](https://slurm.schedmd.com).
 
-**Reviewers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg)     
-**Committers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg)  
+**Reviewers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg), [MatthieuSAUR](https://github.com/MatthieuSAUR)       
+**Committers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg), [MatthieuSAUR](https://github.com/MatthieuSAUR)
 
 ### powsybl-optimizer [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-optimizer.svg?sort=semver)](https://github.com/powsybl/powsybl-optimizer/releases/)
 This [repository](https://github.com/powsybl/powsybl-optimizer) provides an interface to use the Ampl optimizer.
@@ -224,8 +224,8 @@ This [repository](https://github.com/powsybl/powsybl-math-native) provides a C++
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) also provides a C++ implementation of optimal power load flow.
 
-**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel)   
-**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)  
+**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)     
+**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)
 
 
 
