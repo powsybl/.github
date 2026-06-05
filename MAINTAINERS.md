@@ -39,8 +39,8 @@ This [repository](https://github.com/powsybl/powsybl-entsoe) provides components
 ### powsybl-open-rao [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-rao.svg?sort=semver)](https://github.com/powsybl/powsybl-open-rao/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-rao) provides a modular engine for remedial actions optimization.
 
-**Reviewers:** [bqth29](https://github.com/bqth29), [benrejebmoh](https://github.com/benrejebmoh), [Godelaine](https://github.com/Godelaine), [jipea](https://github.com/jipea), [MartinBelthle](https://github.com/MartinBelthle), [murgeyseb](https://github.com/murgeyseb), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw)  
-**Committers:** [bqth29](https://github.com/bqth29), [benrejebmoh](https://github.com/benrejebmoh), [Godelaine](https://github.com/Godelaine), [jipea](https://github.com/jipea), [MartinBelthle](https://github.com/MartinBelthle), [murgeyseb](https://github.com/murgeyseb), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw)  
+**Reviewers:** [bqth29](https://github.com/bqth29), [Godelaine](https://github.com/Godelaine), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw), [RoxaneChen02](https://github.com/RoxaneChen02), [terriervik](https://github.com/terriervik)  
+**Committers:** [bqth29](https://github.com/bqth29), [Godelaine](https://github.com/Godelaine), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw), [RoxaneChen02](https://github.com/RoxaneChen02), [terriervik](https://github.com/terriervik)  
 
 ### powsybl-dependencies [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-dependencies.svg?sort=semver)](https://github.com/powsybl/powsybl-dependencies/releases/)
 This [repository](https://github.com/powsybl/powsybl-dependencies) helps users with dependency management in PowSyBl.
@@ -99,8 +99,8 @@ This [repository](https://github.com/powsybl/powsybl.jl) provides a GraalVM inte
 ### .github
 This [repository](https://github.com/powsybl/.github) contains documents to explain how the PowSyBl organization works (code of conduct, maintainers, contributing, security). It also provides the templates for the issues and the pull requests. These documents are shared by all the repositories. The associated Github wiki contains the roadmap of the whole organization.
 
-**Reviewers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)    
-**Committers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)
+**Reviewers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico), [olperr1](https://github.com/olperr1)  
+**Committers:** [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico), [olperr1](https://github.com/olperr1)
 
 ### powsybl.github.io
 This [repository](https://github.com/powsybl/powsybl.github.io) contains the source code of the PowSyBl organizational website.
@@ -121,8 +121,8 @@ This [repository](https://github.com/powsybl/powsybl-tutorials) contains the sou
 ### powsybl-parent [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-parent.svg?sort=semver)](https://github.com/powsybl/powsybl-parent/releases/)
 This [repository](https://github.com/powsybl/powsybl-parent) provides the build configuration shared as maven pom files, shared by all our Java repositories.
 
-**Reviewers:** [jonenst](https://github.com/jonenst), [Tristan-WorkGH](https://github.com/Tristan), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [AbdelHedhili](https://github.com/AbdelHedhili), [rolnico](https://github.com/rolnico)  
-**Committers:** [jonenst](https://github.com/jonenst), [rolnico](https://github.com/rolnico)
+**Reviewers:** [jonenst](https://github.com/jonenst), [Tristan-WorkGH](https://github.com/Tristan), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94), [antoinebhs](https://github.com/antoinebhs), [AbdelHedhili](https://github.com/AbdelHedhili), [rolnico](https://github.com/rolnico), [olperr1](https://github.com/olperr1)  
+**Committers:** [jonenst](https://github.com/jonenst), [rolnico](https://github.com/rolnico), [olperr1](https://github.com/olperr1)
 
 ### java-docker
 This [repository](https://github.com/powsybl/java-docker) provides a base docker image with java and a 'powsybl' user to be used by our deployments.  
@@ -177,14 +177,14 @@ This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to
 ### powsybl-afs [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-afs.svg?sort=semver)](https://github.com/powsybl/powsybl-afs/releases/)
 This [repository](https://github.com/powsybl/powsybl-afs) provides a standardized way to organize the data for a power system study, called AFS (**A**pplication **F**ile **S**ystem). It supports some storage systems such as [MapDB](http://www.mapdb.org) or [Apache Cassandra](https://cassandra.apache.org). It is designed to be extensible using custom plugins to manage new types of data.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)  
-**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
+**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)
 
 ### powsybl-hpc [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-hpc.svg?sort=semver)](https://github.com/powsybl/powsybl-hpc/releases/)
 This [repository](https://github.com/powsybl/powsybl-hpc) provides two implementations of the Computation API, to distribute the computation using [MPI](https://www.open-mpi.org) or [Slurm Workload Manager](https://slurm.schedmd.com).
 
-**Reviewers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg)     
-**Committers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg)  
+**Reviewers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg), [MatthieuSAUR](https://github.com/MatthieuSAUR)       
+**Committers:** [rolnico](https://github.com/rolnico), [geofjamg](https://github.com/geofjamg), [MatthieuSAUR](https://github.com/MatthieuSAUR)
 
 ### powsybl-optimizer [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-optimizer.svg?sort=semver)](https://github.com/powsybl/powsybl-optimizer/releases/)
 This [repository](https://github.com/powsybl/powsybl-optimizer) provides an interface to use the Ampl optimizer.
@@ -203,7 +203,7 @@ This [repository](https://github.com/powsybl/powsybl-eurostag) allows importing 
 This [repository](https://github.com/powsybl/powsybl-open-loadflow-knitro-solver) is an extension to [PowSyBl Open Load Flow](https://github.com/powsybl/powsybl-open-loadflow)
 allowing to solve the load flow equations with the non-linear solver Knitro instead of the default Newton-Raphson method.
 
-**Reviewers:** [p-arvy](https://github.com/p-arvy), [Hadrien-Godard](https://github.com/Hadrien-Godard), [jeanneArchambault](https://github.com/jeanneArchambault), [amakhen](https://github.com/amakhen), [mdeboute](https://github.com/mdeboute), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)
+**Reviewers:** [p-arvy](https://github.com/p-arvy), [Hadrien-Godard](https://github.com/Hadrien-Godard), [jeanneArchambault](https://github.com/jeanneArchambault), [amakhen](https://github.com/amakhen), [mdeboute](https://github.com/mdeboute), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)  
 **Committers:** [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix)
 
 
@@ -224,8 +224,8 @@ This [repository](https://github.com/powsybl/powsybl-math-native) provides a C++
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) also provides a C++ implementation of optimal power load flow.
 
-**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel)   
-**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)  
+**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)     
+**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)
 
 
 
