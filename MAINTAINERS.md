@@ -39,8 +39,8 @@ This [repository](https://github.com/powsybl/powsybl-entsoe) provides components
 ### powsybl-open-rao [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-rao.svg?sort=semver)](https://github.com/powsybl/powsybl-open-rao/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-rao) provides a modular engine for remedial actions optimization.
 
-**Reviewers:** [bqth29](https://github.com/bqth29), [benrejebmoh](https://github.com/benrejebmoh), [Godelaine](https://github.com/Godelaine), [jipea](https://github.com/jipea), [MartinBelthle](https://github.com/MartinBelthle), [murgeyseb](https://github.com/murgeyseb), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw)  
-**Committers:** [bqth29](https://github.com/bqth29), [benrejebmoh](https://github.com/benrejebmoh), [Godelaine](https://github.com/Godelaine), [jipea](https://github.com/jipea), [MartinBelthle](https://github.com/MartinBelthle), [murgeyseb](https://github.com/murgeyseb), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw)  
+**Reviewers:** [bqth29](https://github.com/bqth29), [Godelaine](https://github.com/Godelaine), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw), [RoxaneChen02](https://github.com/RoxaneChen02), [terriervik](https://github.com/terriervik)  
+**Committers:** [bqth29](https://github.com/bqth29), [Godelaine](https://github.com/Godelaine), [pet-mit](https://github.com/pet-mit), [phiedw](https://github.com/phiedw), [RoxaneChen02](https://github.com/RoxaneChen02), [terriervik](https://github.com/terriervik)  
 
 ### powsybl-dependencies [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-dependencies.svg?sort=semver)](https://github.com/powsybl/powsybl-dependencies/releases/)
 This [repository](https://github.com/powsybl/powsybl-dependencies) helps users with dependency management in PowSyBl.
