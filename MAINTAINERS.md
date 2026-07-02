@@ -75,7 +75,7 @@ This [repository](https://github.com/powsybl/pypowsybl) provides a GraalVM integ
 
 This [repository](https://github.com/powsybl/pypowsybl-notebooks) provides some notebooks using pypowsybl for demos and tutorials.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza)
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [colineplqt](https://github.com/colineplqt), [obrix](https://github.com/obrix), [HugoKulesza](https://github.com/HugoKulesza)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [obrix](https://github.com/obrix), [alicecaron](https://github.com/alicecaron), [Godelaine](https://github.com/Godelaine), [HugoKulesza](https://github.com/HugoKulesza)
 
 ### pypowsybl-jupyter
