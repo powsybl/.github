@@ -134,6 +134,7 @@ The PR must include a justification, which may be based on:
 - A list of PRs reviewed by the applicant.  
 - Details about the applicant's professional background, areas of expertise, etc.
 
+
 ### Vote to Grant Committer Rights
 
 PowSyBl Committers can vote on adding a new Committer or expanding the rights of an existing Committer.  
@@ -142,7 +143,10 @@ If Committers are requesting additional rights (on other repositories), they sho
 
 The poll will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
 A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.
-If a majority of respondents support the request, the PR is merged, and the requester gains the requested rights. Otherwise, the PR is closed without merging.
+If a majority of respondents support the request, the PR is merged, and the requester gains the requested rights. Otherwise, the PR is closed without merging.  
+
+Exceptions:
+- For a pypowsybl Committer, no vote is needed to get Committer rights on pypowsybl-notebooks. A simple PR is enough.  
 
 ### Removal of Committer Rights
 
@@ -152,6 +156,8 @@ Polls will remain open for at least one week, during which time existing Committ
 A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.  
 
 All Committers may participate in these votes.
+
+If a Committer wants to relinquish his or her Committer rights on one or several repositories, no vote is needed. A simple PR is enough (else opened or approved by the Committer).
 
 
 
