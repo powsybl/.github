@@ -4,10 +4,9 @@
 
 Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to this subgroup of PowSyBl maintainers:
 - [Alice Caron](mailto:alice.caron@rte-france.com)
-- [Florian Dupuy](mailto:florian.dupuy@rte-france.com)
 - [Olivier Perrin](mailto:olivier.perrin@rte-france.com)
+- [Nicolas Rol](mailto:nicolas.rol@rte-france.com)
 - [Sophie Frasnedo](mailto:sophie.frasnedo@rte-france.com)
-- [Jon Schuhmacher](mailto:jon.harper@rte-france.com)
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
