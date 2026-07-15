@@ -62,7 +62,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'README.md']
 
 # Reference sections generation
 autosectionlabel_prefix_document = True
@@ -113,6 +113,7 @@ todo_include_todos = True
 # Links to external documentations: powsybl-core
 intersphinx_mapping = {
     "powsyblcore": ("https://powsybl.readthedocs.io/projects/powsybl-core/en/latest/", None),
+    "pypowsybl": ("https://powsybl.readthedocs.io/projects/pypowsybl/en/latest/", None),
 }
 intersphinx_disabled_reftypes = ["*"]
 
