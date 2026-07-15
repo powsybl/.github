@@ -132,7 +132,12 @@ In order to release a PowSyBl repository, you must first:
 
 For the sake of the demonstration, the repository to be released will be called `powsybl-repo` below.
 
-Start by being up-to-date to your `main` branch:
+<details>
+<summary>Main release case</summary>
+
+#### Main release case
+
+Start by being up to date to your `main` branch:
 ```shell
 $ cd powsybl-repo
 $ git checkout main
@@ -162,6 +167,11 @@ $ # Then create a PR for tmp_prepare_release
 Create a pull request from your temporary branch into the `main` branch.  
 In its description, use the following message (don't forget to change the vX.Y.0 by your version number):
 ```markdown
+> [!WARNING]
+> **DO NOT** squash the commits, merge with fast-forward locally
+
+<br/>
+
 **Please check if the PR fulfills these requirements**
 <!-- please use `'[x]'` to check the checkboxes, or submit the PR and then click the checkboxes -->
 - [X] The commit message follows our guidelines
@@ -207,33 +217,19 @@ You can then publish a Release note pointing to your newly created tag.
 
 Please make sure that your release note is comprehensive to all new features and bug fixes of the release and that the migration guide has been updated if necessary.
 
-### Publishing a release
+You shall then follow the steps described above in [Publishing a release](#publishing-a-release).
 
-**Before creating your local release, please make sure that your local repository state is clean.**
+</details>
 
-On your repository, checkout to the release tag. You can then package and deploy your release:
-```shell
-$ git status
-$ # Your local repository should be clean
-$ git checkout tags/vX.Y.0
-$ git log --oneline -1
-$ # Check that the last commit is indeed the "Bump to X.Y.0" commit
-$ mvn dependency:purge-local-repository
-$ mvn clean package -Prelease
-$ mvn deploy -Prelease -DskipTests
-```
 
-Your release will then be deployed in Sonatype. The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).
+<details>
+<summary>Corrective release case</summary>
 
-Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
-
-If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to contact Sonatype's Central Team.
-
-### Differences for a corrective release
+#### Corrective release case
 
 Please note that there are some differences in the process when you're publishing a corrective release or a patch, which version respects the pattern `vX.Y.Z` with Z different from 0.
 
-You should work from the `release-vX.Y.0` branch.  
+You should work from the `release-vX.Y.0` branch.
 - If no patch was previously released for the `vX.Y.0` version, retrieve the `vX.Y.0` tag and initialize the `release-vX.Y.0` branch:
 ```shell
 $ git checkout tags/vX.Y.0
@@ -256,6 +252,27 @@ $ # Then create a PR for tmp_prepare_release into release-vX.Y.0
 ```
 
 Create a pull request to merge the `tmp_prepare_release` **into `release-vX.Y.0`** (**not main**).  
+
+In its description, use the following message (don't forget to change the vX.Y.Z by your version number):
+```markdown
+> [!WARNING]
+> **DO NOT** squash the commits, merge with fast-forward locally
+
+<br/>
+
+**Please check if the PR fulfills these requirements**
+<!-- please use `'[x]'` to check the checkboxes, or submit the PR and then click the checkboxes -->
+- [X] The commit message follows our guidelines
+
+
+**What kind of change does this PR introduce?**
+<!-- Bug fix, feature, docs update, ... -->
+Prepare release vX.Y.Z
+
+**Other information**:
+:warning: **DO NOT** squash the commits, merge with fast-forward locally
+```
+
 Wait until all the CI criteria are fully validated.
 
 You can then cherry-pick **one by one** the commits of your patch.
@@ -295,7 +312,31 @@ NB: the tag must respect the pattern `vX.Y.Z`.
 
 You can then publish a Release note pointing to your newly created tag.
 
-Please make sure that your release note is comprehensive to all bug fixes of the corrective release.
+Please make sure that your release note is comprehensive to all bug/security fixes of the corrective release.
 
 You shall then follow the steps described above in [Publishing a release](#publishing-a-release).
 
+</details>
+
+
+### Publishing a release
+
+**Before creating your local release, please make sure that your local repository state is clean.**
+
+On your repository, checkout to the release tag. You can then package and deploy your release:
+```shell
+$ git status
+$ # Your local repository should be clean
+$ git checkout tags/vX.Y.0
+$ git log --oneline -1
+$ # Check that the last commit is indeed the "Bump to X.Y.0" commit
+$ mvn dependency:purge-local-repository
+$ mvn clean package -Prelease
+$ mvn deploy -Prelease -DskipTests
+```
+
+Your release will then be deployed in Sonatype. The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).
+
+Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
+
+If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to contact Sonatype's Central Team.
