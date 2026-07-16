@@ -236,7 +236,7 @@ $ git checkout tags/vX.Y.0
 $ git checkout -b release-vX.Y.0
 $ git push -u origin release-vX.Y.0
 ```
-- or if the branch already exists:
+- otherwise, if the branch already exists:
 ```shell
 $ git checkout release-vX.Y.0
 $ git pull
