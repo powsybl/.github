@@ -314,7 +314,7 @@ You can then publish a Release note pointing to your newly created tag.
 
 Please make sure that your release note is comprehensive to all bug/security fixes of the corrective release.
 
-You shall then follow the steps described above in [Publishing a release](#publishing-a-release).
+You shall then follow the steps described below in [Publishing a release](#publishing-a-release).
 
 </details>
 
