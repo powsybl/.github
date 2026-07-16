@@ -144,7 +144,7 @@ $ git checkout main
 $ git pull
 ```
 
-Verify that you don't use a RC or SNAPSHOT version for the PowSyBl dependencies.
+Make sure that you are not using an RC or SNAPSHOT version of the PowSyBl dependencies.
 Using the following command, you should only have your repo version:
 ```shell
 $ git grep -B2 -E "SNAPSHOT|-RC" pom.xml | less
@@ -152,7 +152,7 @@ $ # You should not have RC or SNAPSHOT versions (except your own repo's one)
 ```
 If it is not the case, then the bump of the dependencies should be done prior to releasing, in a regular pull request.
 
-If the README contains POM examples they should be updated to include the right versions for the project being released and its dependencies (to include in the bump version commit or before so that it is included in the release tag).
+If the README contains POM examples, they should be updated with the correct versions for the project being released and its dependencies. This update must be included in the bump version commit or in a prior commit so that it is included in the release tag.
 
 
 Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
@@ -217,7 +217,7 @@ You can then publish a Release note pointing to your newly created tag.
 
 Please make sure that your release note is comprehensive to all new features and bug fixes of the release and that the migration guide has been updated if necessary.
 
-You shall then follow the steps described above in [Publishing a release](#publishing-a-release).
+You shall then follow the steps described below in [Publishing a release](#publishing-a-release).
 
 </details>
 
@@ -242,7 +242,7 @@ $ git checkout release-vX.Y.0
 $ git pull
 ```
 
-Next create a new branch that will receive the commits for the new version, and open the new release:
+Next, create a new branch to receive the commits for the new version, and open the new release:
 ```shell
 $ git checkout -b tmp_prepare_release
 $ mvn versions:set -DnewVersion=X.Y.Z-SNAPSHOT
@@ -283,7 +283,7 @@ $ git push
 $ # Wait for the "docs/readthedocs.org:..." job is finished
 $ # Then loop on these instructions until all the commits are pushed
 ```
-Then bump to the patched version:
+Then, bump to the patched version:
 ```shell
 $ mvn versions:set -DnewVersion=X.Y.Z
 $ git commit -s -a -S -m "Bump to vX.Y.Z"
@@ -335,8 +335,9 @@ $ mvn clean package -Prelease
 $ mvn deploy -Prelease -DskipTests
 ```
 
-Your release will then be deployed in Sonatype. The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).
+Your release will then be deployed in [Sonatype](https://central.sonatype.com/publishing).  
+The documentation to publish your component is available [here](https://central.sonatype.org/publish/publish-portal-guide/#publishing-your-components).  
 
-Once all the steps are completed, your release is published in maven central and might need a few more minutes to be available.
+Once all the steps are completed, your release is published in Maven Central and might need a few more minutes to be available.
 
 If an issue occurs at any time during the releasing process, do not hesitate to check [Maven status](https://status.maven.org/) or to contact Sonatype's Central Team.
