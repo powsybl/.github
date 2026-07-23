@@ -24,6 +24,12 @@ This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
 
+### powsybl-open-loadflow-gpu 
+This [repository](https://github.com/powsybl/powsybl-open-loadflow-gpu) is a research project aimed at adding a GPU-based solver to OpenLoadFlow, complementing the existing CPU-based solver. The initial use cases are: accelerating security and sensitivity analysis through massive parallelization of contingencies, and enabling more efficient integration into AI/GPU training workflows.
+
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti), [gautierbureau](https://github.com/gautierbureau), [rolnico](https://github.com/rolnico)  
+**Committers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti), [gautierbureau](https://github.com/gautierbureau), [rolnico](https://github.com/rolnico)  
+
 ### powsybl-dynawo [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-dynawo.svg?sort=semver)](https://github.com/powsybl/powsybl-dynawo/releases/)
 This [repository](https://github.com/powsybl/powsybl-dynawo) provides an implementation of the dynamic simulation API for the [Dyna&omega;o](https://dynawo.github.io/) time domain simulation tool.
 
