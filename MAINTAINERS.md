@@ -158,12 +158,12 @@ This [repository](https://github.com/powsybl/github-ci) provides reusable workfl
 **Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94)  
 **Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
 
-### powsybl-benchmark
+### powsybl-benchmark [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-benchmark.svg?sort=semver)](https://github.com/powsybl/powsybl-benchmark/releases/)
 This [repository](https://github.com/powsybl/powsybl-benchmark) provides various benchmarks for different PowSyBl modules, as
 well as the result for the most common workflows (security analysis, loadflow, SerDe, etc.).
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [rolnico](https://github.com/rolnico), [zamarrenolm](https://github.com/zamarrenolm), [NathanDissoubray](https://github.com/NathanDissoubray), [MatthieuSAUR](https://github.com/MatthieuSAUR)
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [rolnico](https://github.com/rolnico), [zamarrenolm](https://github.com/zamarrenolm),
+**Committers:** [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [rolnico](https://github.com/rolnico), [zamarrenolm](https://github.com/zamarrenolm)
 
 
 ## Other Java libraries
