@@ -162,7 +162,7 @@ This [repository](https://github.com/powsybl/github-ci) provides reusable workfl
 This [repository](https://github.com/powsybl/powsybl-benchmark) provides various benchmarks for different PowSyBl modules, as
 well as the result for the most common workflows (security analysis, loadflow, SerDe, etc.).
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [rolnico](https://github.com/rolnico), [zamarrenolm](https://github.com/zamarrenolm), [NathanDissoubray](https://github.com/NathanDissoubray), [MatthieuSAUR](https://github.com/MatthieuSAUR)
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [rolnico](https://github.com/rolnico), [zamarrenolm](https://github.com/zamarrenolm), [NathanDissoubray](https://github.com/NathanDissoubray), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [rolnico](https://github.com/rolnico), [zamarrenolm](https://github.com/zamarrenolm)
 
 
