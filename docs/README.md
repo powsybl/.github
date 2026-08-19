@@ -2,9 +2,11 @@ These are the documentation sources for PowSyBl's readthedocs website.
 Please keep them up-to-date with your developments.  
 They are published on powsybl.readthedocs.io and pull requests are built and previewed automatically.  
 
-When modifying the website content, you can easily preview the result on your PC.
+When modifying the website content, you can easily preview the result on your PC:
 
-**First option - in a terminal, navigate to the root of the project and run the following commands:**
+# Generate the documentation
+**First option:** 
+From the root of the project run the following commands:
 
 ~~~
 pip install -r docs/requirements.txt
@@ -16,8 +18,8 @@ sphinx-build -a docs ./build-docs
 sphinx-build -a -E docs ./build-docs
 ~~~
 
-**Second option - run the following commands directly from your IDE GUI**
-
+**Second option:**
+From your IDE GUI run the following commands:
 ~~~bash
 pip install -r requirements.txt
 ~~~
@@ -26,10 +28,21 @@ pip install -r requirements.txt
 sphinx-build -a . ../build-docs
 ~~~
 
-**Preview the result**
 
-Then open `build-docs/index.html` in your browser.  
+**Third option:**
+From the docs folder run the following command:
+~~~bash
+make html
+~~~
 
+
+# Preview the documentation
+If you want to preview the documentation locally, then open `build-docs/index.html` (or `docs/_build/html/index.html` if you used the third option) in your browser.  
+
+# Modify the documentation
+
+
+## Add links to another documentation
 If you want to add links to another documentation, add the corresponding repository to the `conf.py` file.
 In order to automatically get the version specified in the `pom.xml`, please use the same naming as the version: if you define the
 Groovy version with `<groovy.version>`, then use `groovy` as key. The specified URL should start with `https://` and end with `latest/` (the final `/` is mandatory).  
@@ -49,6 +62,7 @@ use one of the following example:
 - [Intersphinx](inv:sphinx:std:doc#usage/extensions/intersphinx).
 ~~~
 
+## Link to a specific part of a page
 If you want to link a specific part of a page, use one of those examples:
 ~~~Markdown
 - [Intersphinx roles](inv:#ref-role).
@@ -61,3 +75,14 @@ For those examples, `(ref-role)=` has been added right before the corresponding 
 in the [Cross-referencing syntax page](inv:sphinx:std:doc#usage/referencing). Another way to make it work is to use the `autosectionlabel` module in Sphinx to
 automatically generate anchors for each title.*
 
+## Edit an SVG
+If you want to edit an SVG, you can use draw.io to load en existing SVG and modify it.
+- Use online draw.io editor https://app.diagrams.net/ to edit the SVG.
+- Or download draw.io client from https://github.com/jgraph/drawio-desktop/releases, install it and edit the SVG.
+
+For instance in linux:
+```bash
+wget https://github.com/jgraph/drawio-desktop/releases/download/v31.1.8/drawio-amd64-31.1.8.deb
+dpkg -i drawio-amd64-31.1.8.deb
+drawio
+```
