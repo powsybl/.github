@@ -79,7 +79,7 @@ A visualization repository is available, using the IIDM network modelisation of 
 |[Documentation](https://powsybl.readthedocs.io/projects/pypowsybl)             | [pypowsybl](https://github.com/powsybl/pypowsybl)                         | The PowSyBl Python binding                                   |
 |[Documentation](https://powsybl.readthedocs.io/projects/pypowsybl-jupyter)     | [pypowsybl-jupyter](https://github.com/powsybl/pypowsybl-jupyter)         | (Visualization) Integration of diagrams in Jupyter notebooks |
 
-## Advanced features
+## 🧐 Advanced features
 
 | Documentation                                                         | Github                                                 | Description                                                  |
 |-----------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------------|
