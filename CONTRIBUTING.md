@@ -2,7 +2,7 @@
 
 First off, thanks for taking the time to contribute! 
 
-Before you start, we highly recommend that you read the following. IT will give you a set of guidelines for your contributions.
+Before you start, we highly recommend that you read the following. It will give you a set of guidelines for your contributions.
 
 
 ## Code of conduct
