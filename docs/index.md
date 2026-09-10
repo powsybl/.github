@@ -12,13 +12,13 @@ start/gettingstarted.md
 
 ```
 
-Powsybl is a framework for power system modeling, simulations and visualization. It supports a wide range of power system models and simulation methods. The code is divided into several repositories, the goal is to be as modulable as possible.
+Powsybl is a framework for power system modeling, simulations and visualization. It supports a wide range of power system models and simulation methods. Its codebase is organized into multiple repositories to promote modularity, flexibility, and maintainability.
 
 **Upgrades**: the 🚂 repositories are released every two to three months through a [release train](releasetrain.md).
 
 ## Overview
 
-Here is the overview of how it is functionally organized:
+Below is an overview of the functional structure.
 
 ![overview](/_static/img/overview.svg)
 
@@ -57,7 +57,7 @@ The core repository defines APIs for simulations that are then implemented withi
 
 ## 👀 Visualization
 
-A visualization repository is available, using the IIDM network modelisation of powsybl-core. It mainly generates SVG for detailed voltage level and area diagrams:
+A visualization repository is available, using the IIDM network modelisation of powsybl-core. It mainly generates SVG for single-line diagrams and network-area diagrams:
 ![overview](/_static/img/visualization.svg)
 
 | Documentation                                                             | Github                                                         | Description                                  |
