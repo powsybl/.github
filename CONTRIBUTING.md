@@ -105,7 +105,7 @@ AI tools (e.g. LLMs or coding assistants) can be helpful when contributing to Po
 
 #### General expectations
 Developers remain fully responsible for their contribution, regardless of AI usage.
-Developers should understand and be able to explain the code they submit.
+Developers should ensure that they understand the purpose, behavior, and implications of the submitted code. This is also necessary for them to effectively review and discuss the code during the pull request review process.
 Commits must include a `Signed-off-by` trailer identifying the developer and not the AI tool, see [DCO](#DCO).
 
 #### Quality standards
