@@ -106,7 +106,7 @@ AI tools (e.g. LLMs or coding assistants) can be helpful when contributing to Po
 #### General expectations
 Developers remain fully responsible for their contribution, regardless of AI usage.
 Developers should understand and be able to explain the code they submit.
-Commits must be signed with the developer's name (see [DCO](#DCO)).
+Commits must include a `Signed-off-by` trailer identifying the developer and not the AI tool, see [DCO](#DCO).
 
 #### Quality standards
 AI-assisted contributions must meet the same standards as any other contribution:
