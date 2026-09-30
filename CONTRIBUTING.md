@@ -123,7 +123,7 @@ Contributions that don't respect the project standards may be closed by the main
 #### The specific case of issues tagged with the "good first issue" label
 Issues tagged with the "good first issue" label are intended to help newcomers start discovering the PowSyBl ecosystem.  
 They can be seen as training exercises.
-Using AI on these issues adds little to no value.
+Using AI on these issues adds little to no value. Contributors are therefore encouraged to solve these issues themselves.
 
 
 ### Continuous Integration
