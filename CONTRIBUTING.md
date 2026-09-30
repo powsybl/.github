@@ -115,7 +115,7 @@ AI-assisted contributions must meet the same standards as any other contribution
 - Update documentation if needed,
 - Follow coding style, project processes and project conventions.  
 
-Please make sure to review and validate all generated code. AI tools can produce incorrect, outdated, or insecure patterns.  
+Developers must review and validate all generated code. AI tools can produce incorrect, outdated, or insecure patterns.  
 
 Reviews are time-consuming for repository maintainers. AI should be a way to propose better contributions, not create a flood of substandard PRs.
 Contributions that don't respect the project standards may be closed by the maintainers.  
