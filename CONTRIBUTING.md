@@ -80,7 +80,6 @@ Note that, during continuous integration, a check is performed to see if all com
 
 ### Contributing process
 
-
 Before you start coding, you have to agree with the [maintainers](MAINTAINERS.md) of the repository about the technical solution you will implement to make sure it will be aligned with the project guidelines.
 If you are not part of the development team, please join our [Slack](https://join.slack.com/t/powsybl/shared_invite/zt-36jvd725u-cnquPgZb6kpjH8SKh~FWHQ) and ask us on the `#first-time-contributors` channel to grant you developer rights in the PowSyBl organization.
 Once you do, you will receive an invitation to the PowSyBl organization. Accept it, and you will be able to clone the repository, create your own branch and commit your changes! 
@@ -98,6 +97,34 @@ The reviewer will review your proposal and:
 - Requests a change: your proposal cannot be merged as such. You need to fix it with respect to the different comments made by the reviewer.
 
 **Please note that, after the first review has been done, no force-push should be done on the Pull Request.** A force-push makes it more difficult for reviewers to follow the changes following their reviews.
+
+### AI-assisted contributions
+Note: these guidelines on the use of AI tools are still in development and are likely to be extended or modified over time.
+
+AI tools (e.g. LLMs or coding assistants) can be helpful when contributing to PowSyBl. We welcome their use, as long as contributions remain clear, maintainable, and aligned with the project guidelines.
+
+#### General expectations
+Developers remain fully responsible for their contribution, regardless of AI usage.
+Developers should understand and be able to explain the code they submit.
+Commits must be signed with the developer's name (see [DCO](#DCO)).
+
+#### Quality standards
+AI-assisted contributions must meet the same standards as any other contribution:
+- Clearly describe the problem and the approach, using the dedicated issue and PR templates,
+- Include tests where applicable,
+- Update documentation if needed,
+- Follow coding style, project processes and project conventions.  
+
+Please make sure to review and validate all generated code. AI tools can produce incorrect, outdated, or insecure patterns.  
+
+Reviews are time-consuming for repository maintainers. AI should be a way to propose better contributions, not create a flood of substandard PRs.
+Contributions that don't respect the project standards may be closed by the maintainers.  
+
+#### The specific case of "good first issue" tagged issues
+Issues tagged with the 'good first issue' label are intended to help newcomers start discovering the PowSyBl ecosystem.  
+They can be seen as training exercises.
+Using AI on these issues adds little to no value.
+
 
 ### Continuous Integration
 The Continuous Integration (CI) runs automatically when a pull request is opened, or a commit is pushed. The CI helps us maintain the quality of the project with automatic checks:
