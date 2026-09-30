@@ -120,8 +120,8 @@ Please make sure to review and validate all generated code. AI tools can produce
 Reviews are time-consuming for repository maintainers. AI should be a way to propose better contributions, not create a flood of substandard PRs.
 Contributions that don't respect the project standards may be closed by the maintainers.  
 
-#### The specific case of "good first issue" tagged issues
-Issues tagged with the 'good first issue' label are intended to help newcomers start discovering the PowSyBl ecosystem.  
+#### The specific case of issues tagged with the "good first issue" label
+Issues tagged with the "good first issue" label are intended to help newcomers start discovering the PowSyBl ecosystem.  
 They can be seen as training exercises.
 Using AI on these issues adds little to no value.
 
