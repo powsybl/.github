@@ -104,9 +104,10 @@ Note: these guidelines on the use of AI tools are still in development and are l
 AI tools (e.g. LLMs or coding assistants) can be helpful when contributing to PowSyBl. We welcome their use, as long as contributions remain clear, maintainable, and aligned with the project guidelines.
 
 #### General expectations
+Regardless of whether the code was produced with the help of AI, it must adhere to the community's general rules and quality standards, as outlined in the [Contributing process section](#contributing-process). In particular, significant changes and substantial developments must first be discussed in an issue, and then split into several PRs if possible.  
+Commits must include a `Signed-off-by` trailer identifying the developer and not the AI tool, see [DCO](#DCO).  
 Developers remain fully responsible for their contribution, regardless of AI usage.
 Developers should ensure that they understand the purpose, behavior, and implications of the submitted code. This is also necessary for them to effectively review and discuss the code during the pull request review process.
-Commits must include a `Signed-off-by` trailer identifying the developer and not the AI tool, see [DCO](#DCO).
 
 #### Quality standards
 AI-assisted contributions must meet the same standards as any other contribution:
