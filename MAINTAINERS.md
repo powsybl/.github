@@ -21,7 +21,7 @@ This [repository](https://github.com/powsybl/powsybl-diagram) provides modules t
 ### powsybl-open-loadflow [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow/releases/)
 This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an implementation of the LoadFlow API based on the [powsybl-math-native](powsybl-math-native.md) project.
 
-**Reviewers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
+**Reviewers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti), [bperr](https://github.com/bperr)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
 
 ### powsybl-open-loadflow-gpu 
