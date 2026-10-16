@@ -3,10 +3,7 @@
 ## Reporting a vulnerability
 
 Please report any **critical** or **important** security vulnerability, suspected or confirmed, **privately** to this subgroup of PowSyBl maintainers:
-- [Alice Caron](mailto:alice.caron@rte-france.com)
-- [Olivier Perrin](mailto:olivier.perrin@rte-france.com)
-- [Nicolas Rol](mailto:nicolas.rol@rte-france.com)
-- [Sophie Frasnedo](mailto:sophie.frasnedo@rte-france.com)
+- powsybl-cybersecurity@lists.lfenergy.org
 
 In your e-mail, please give basic information about who you are (name and company), detailed steps to reproduce the vulnerabilities (some Python or Java code, screenshots) and the effects.
 
@@ -107,28 +104,28 @@ The same goes for releases: only a maintainer of a repository can release this r
 The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/project/governance.html). The other maintainers are:
 
 - [Slimane Amar](https://github.com/SlimaneAmar)
-- [Jean-Pierre Arnould](https://github.com/jipea)
 - [Martin Belthle](https://github.com/MartinBelthle)
-- [Mohamed Ben Rejeb](https://github.com/benrejebmoh)
 - [Antoine Bouhours](https://github.com/antoinebhs)
 - [Thomas Bouquet](https://github.com/bqth29)
 - [Gautier Bureau](https://github.com/gautierbureau)
 - [Alice Caron](https://github.com/alicecaron)
+- [Nathan Dissoubray](https://github.com/nathandissoubray)
 - [Marianne Funfrock](https://github.com/marifunf)
 - [Etienne Homer](https://github.com/etiennehomer)
 - [Laurent Issertial](https://github.com/Lisrte)
 - [Hugo Kulesza](https://github.com/HugoKulesza)
+- [Etienne Lesot](https://github.com/EtienneLt)
 - [Joris Mancini](https://github.com/TheMaskedTurtle)
+- [Arnaud Marant](https://github.com/amarant)
 - [Peter Mitri](https://github.com/pet-mit)
 - [Godelaine De Montmorillon](https://github.com/Godelaine)
-- [Sébastien Murgey](https://github.com/murgeyseb)
-- [Olivier Perrin](https://github.com/olperr1)
 - [Coline Piloquet](https://github.com/colineplqt)
 - [Sylvestre Prabakaran](https://github.com/SylvestreSakti)
 - [Nicolas Rol](https://github.com/rolnico)
 - [Manuel Ruiz](https://github.com/klorel)
+- [Matthieu Saur](https://github.com/MatthieuSAUR)
 - [Hugo Schindler](https://github.com/OpenSuze)
-- [Anne Tilloy](https://github.com/annetill)
+- [Viktor Terrier](https://github.com/terriervik)
 - [Didier Vidal](https://github.com/vidaldid-rte)
 
 
