@@ -28,7 +28,7 @@ Copy the body below into the GitHub release, remove the sections that do not app
 ## 🛡️ Vulnerability fixes
 - TBD
 
-## 🐞 Fixes
+## 🪲 Fixes
 - TBD
 
 ## 💎 Quality
