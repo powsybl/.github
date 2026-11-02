@@ -40,6 +40,10 @@ Copy the body below into the GitHub release, remove the sections that do not app
 ## 🕸️ Dependencies
 - TBD
 
+| Library / component | Previous version | New version | PR |
+| --- | --- | --- | --- |
+| TBD | TBD | TBD | #TBD |
+
 ---
 
 **Conventions**
