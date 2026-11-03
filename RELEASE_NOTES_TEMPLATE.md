@@ -1,6 +1,6 @@
 # Release notes template
 
-Shared template for PowSyBl repositories, derived from the release notes of powsybl-core, powsybl-metrix, powsybl-afs and powsybl-hpc.
+Shared template for PowSyBl repositories release notes.
 Copy the body below into the GitHub release, remove the sections that do not apply, and keep the section order.
 
 ---
