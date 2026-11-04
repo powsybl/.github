@@ -3,9 +3,9 @@
 <!-- if some checkboxes don't apply, please delete them entirely -->
 - [ ] The commit message follows our guidelines
 - [ ] Tests for the changes have been added
-- [ ] Docs have been added / updated
+- [ ] Docs have been added / updated (on the readthedocs)
 - [ ] Javadoc has been added / updated
-- [ ] There is no need to update documentation
+- [ ] There is no need to update the Javadoc or the readthedocs
 - [ ] A PR or issue has been opened in all impacted repositories (if any)
 
 
