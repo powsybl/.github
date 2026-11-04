@@ -9,7 +9,7 @@ The PowSyBl project is split in several repositories so we decided to dispatch t
 ### powsybl-core [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-core.svg?sort=semver)](https://github.com/powsybl/powsybl-core/releases/)
 This [repository](https://github.com/powsybl/powsybl-core) provides the core features of the PowSyBl framework, such as the grid modeling, the support of several data exchange formats (CGMES, UCTE...), computation APIs (load flow, security analysis, sensitivity analysis, dynamic simulation...), time series.
 
-**Reviewers:** all great contributors are relevant as the first reviewer, the second review must be performed by a committer. This repository has many very different features, do not hesitate to ask the developers' community before.      
+**Reviewers:** all great contributors are relevant as reviewers. This repository has many very different features, do not hesitate to [ask the community for guidance](https://app.slack.com/client/TG8ALA0TB/CGAAPNWTY) before starting a development or when looking for a reviewer.  
 **Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [olperr1](https://github.com/olperr1), [zamarrenolm](https://github.com/zamarrenolm), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [rolnico](https://github.com/rolnico), [colineplqt](https://github.com/colineplqt)
 
 ### powsybl-diagram [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-diagram.svg?sort=semver)](https://github.com/powsybl/powsybl-diagram/releases/)

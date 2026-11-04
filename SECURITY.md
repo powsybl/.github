@@ -96,10 +96,11 @@ We encourage contributors to use strong security practices (GPG keys, safe and u
 
 ###  PowSyBl governance to control the merge of Pull Requests and the release process
 
-All the developers allowed to merge new code are maintainers. They are experienced developers, known from the community. They have this right because they are competent enough. During the review process, they make sure that the pushed code is harmless to environments and data, without any malicious part, before giving their approval.
-All pull requests must have at least one approval to be merged on the main branch. Some pull requests need two approvals when the impacts are significant. Thus, all the commits integrated on main branches are reviewed and approved by at least one maintainer. 
+All the developers allowed to merge new code are maintainers (also called Committers). They are experienced developers who are well-known in the community. They have this right because they are competent enough. During the review process, they ensure that the code pushed is harmless to environments and data and does not contain any malicious elements before giving their approval.  
+All pull requests must have at least one approval from a maintainer to be merged on the main branch. Some pull requests may require multiple approvals if they have a significant impact.  
+Therefore, all commits integrated into main branches are reviewed and approved by at least one maintainer.  
 
-The same goes for releases: only a maintainer of a repository can release this repository.
+The same applies to releases: only the maintainer of a repository can release it.  
 
 The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/project/governance.html). The other maintainers are:
 
