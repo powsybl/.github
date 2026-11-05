@@ -4,8 +4,8 @@
 - [ ] The commit message follows our guidelines
 - [ ] Tests for the changes have been added
 - [ ] Docs have been added / updated (on the readthedocs)
-- [ ] Javadoc has been added / updated
-- [ ] There is no need to update the Javadoc or the readthedocs
+- [ ] Code comments (Javadoc, docstring, ...) have been added/updated
+- [ ] There is no need to update the code comments or the readthedocs
 - [ ] A PR or issue has been opened in all impacted repositories (if any)
 
 
