@@ -100,7 +100,7 @@ All the developers allowed to merge new code are maintainers (also called Commit
 All pull requests must have at least one approval from a maintainer to be merged on the main branch. Some pull requests may require multiple approvals if they have a significant impact.  
 Therefore, all commits integrated into main branches are reviewed and approved by at least one maintainer.  
 
-The same applies to releases: only the maintainer of a repository can release it.  
+The same applies to releases: only a maintainer of a given repository can release it.  
 
 The members of the TSC are all maintainers. The list of TSC members is available [here](https://www.powsybl.org/pages/project/governance.html). The other maintainers are:
 
