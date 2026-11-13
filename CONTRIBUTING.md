@@ -85,7 +85,7 @@ If you are not part of the development team, please join our [Slack](https://joi
 Once you do, you will receive an invitation to the PowSyBl organization. Accept it, and you will be able to clone the repository, create your own branch and commit your changes! 
 
 Once the development is done, you have to create a [pull request](https://help.github.com/en/articles/about-pull-requests):
-- Make sure you have updated the documentation: no Pull Request shall be merged without the associated documentation;
+- Make sure you have updated the documentation (Read The Docs and code comments at least for public classes and methods). No Pull Request shall be merged without the associated documentation;
 - Fill all the relevant sections of the template to give context to the reviewer;
 - Assign one or more reviewers, ideally the [maintainers](MAINTAINERS.md) of the repository;
 - Add the `PR: waiting-for-review` label and all other relevant labels;
@@ -165,12 +165,13 @@ The PR must include a justification, which may be based on:
 
 ### Vote to Grant Committer Rights
 
-PowSyBl Committers can vote on adding a new Committer or expanding the rights of an existing Committer.  
+PowSyBl Committers can vote on whether to add a new Committer to a repository or whether to expand the rights of an existing Committer to another repository.  
+For a given repository, the voters are:
+- The TSC members;
+- And the existing Committers of the repository.  
 
-If Committers are requesting additional rights (on other repositories), they should abstain from voting on their own requests.  
-
-The poll will remain open for at least one week, during which time existing Committers will be notified and can vote "Yes" or "No."  
-A quorum (50% + 1 of the total number of Committers) is required for the vote to be valid.
+The poll will remain open for at least one week, during which time voters will be notified and can vote "Yes" or "No."  
+A quorum (50% + 1 of the total number of voters) is required for the vote to be valid.
 If a majority of respondents support the request, the PR is merged, and the requester gains the requested rights. Otherwise, the PR is closed without merging.  
 
 Exceptions:
