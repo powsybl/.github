@@ -184,8 +184,8 @@ This [repository](https://github.com/powsybl/powsybl-case-datasource) provides n
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to run optimal power load flow on several network variants. Variants are generated through time series mapping on a base case.
 
-**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel)    
-**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)
+**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
+**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
 
 ### powsybl-afs [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-afs.svg?sort=semver)](https://github.com/powsybl/powsybl-afs/releases/)
 This [repository](https://github.com/powsybl/powsybl-afs) provides a standardized way to organize the data for a power system study, called AFS (**A**pplication **F**ile **S**ystem). It supports some storage systems such as [MapDB](http://www.mapdb.org) or [Apache Cassandra](https://cassandra.apache.org). It is designed to be extensible using custom plugins to manage new types of data.
