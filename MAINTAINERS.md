@@ -115,7 +115,7 @@ This [repository](https://github.com/powsybl/powsybl.github.io) contains the sou
 **Committers:** all the committers
 
 ### powsybl-tutorials
-This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](../../pages/documentation/developer/tutorials/index.md) presented on this website.
+This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](https://powsybl.readthedocs.io/projects/powsybl-tutorials/en/latest/) presented on this website.
 
 **Reviewers:** [So-Fras](https://github.com/So-Fras), [colineplqt](https://github.com/colineplqt), [rolnico](https://github.com/rolnico)   
 **Committers:** all the committers
