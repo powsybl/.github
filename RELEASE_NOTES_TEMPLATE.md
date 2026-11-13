@@ -10,7 +10,7 @@ Copy the body below into the GitHub release, remove the sections that do not app
 - ![Deprecated](https://img.shields.io/badge/-Deprecated-blue.svg) indicates that some methods were deprecated;
 - ![Breaking Change](https://img.shields.io/badge/-Breaking%20Change-red.svg) indicates a breaking change which could impact all users;
 <!-- Only for repositories exposing a custom IIDM implementation API (e.g. powsybl-core) -->
-- ![Custom IIDM Impl](https://img.shields.io/badge/Custom%20IIDM%20Impl-8A2BE2.svg) indicates a breaking change impacting only custom IIDM implementations (most of the time, new IIDM methods/classes to implement). Note that this label is not added when another breaking change impacting all users is also present.
+- (specific to the powsybl-core repository) ![Custom IIDM Impl](https://img.shields.io/badge/Custom%20IIDM%20Impl-8A2BE2.svg) indicates a breaking change impacting only custom IIDM implementations (most of the time, new IIDM methods/classes to implement).
 
 <br/>
 
