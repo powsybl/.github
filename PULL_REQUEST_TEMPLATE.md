@@ -1,8 +1,11 @@
 **Please check if the PR fulfills these requirements**
 <!-- please use `'[x]'` to check the checkboxes, or submit the PR and then click the checkboxes -->
+<!-- if some checkboxes don't apply, please delete them entirely -->
 - [ ] The commit message follows our guidelines
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
+- [ ] Tests for the changes have been added
+- [ ] Docs have been added / updated (on the readthedocs)
+- [ ] Code comments (Javadoc, docstring, ...) have been added/updated
+- [ ] There is no need to update the code comments or the readthedocs
 - [ ] A PR or issue has been opened in all impacted repositories (if any)
 
 
