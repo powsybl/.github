@@ -19,7 +19,7 @@ This [repository](https://github.com/powsybl/powsybl-diagram) provides modules t
 **Committers:** [flo-dup](https://github.com/flo-dup), [geofjamg](https://github.com/geofjamg), [So-Fras](https://github.com/So-Fras), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-open-loadflow [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-open-loadflow.svg?sort=semver)](https://github.com/powsybl/powsybl-open-loadflow/releases/)
-This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an implementation of the LoadFlow API based on the [powsybl-math-native](powsybl-math-native.md) project.
+This [repository](https://github.com/powsybl/powsybl-open-loadflow) provides an implementation of the LoadFlow API based on the [powsybl-math-native](https://github.com/powsybl/powsybl-math-native) project.
 
 **Reviewers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti), [bperr](https://github.com/bperr)  
 **Committers:** [geofjamg](https://github.com/geofjamg), [jeandemanged](https://github.com/jeandemanged), [obrix](https://github.com/obrix), [vidaldid-rte](https://github.com/vidaldid-rte), [SylvestreSakti](https://github.com/SylvestreSakti)  
@@ -115,7 +115,7 @@ This [repository](https://github.com/powsybl/powsybl.github.io) contains the sou
 **Committers:** all the committers
 
 ### powsybl-tutorials
-This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](../../pages/documentation/developer/tutorials/index.md) presented on this website.
+This [repository](https://github.com/powsybl/powsybl-tutorials) contains the source code of the different [tutorials](https://powsybl.readthedocs.io/projects/powsybl-tutorials/en/latest/) presented on this website.
 
 **Reviewers:** [So-Fras](https://github.com/So-Fras), [colineplqt](https://github.com/colineplqt), [rolnico](https://github.com/rolnico)   
 **Committers:** all the committers
@@ -184,8 +184,8 @@ This [repository](https://github.com/powsybl/powsybl-case-datasource) provides n
 ### powsybl-metrix [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-metrix.svg?sort=semver)](https://github.com/powsybl/powsybl-metrix/releases/)
 This [repository](https://github.com/powsybl/powsybl-metrix) provides modules to run optimal power load flow on several network variants. Variants are generated through time series mapping on a base case.
 
-**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel)    
-**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel)
+**Reviewers:** [marifunf](https://github.com/marifunf), [rolnico](https://github.com/rolnico), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
+**Committers:** [rolnico](https://github.com/rolnico), [marifunf](https://github.com/marifunf), [klorel](https://github.com/klorel), [MatthieuSAUR](https://github.com/MatthieuSAUR)  
 
 ### powsybl-afs [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-afs.svg?sort=semver)](https://github.com/powsybl/powsybl-afs/releases/)
 This [repository](https://github.com/powsybl/powsybl-afs) provides a standardized way to organize the data for a power system study, called AFS (**A**pplication **F**ile **S**ystem). It supports some storage systems such as [MapDB](http://www.mapdb.org) or [Apache Cassandra](https://cassandra.apache.org). It is designed to be extensible using custom plugins to manage new types of data.
