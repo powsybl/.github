@@ -153,10 +153,10 @@ This [repository](https://github.com/powsybl/powsybl-incubator) provides incubat
 **Reviewers:** all the committers
 
 ### github-ci
-This [repository](https://github.com/powsybl/github-ci) provides reusable workflows for running CIs and publishing releases
+This [repository](https://github.com/powsybl/github-ci) provides reusable workflows for running CIs and publishing releases, as well as shared GitHub Actions for the PowSyBl organization.
 
-**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94)  
-**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs)  
+**Reviewers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [TheMaskedTurtle](https://github.com/TheMaskedTurtle), [achour94](https://github.com/achour94), [rolnico](https://github.com/rolnico)   
+**Committers:** [jonenst](https://github.com/jonenst), [antoinebhs](https://github.com/antoinebhs), [rolnico](https://github.com/rolnico)  
 
 ### powsybl-benchmark [![GitHub release](https://img.shields.io/github/release/powsybl/powsybl-benchmark.svg?sort=semver)](https://github.com/powsybl/powsybl-benchmark/releases/)
 This [repository](https://github.com/powsybl/powsybl-benchmark) provides various benchmarks for different PowSyBl modules, as
