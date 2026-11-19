@@ -137,6 +137,7 @@ For the sake of the demonstration, the repository to be released will be called 
 
 #### Main release case
 
+##### Retrieve the repository
 Start by updating your main branch to the latest version:
 ```shell
 $ cd powsybl-repo
@@ -144,6 +145,7 @@ $ git checkout main
 $ git pull
 ```
 
+##### Verify everything is OK
 Make sure that you are not using an RC or SNAPSHOT version of the PowSyBl dependencies.
 Using the following command, you should only have your repo version:
 ```shell
@@ -152,9 +154,15 @@ $ # You should not have RC or SNAPSHOT versions (except your own repo's one)
 ```
 If it is not the case, then the bump of the dependencies should be done prior to releasing, in a regular pull request.
 
+Run the following commands to check that the unit tests run successfully and that the javadoc can be properly generated: 
+```shell
+$ mvn dependency:purge-local-repository
+$ mvn clean package -Prelease
+```
+
 If the README contains POM examples, they should be updated with the correct versions for the project being released and its dependencies. This update must be included in the bump version commit or in a prior commit so that it is included in the release tag.
 
-
+##### Create the temporary branch and the PR
 Create your temporary branch preparing to the release X.Y.0 and add a commit bumping to your release version.
 ```shell
 $ git checkout -b tmp_prepare_release
@@ -196,6 +204,7 @@ $ git push
 
 Tag another maintainer as a reviewer to your pull request so they can approve it.
 
+##### Locally merge (fast-forward) the PR
 Once it is approved, locally merge it by following these steps:
 ```shell
 $ # The PR should be reviewed and approved
@@ -204,6 +213,8 @@ $ git pull
 $ git merge --ff tmp_prepare_release
 $ git push
 ```
+
+##### Create the tag
 After that, create your tag:
 ```shell
 $ git log --oneline -2
@@ -321,12 +332,20 @@ You shall then follow the steps described below in [Publishing a release](#publi
 
 ### Publishing a release
 
+#### Verify your workspace is clear
 **Before creating your local release, please make sure that your local repository state is clean.**
+
+The following command MUST return that your **branch is up-to-date** and that there are **no uncommited files**: 
+```shell
+$ git status
+```
+
+#### Package and release
 
 On your repository, checkout to the release tag. You can then package and deploy your release:
 ```shell
 $ git status
-$ # Your local repository should be clean
+$ # Your local repository MUST be clean
 $ git checkout tags/vX.Y.0
 $ git log --oneline -1
 $ # Check that the last commit is indeed the "Bump to X.Y.0" commit
